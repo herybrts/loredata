@@ -3,7 +3,7 @@ import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
 import { store } from '$shared/data/data-loader';
 
-import type { CharacterEntry, CharacterQuery, Person } from '@loredata/loredata/browser';
+import type { CharacterEntry, CharacterQuery, Person } from 'loredata/browser';
 
 const universeList = store.getUniverses();
 const COUNTS = [1, 4, 8, 16] as const;

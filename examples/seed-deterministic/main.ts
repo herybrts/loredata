@@ -1,4 +1,4 @@
-import { UniverseLoader, UniverseStore } from '@loredata/loredata';
+import { UniverseLoader, UniverseStore } from 'loredata';
 
 const ids = UniverseLoader.listAvailable();
 const universesData = ids.map((id) => UniverseLoader.load(id));

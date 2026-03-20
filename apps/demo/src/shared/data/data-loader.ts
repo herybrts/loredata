@@ -1,6 +1,6 @@
-import { UniverseStore } from '@loredata/loredata/browser';
+import { UniverseStore } from 'loredata/browser';
 
-import type { UniverseData, CharacterData, AddressData, DomainsData } from '@loredata/loredata/browser';
+import type { UniverseData, CharacterData, AddressData, DomainsData } from 'loredata/browser';
 
 interface MetaJson {
 	id: string;

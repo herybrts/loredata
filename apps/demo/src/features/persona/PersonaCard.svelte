@@ -3,7 +3,7 @@ import { PersonFormatter } from '$shared/formatters';
 
 import JsonModal from './JsonModal.svelte';
 
-import type { Person } from '@loredata/loredata/browser';
+import type { Person } from 'loredata/browser';
 
 interface Props {
 	persona: Person;

@@ -1,0 +1,119 @@
+# loredata
+
+[![npm version](https://img.shields.io/npm/v/loredata)](https://www.npmjs.com/package/loredata)
+[![npm downloads per month](https://img.shields.io/npm/dm/loredata)](https://www.npmjs.com/package/loredata)
+[![node version](https://img.shields.io/node/v/loredata)](https://nodejs.org)
+[![license](https://img.shields.io/npm/l/loredata)](./LICENSE)
+[![last commit](https://img.shields.io/github/last-commit/orchidfiles/loredata)](https://github.com/orchidfiles/loredata)
+
+Generate fake personas using real characters from pop culture universes. Every field — name, email, address, profession, quote — comes from the same fictional world.
+
+```ts
+import { person, group } from 'loredata';
+
+const p = person({ universe: 'breaking-bad' });
+// { firstName: 'Walter', lastName: 'White', email: 'heisenberg@lospollos.com', ... }
+
+const team = group({ universe: 'game-of-thrones', size: 3 });
+```
+
+Works in Node.js, browser, and as a CLI tool.
+
+## Install
+
+```sh
+npm install loredata
+```
+
+## Universes
+
+Available out of the box: `breaking-bad`, `friends`, `game-of-thrones`, `harry-potter`, `house-md`, `lost`, `fast-and-furious`, `matrix`, `peaky-blinders`, `sherlock`, `the-office`
+
+```ts
+import { universes } from 'loredata';
+
+universes();
+// [
+//   { id: 'sherlock', name: 'Sherlock', characterCount: 9 },
+//   { id: 'game-of-thrones', name: 'Game of Thrones', characterCount: 15 },
+//   ...
+// ]
+```
+
+## Persona fields
+
+Each `Person` includes: `firstName`, `lastName`, `username`, `email`, `password`, `phone`, `address`, `profession`, `interests`, `quote`, `avatar`, `universe`.
+
+## Deterministic output
+
+Pass a `seed` for reproducible results:
+
+```ts
+const p = person({ universe: 'matrix', seed: 42 });
+```
+
+## Browser
+
+```ts
+import { UniverseStore } from 'loredata/browser';
+```
+
+No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
+
+## CLI
+
+```sh
+npx loredata person --universe breaking-bad
+npx loredata group --universe friends --size 5
+npx loredata universes
+```
+
+## Features
+
+- [x] 11 universes with characters, addresses, domains
+- [x] Single persona and group generation
+- [x] Filter characters by interest, name, universe
+- [x] Deterministic output via seed
+- [x] Browser-safe entry point
+- [x] CLI tool
+
+## Development
+
+```sh
+git clone https://github.com/orchidfiles/loredata.git
+cd loredata
+pnpm install
+```
+
+Build dev-kit (needed once, before other builds):
+
+```sh
+pnpm --filter @loredata/dev-kit build
+```
+
+Build the library:
+
+```sh
+pnpm run package:build
+```
+
+Run the demo app:
+
+```sh
+pnpm run demo:dev
+```
+
+## Why
+
+Faker.js generates random names and emails. They are internally consistent but meaningless. No shared context, no character identity.
+
+`loredata` generates personas from real fictional characters. Each persona is recognizable and internally consistent, which makes it useful for demos, screenshots, and seed files where the content matters.
+
+## License
+
+MIT
+
+---
+
+Made by the author of [orchidfiles.com](https://orchidfiles.com) — essays from inside startups.  
+If you found `loredata` useful, you'll probably enjoy the essays.

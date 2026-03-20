@@ -9,6 +9,10 @@ build/
 .tmp/
 *.tsbuildinfo
 
+# Package build artifacts
+/packages/loredata/LICENSE
+/packages/loredata/README.md
+
 # SvelteKit
 .svelte-kit/
 

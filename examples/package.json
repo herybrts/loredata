@@ -13,7 +13,7 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@loredata/loredata": "workspace:*"
+    "loredata": "workspace:*"
   },
   "devDependencies": {
     "@types/node": "~22.13.17",

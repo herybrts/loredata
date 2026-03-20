@@ -1,4 +1,4 @@
-import type { Person, Address } from '@loredata/loredata/browser';
+import type { Person, Address } from 'loredata/browser';
 
 export class PersonFormatter {
 	static fullName(p: Person): string {

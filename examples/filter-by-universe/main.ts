@@ -1,4 +1,4 @@
-import { UniverseLoader, UniverseStore } from '@loredata/loredata';
+import { UniverseLoader, UniverseStore } from 'loredata';
 
 // Load a specific universe
 const universe = UniverseLoader.load('harry-potter');

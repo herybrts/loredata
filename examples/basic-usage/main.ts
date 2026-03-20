@@ -1,4 +1,4 @@
-import { person, group, universes } from '@loredata/loredata';
+import { person, group, universes } from 'loredata';
 
 // List available universes
 const available = universes();

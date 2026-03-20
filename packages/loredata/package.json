@@ -1,7 +1,35 @@
 {
-  "name": "@loredata/loredata",
+  "name": "loredata",
   "version": "0.1.0",
-  "description": "Generate cohesive fake personas from pop culture universes",
+  "description": "Generate fake personas using real characters from pop culture universes",
+  "keywords": [
+    "fake-data",
+    "test-data",
+    "faker",
+    "mock-data",
+    "seed",
+    "persona",
+    "generator",
+    "fixtures",
+    "pop-culture",
+    "fictional",
+    "characters",
+    "cli"
+  ],
+  "homepage": "https://github.com/orchidfiles/loredata#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/orchidfiles/loredata"
+  },
+  "bugs": {
+    "url": "https://github.com/orchidfiles/loredata/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "orchidfiles",
+    "email": "orchid@orchidfiles.com",
+    "url": "https://orchidfiles.com"
+  },
   "type": "module",
   "exports": {
     ".": {
@@ -23,12 +51,19 @@
     "dist",
     "data"
   ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "build": "tsup",
     "build:watch": "tsup --watch",
     "validate": "node --import tsx/esm scripts/validate-universe.ts",
     "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "release": "npm publish --access public"
+  },
+  "dependencies": {
+    "commander": "~14.0.3"
   },
   "devDependencies": {
     "@loredata/dev-kit": "workspace:*",
@@ -38,8 +73,5 @@
     "tsx": "~4.21.0",
     "typescript": "~5.8.2",
     "vite": "~6.2.7"
-  },
-  "dependencies": {
-    "commander": "~14.0.3"
   }
 }

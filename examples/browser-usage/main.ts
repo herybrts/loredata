@@ -1,11 +1,11 @@
 /**
  * Browser consumer example.
- * Import from '@loredata/loredata/browser' — no fs/path APIs involved.
+ * Import from 'loredata/browser' — no fs/path APIs involved.
  *
  * In a real browser project (Vite/webpack), loadUniverse uses dynamic imports.
  * This file demonstrates the API shape; run it with tsx only for illustration.
  */
-import { loadUniverses, getAvailableIds, UniverseStore } from '@loredata/loredata/browser';
+import { loadUniverses, getAvailableIds, UniverseStore } from 'loredata/browser';
 
 const ids = getAvailableIds();
 console.log('Available universe ids:', ids);

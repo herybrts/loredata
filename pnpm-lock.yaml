@@ -17,7 +17,7 @@ importers:
 
   apps/demo:
     dependencies:
-      '@loredata/loredata':
+      loredata:
         specifier: workspace:*
         version: link:../../packages/loredata
     devDependencies:
