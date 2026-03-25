@@ -26,14 +26,26 @@ function closeJson(): void {
 
 <div class="group card preset-tonal-surface border border-surface-700/30 p-6 flex flex-col gap-6 h-full">
 	<div class="flex items-start justify-between gap-4">
-		<div>
-			<a
-				href="/universes/{persona.universe}/{persona.characterId}"
-				class="h3 text-surface-950-50 hover:text-primary-400 transition-colors">
-				{#if persona.symbol}<span class="mr-1">{persona.symbol}</span>{/if}{PersonFormatter.fullName(persona)}
-			</a>
+		<div class="flex flex-col gap-2 min-w-0">
+			<div class="flex items-center gap-3">
+				{#if persona.symbol}
+					<div
+						class="shrink-0 w-16 h-16 rounded-full flex items-center justify-center text-4xl leading-none"
+						style={persona.color
+							? `background-color: ${persona.color}26`
+							: 'background-color: color-mix(in srgb, currentColor 8%, transparent)'}>
+						{persona.symbol}
+					</div>
+				{/if}
+				<a
+					href="/universes/{persona.universe}/{persona.characterId}"
+					class="h3 text-surface-950-50 hover:text-primary-400 transition-colors min-w-0 leading-tight">
+					<span class="block">{persona.firstName}</span>
+					{#if persona.lastName}<span class="block whitespace-nowrap">{persona.lastName}</span>{/if}
+				</a>
+			</div>
 			{#if persona.quote}
-				<p class="text-surface-400 text-sm italic mt-1">{persona.quote}</p>
+				<p class="text-surface-400 text-sm italic">{persona.quote}</p>
 			{/if}
 		</div>
 		<div class="shrink-0 flex flex-col items-end gap-1.5">

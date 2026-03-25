@@ -21,7 +21,8 @@
       "state": "NM",
       "country": "US"
     },
-    "symbol": "☢️"
+    "symbol": "☢️",
+    "color": "#4c1d95"
   },
   {
     "id": "jesse-pinkman",
@@ -39,7 +40,8 @@
     ],
     "gender": "male",
     "birthYear": 1984,
-    "symbol": "🎨"
+    "symbol": "🎨",
+    "color": "#0c4a6e"
   },
   {
     "id": "saul-goodman",
@@ -62,7 +64,8 @@
       "state": "NM",
       "country": "US"
     },
-    "symbol": "⚖️"
+    "symbol": "⚖️",
+    "color": "#4a1942"
   },
   {
     "id": "skyler-white",
@@ -79,7 +82,8 @@
       "You've lied to me, manipulated me."
     ],
     "gender": "female",
-    "symbol": "💼"
+    "symbol": "💼",
+    "color": "#134e4a"
   },
   {
     "id": "hank-schrader",
@@ -96,7 +100,8 @@
       "Minerals, not rocks."
     ],
     "gender": "male",
-    "symbol": "🔍"
+    "symbol": "🔍",
+    "color": "#3b1f0a"
   },
   {
     "id": "gustavo-fring",
@@ -120,7 +125,8 @@
       "state": "NM",
       "country": "US"
     },
-    "symbol": "🍗"
+    "symbol": "🍗",
+    "color": "#1e3a5f"
   },
   {
     "id": "mike-ehrmantraut",
@@ -137,6 +143,7 @@
       "You talk too much."
     ],
     "gender": "male",
-    "symbol": "🧹"
+    "symbol": "🧹",
+    "color": "#9333ea"
   }
 ]

@@ -3,7 +3,13 @@
     "id": "jack-shephard",
     "firstName": "Jack",
     "lastName": "Shephard",
-    "usernames": ["live_together_die_alone", "chief_of_surgery", "man_of_science", "oceanic815_doc", "spinal_surgeon"],
+    "usernames": [
+      "live_together_die_alone",
+      "chief_of_surgery",
+      "man_of_science",
+      "oceanic815_doc",
+      "spinal_surgeon"
+    ],
     "profession": "spinal surgeon",
     "interests": ["medicine", "leadership", "rock climbing", "reading", "fixing things"],
     "quotes": [
@@ -15,13 +21,20 @@
       "You're not John Locke. You disrespect his memory by wearing his face, but you're nothing like him. Turns out he was right about most everything. I just wish I could've told him that while he was still alive."
     ],
     "gender": "male",
-    "symbol": "✈️"
+    "symbol": "✈️",
+    "color": "#083344"
   },
   {
     "id": "kate-austen",
     "firstName": "Kate",
     "lastName": "Austen",
-    "usernames": ["always_running", "freckles_fugitive", "marshal_bait", "oceanic815_kate", "not_running_now"],
+    "usernames": [
+      "always_running",
+      "freckles_fugitive",
+      "marshal_bait",
+      "oceanic815_kate",
+      "not_running_now"
+    ],
     "profession": "fugitive, former farmer",
     "interests": ["survival", "firearms", "climbing", "running", "fixing engines"],
     "quotes": [
@@ -32,13 +45,20 @@
       "I saved you a bullet!"
     ],
     "gender": "female",
-    "symbol": "🏃"
+    "symbol": "🏃",
+    "color": "#3b1f0a"
   },
   {
     "id": "john-locke",
     "firstName": "John",
     "lastName": "Locke",
-    "usernames": ["man_of_faith", "dont_tell_me_what_i_cant", "walkabout_john", "box_company_hunter", "the_island_chose_me"],
+    "usernames": [
+      "man_of_faith",
+      "dont_tell_me_what_i_cant",
+      "walkabout_john",
+      "box_company_hunter",
+      "the_island_chose_me"
+    ],
     "profession": "box company employee, survivalist",
     "interests": ["hunting", "backgammon", "nature", "philosophy", "destiny"],
     "quotes": [
@@ -50,13 +70,20 @@
       "Two players. Two sides. One is light... one is dark."
     ],
     "gender": "male",
-    "symbol": "🗺️"
+    "symbol": "🗺️",
+    "color": "#083344"
   },
   {
     "id": "hugo-hurley-reyes",
     "firstName": "Hugo",
     "lastName": "Reyes",
-    "usernames": ["hurley_dude", "number_42_hugo", "clucks_lottery_winner", "dharma_chef", "156_million_problems"],
+    "usernames": [
+      "hurley_dude",
+      "number_42_hugo",
+      "clucks_lottery_winner",
+      "dharma_chef",
+      "156_million_problems"
+    ],
     "profession": "fast food restaurant owner, lottery winner",
     "interests": ["golf", "comic books", "Star Wars", "chicken", "people"],
     "quotes": [
@@ -68,13 +95,20 @@
       "It's kind of true, dude. He's worse than Yoda."
     ],
     "gender": "male",
-    "symbol": "🍗"
+    "symbol": "🍗",
+    "color": "#083344"
   },
   {
     "id": "james-sawyer-ford",
     "firstName": "James",
     "lastName": "Ford",
-    "usernames": ["sawyer_nicknames", "dharmaville_lafleur", "confidence_man_jim", "redneck_man", "dharma_cowboy"],
+    "usernames": [
+      "sawyer_nicknames",
+      "dharmaville_lafleur",
+      "confidence_man_jim",
+      "redneck_man",
+      "dharma_cowboy"
+    ],
     "profession": "con man, DHARMA Initiative security chief",
     "interests": ["reading", "poker", "nicknames", "cons", "whiskey"],
     "quotes": [
@@ -86,13 +120,20 @@
       "Some of us are meant to be alone."
     ],
     "gender": "male",
-    "symbol": "📖"
+    "symbol": "📖",
+    "color": "#65a30d"
   },
   {
     "id": "sayid-jarrah",
     "firstName": "Sayid",
     "lastName": "Jarrah",
-    "usernames": ["republican_guard_sayid", "torturer_of_the_island", "nadia_letter", "iraqi_soldier", "communications_officer"],
+    "usernames": [
+      "republican_guard_sayid",
+      "torturer_of_the_island",
+      "nadia_letter",
+      "iraqi_soldier",
+      "communications_officer"
+    ],
     "profession": "former Iraqi Republican Guard communications officer",
     "interests": ["electronics", "cooking", "engineering", "chess", "Nadia"],
     "quotes": [
@@ -104,13 +145,20 @@
       "Because it is going to be you, Jack."
     ],
     "gender": "male",
-    "symbol": "📡"
+    "symbol": "📡",
+    "color": "#083344"
   },
   {
     "id": "charlie-pace",
     "firstName": "Charlie",
     "lastName": "Pace",
-    "usernames": ["driveshaft_bass", "bloody_rock_god", "not_pennys_boat_charlie", "gods_pianist", "heroin_hobbit"],
+    "usernames": [
+      "driveshaft_bass",
+      "bloody_rock_god",
+      "not_pennys_boat_charlie",
+      "gods_pianist",
+      "heroin_hobbit"
+    ],
     "profession": "rock musician, bass player of Drive Shaft",
     "interests": ["music", "guitar", "Drive Shaft", "Claire", "Aaron"],
     "quotes": [
@@ -122,13 +170,20 @@
       "Charlie! Tell him I said hi!"
     ],
     "gender": "male",
-    "symbol": "🎸"
+    "symbol": "🎸",
+    "color": "#064e3b"
   },
   {
     "id": "desmond-hume",
     "firstName": "Desmond",
     "lastName": "Hume",
-    "usernames": ["see_you_in_another_life", "button_pusher_3years", "pennys_constant", "brother_desmond", "failsafe_key_man"],
+    "usernames": [
+      "see_you_in_another_life",
+      "button_pusher_3years",
+      "pennys_constant",
+      "brother_desmond",
+      "failsafe_key_man"
+    ],
     "profession": "former Royal Scots soldier, button pusher",
     "interests": ["sailing", "Penny", "running", "philosophy", "Dickens"],
     "quotes": [
@@ -140,13 +195,20 @@
       "Calling my bloody constant."
     ],
     "gender": "male",
-    "symbol": "⌚"
+    "symbol": "⌚",
+    "color": "#0891b2"
   },
   {
     "id": "sun-hwa-kwon",
     "firstName": "Sun",
     "lastName": "Kwon",
-    "usernames": ["paiks_daughter", "sun_speaks_english", "ji_yeon_mama", "oceanic6_sun", "controlling_interest_sun"],
+    "usernames": [
+      "paiks_daughter",
+      "sun_speaks_english",
+      "ji_yeon_mama",
+      "oceanic6_sun",
+      "controlling_interest_sun"
+    ],
     "profession": "businesswoman, daughter of a Korean industrialist",
     "interests": ["gardening", "languages", "painting", "Ji Yeon", "Jin"],
     "quotes": [
@@ -158,13 +220,20 @@
       "So, Seoul. Is that in the good Korea or the bad Korea? The good one."
     ],
     "gender": "female",
-    "symbol": "🌱"
+    "symbol": "🌱",
+    "color": "#312e81"
   },
   {
     "id": "jin-soo-kwon",
     "firstName": "Jin",
     "lastName": "Kwon",
-    "usernames": ["jin_kwon_fisherman", "paik_enforcer_jin", "dharma_security_jin", "korean_survivor", "sun_husband"],
+    "usernames": [
+      "jin_kwon_fisherman",
+      "paik_enforcer_jin",
+      "dharma_security_jin",
+      "korean_survivor",
+      "sun_husband"
+    ],
     "profession": "hotel doorman, Paik Industries enforcer",
     "interests": ["fishing", "family", "cooking", "Sun", "honor"],
     "quotes": [
@@ -175,13 +244,20 @@
       "Please, translate!"
     ],
     "gender": "male",
-    "symbol": "🎣"
+    "symbol": "🎣",
+    "color": "#4c1d95"
   },
   {
     "id": "benjamin-linus",
     "firstName": "Benjamin",
     "lastName": "Linus",
-    "usernames": ["henry_gale_ben", "the_good_guys_leader", "i_always_have_a_plan", "otherville_ben", "jacob_was_wrong_ben"],
+    "usernames": [
+      "henry_gale_ben",
+      "the_good_guys_leader",
+      "i_always_have_a_plan",
+      "otherville_ben",
+      "jacob_was_wrong_ben"
+    ],
     "profession": "leader of the Others, former DHARMA Initiative member",
     "interests": ["reading", "power", "manipulation", "the Island", "Dostoevsky"],
     "quotes": [
@@ -193,13 +269,20 @@
       "I would be honored."
     ],
     "gender": "male",
-    "symbol": "📚"
+    "symbol": "📚",
+    "color": "#7c2d12"
   },
   {
     "id": "richard-alpert",
     "firstName": "Richard",
     "lastName": "Alpert",
-    "usernames": ["never_ages_richard", "jacobus_emissary", "eyeliner_richard", "advisor_to_the_island", "ab_aeterno_richard"],
+    "usernames": [
+      "never_ages_richard",
+      "jacobus_emissary",
+      "eyeliner_richard",
+      "advisor_to_the_island",
+      "ab_aeterno_richard"
+    ],
     "profession": "adviser to the Others, immortal",
     "interests": ["the Island", "Jacob", "history", "faith", "serving"],
     "quotes": [
@@ -211,6 +294,7 @@
       "I never want to die. I want to live forever."
     ],
     "gender": "male",
-    "symbol": "⏳"
+    "symbol": "⏳",
+    "color": "#1e3a5f"
   }
 ]

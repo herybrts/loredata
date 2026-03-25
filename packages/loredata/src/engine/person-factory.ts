@@ -63,7 +63,8 @@ export class PersonFactory {
 			universe: universe.id,
 			universeName: universe.name,
 			avatar,
-			...(character.symbol ? { symbol: character.symbol } : {})
+			...(character.symbol ? { symbol: character.symbol } : {}),
+			...(character.color ? { color: character.color } : {})
 		};
 
 		return person;
@@ -105,7 +106,8 @@ export class PersonFactory {
 			universe: universe.id,
 			universeName: universe.name,
 			avatar,
-			...(character.symbol ? { symbol: character.symbol } : {})
+			...(character.symbol ? { symbol: character.symbol } : {}),
+			...(character.color ? { color: character.color } : {})
 		};
 
 		return person;

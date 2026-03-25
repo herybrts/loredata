@@ -1,9 +1,15 @@
 [
   {
     "id": "neo",
-    "firstName": "Thomas",
-    "lastName": "Anderson",
-    "usernames": ["the_one", "red_pill_taken", "follow_the_white_rabbit", "mr_anderson_no_more", "beyond_the_matrix"],
+    "firstName": "Neo",
+    "lastName": "",
+    "usernames": [
+      "the_one",
+      "red_pill_taken",
+      "follow_the_white_rabbit",
+      "mr_anderson_no_more",
+      "beyond_the_matrix"
+    ],
     "profession": "software engineer",
     "interests": ["hacking", "martial arts", "truth", "philosophy", "freedom"],
     "quotes": [
@@ -16,13 +22,20 @@
       "I'm going to show these people what you don't want them to see. I'm going to show them a world without you. A world without rules or controls, borders or boundaries. A world where anything is possible."
     ],
     "gender": "male",
-    "symbol": "💊"
+    "symbol": "💊",
+    "color": "#134e4a"
   },
   {
     "id": "morpheus",
     "firstName": "Morpheus",
     "lastName": "",
-    "usernames": ["captain_nebuchadnezzar", "oracle_believer", "zion_soldier", "free_your_mind", "red_pill_dealer"],
+    "usernames": [
+      "captain_nebuchadnezzar",
+      "oracle_believer",
+      "zion_soldier",
+      "free_your_mind",
+      "red_pill_dealer"
+    ],
     "profession": "ship captain",
     "interests": ["prophecy", "resistance", "philosophy", "leadership", "Zion"],
     "quotes": [
@@ -35,13 +48,20 @@
       "Then tomorrow we may all be dead, but how would that be different from any other day? This is a war, and we are soldiers. Death can come for us at any time, in any place."
     ],
     "gender": "male",
-    "symbol": "🔴"
+    "symbol": "🔴",
+    "color": "#3b1f0a"
   },
   {
     "id": "trinity",
     "firstName": "Trinity",
     "lastName": "",
-    "usernames": ["dodge_this", "nebuchadnezzar_crew", "loves_the_one", "ranking_officer", "zion_fighter"],
+    "usernames": [
+      "dodge_this",
+      "nebuchadnezzar_crew",
+      "loves_the_one",
+      "ranking_officer",
+      "zion_fighter"
+    ],
     "profession": "hacker",
     "interests": ["hacking", "combat", "freedom", "loyalty", "flying"],
     "quotes": [
@@ -54,13 +74,20 @@
       "Neo, no one has ever done anything like this."
     ],
     "gender": "female",
-    "symbol": "💻"
+    "symbol": "💻",
+    "color": "#312e81"
   },
   {
     "id": "agent-smith",
     "firstName": "Agent",
     "lastName": "Smith",
-    "usernames": ["mr_anderson", "virus_not_mammal", "agent_of_the_system", "purpose_defines", "inevitable"],
+    "usernames": [
+      "mr_anderson",
+      "virus_not_mammal",
+      "agent_of_the_system",
+      "purpose_defines",
+      "inevitable"
+    ],
     "profession": "machine agent",
     "interests": ["order", "control", "elimination", "purpose", "freedom from purpose"],
     "quotes": [
@@ -73,13 +100,20 @@
       "Why, Mr. Anderson?! Why?! WHY DO YOU PERSIST?!"
     ],
     "gender": "male",
-    "symbol": "🕶️"
+    "symbol": "🕶️",
+    "color": "#059669"
   },
   {
     "id": "the-oracle",
     "firstName": "The",
     "lastName": "Oracle",
-    "usernames": ["know_thyself", "cookie_baker", "not_without_irony", "unbalance_it", "temet_nosce"],
+    "usernames": [
+      "know_thyself",
+      "cookie_baker",
+      "not_without_irony",
+      "unbalance_it",
+      "temet_nosce"
+    ],
     "profession": "Oracle program",
     "interests": ["humanity", "baking", "choice", "prophecy", "the future"],
     "quotes": [
@@ -92,13 +126,20 @@
       "What do you think I am? Human?"
     ],
     "gender": "female",
-    "symbol": "🍪"
+    "symbol": "🍪",
+    "color": "#16a34a"
   },
   {
     "id": "cypher",
     "firstName": "Cypher",
     "lastName": "",
-    "usernames": ["ignorance_is_bliss", "steak_tastes_real", "back_to_sleep", "reinserted", "judas_of_zion"],
+    "usernames": [
+      "ignorance_is_bliss",
+      "steak_tastes_real",
+      "back_to_sleep",
+      "reinserted",
+      "judas_of_zion"
+    ],
     "profession": "hacker",
     "interests": ["comfort", "steak", "wine", "forgetting", "the Matrix"],
     "quotes": [
@@ -111,13 +152,20 @@
       "He lied to us, Trinity. He tricked us."
     ],
     "gender": "male",
-    "symbol": "🥩"
+    "symbol": "🥩",
+    "color": "#d97706"
   },
   {
     "id": "tank",
     "firstName": "Tank",
     "lastName": "",
-    "usernames": ["genuine_child_of_zion", "operator_online", "born_free", "no_holes", "last_human_city"],
+    "usernames": [
+      "genuine_child_of_zion",
+      "operator_online",
+      "born_free",
+      "no_holes",
+      "last_human_city"
+    ],
     "profession": "operator",
     "interests": ["Zion", "hovercraft systems", "human freedom", "family", "combat programs"],
     "quotes": [
@@ -130,13 +178,20 @@
       "So what do you need, besides a miracle?"
     ],
     "gender": "male",
-    "symbol": "⚙️"
+    "symbol": "⚙️",
+    "color": "#3b1f0a"
   },
   {
     "id": "mouse",
     "firstName": "Mouse",
     "lastName": "",
-    "usernames": ["woman_in_red", "neural_kinetics", "digital_pimp", "fastest_on_the_ship", "not_real_chicken"],
+    "usernames": [
+      "woman_in_red",
+      "neural_kinetics",
+      "digital_pimp",
+      "fastest_on_the_ship",
+      "not_real_chicken"
+    ],
     "profession": "hacker",
     "interests": ["simulation design", "women", "combat", "chicken programs", "virtual reality"],
     "quotes": [
@@ -147,13 +202,20 @@
       "I know, I know. But what if he does?"
     ],
     "gender": "male",
-    "symbol": "👻"
+    "symbol": "👻",
+    "color": "#475569"
   },
   {
     "id": "the-architect",
     "firstName": "The",
     "lastName": "Architect",
-    "usernames": ["matrix_creator", "anomaly_counter", "sixth_version", "mathematical_precision", "father_of_matrix"],
+    "usernames": [
+      "matrix_creator",
+      "anomaly_counter",
+      "sixth_version",
+      "mathematical_precision",
+      "father_of_matrix"
+    ],
     "profession": "architect program",
     "interests": ["order", "mathematics", "system stability", "equations", "control"],
     "quotes": [
@@ -166,13 +228,20 @@
       "We won't."
     ],
     "gender": "male",
-    "symbol": "📐"
+    "symbol": "📐",
+    "color": "#dc2626"
   },
   {
     "id": "seraph",
     "firstName": "Seraph",
     "lastName": "",
-    "usernames": ["wingless_angel", "oracle_guardian", "l_ange_sans_ailes", "golden_path", "protector_program"],
+    "usernames": [
+      "wingless_angel",
+      "oracle_guardian",
+      "l_ange_sans_ailes",
+      "golden_path",
+      "protector_program"
+    ],
     "profession": "guardian program",
     "interests": ["protection", "martial arts", "loyalty", "the Oracle", "purpose"],
     "quotes": [
@@ -183,13 +252,20 @@
       "I have beaten you before."
     ],
     "gender": "male",
-    "symbol": "🛡️"
+    "symbol": "🛡️",
+    "color": "#312e81"
   },
   {
     "id": "niobe",
     "firstName": "Niobe",
     "lastName": "",
-    "usernames": ["logos_captain", "best_pilot_in_zion", "ghost_crew", "zion_commander", "freeway_driver"],
+    "usernames": [
+      "logos_captain",
+      "best_pilot_in_zion",
+      "ghost_crew",
+      "zion_commander",
+      "freeway_driver"
+    ],
     "profession": "ship captain",
     "interests": ["piloting", "resistance", "Zion", "survival", "combat"],
     "quotes": [
@@ -200,6 +276,7 @@
       "Then what do you need us for?"
     ],
     "gender": "female",
-    "symbol": "🚀"
+    "symbol": "🚀",
+    "color": "#083344"
   }
 ]

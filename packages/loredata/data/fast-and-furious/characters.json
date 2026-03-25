@@ -14,8 +14,14 @@
       "Nobody makes me do anything I don't want to."
     ],
     "gender": "male",
-    "address": {"street": "1327 East Adams Boulevard", "city": "Los Angeles", "state": "CA", "country": "US"},
-    "symbol": "🏁"
+    "address": {
+      "street": "1327 East Adams Boulevard",
+      "city": "Los Angeles",
+      "state": "CA",
+      "country": "US"
+    },
+    "symbol": "🏁",
+    "color": "#2563eb"
   },
   {
     "id": "brian-oconner",
@@ -32,7 +38,8 @@
       "See you around, Dom."
     ],
     "gender": "male",
-    "symbol": "🚓"
+    "symbol": "🚓",
+    "color": "#7c3aed"
   },
   {
     "id": "letty-ortiz",
@@ -49,7 +56,8 @@
       "This is who I am."
     ],
     "gender": "female",
-    "symbol": "🔧"
+    "symbol": "🔧",
+    "color": "#083344"
   },
   {
     "id": "roman-pearce",
@@ -66,7 +74,8 @@
       "This is crazy. This is absolutely crazy."
     ],
     "gender": "male",
-    "symbol": "💸"
+    "symbol": "💸",
+    "color": "#083344"
   },
   {
     "id": "tej-parker",
@@ -83,7 +92,8 @@
       "Money ain't a thing."
     ],
     "gender": "male",
-    "symbol": "💻"
+    "symbol": "💻",
+    "color": "#083344"
   },
   {
     "id": "han-lue",
@@ -100,7 +110,8 @@
       "I have to try things for myself. That's just who I am."
     ],
     "gender": "male",
-    "symbol": "🍿"
+    "symbol": "🍿",
+    "color": "#083344"
   },
   {
     "id": "hobbs",
@@ -117,6 +128,7 @@
       "I will beat you like a Cherokee drum."
     ],
     "gender": "male",
-    "symbol": "💪"
+    "symbol": "💪",
+    "color": "#7f1d1d"
   }
 ]

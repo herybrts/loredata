@@ -15,8 +15,14 @@
     ],
     "gender": "male",
     "birthYear": 1980,
-    "address": {"street": "4 Privet Drive", "city": "Little Whinging", "state": "Surrey", "country": "GB"},
-    "symbol": "⚡"
+    "address": {
+      "street": "4 Privet Drive",
+      "city": "Little Whinging",
+      "state": "Surrey",
+      "country": "GB"
+    },
+    "symbol": "⚡",
+    "color": "#1d4ed8"
   },
   {
     "id": "hermione-granger",
@@ -34,7 +40,8 @@
     ],
     "gender": "female",
     "birthYear": 1979,
-    "symbol": "📚"
+    "symbol": "📚",
+    "color": "#134e4a"
   },
   {
     "id": "ron-weasley",
@@ -52,7 +59,8 @@
     ],
     "gender": "male",
     "birthYear": 1980,
-    "symbol": "♟️"
+    "symbol": "♟️",
+    "color": "#dc2626"
   },
   {
     "id": "albus-dumbledore",
@@ -70,8 +78,13 @@
     ],
     "gender": "male",
     "birthYear": 1881,
-    "address": {"street": "Hogwarts School of Witchcraft and Wizardry", "city": "Scottish Highlands", "country": "GB"},
-    "symbol": "🌟"
+    "address": {
+      "street": "Hogwarts School of Witchcraft and Wizardry",
+      "city": "Scottish Highlands",
+      "country": "GB"
+    },
+    "symbol": "🌟",
+    "color": "#7f1d1d"
   },
   {
     "id": "severus-snape",
@@ -89,8 +102,9 @@
     ],
     "gender": "male",
     "birthYear": 1960,
-    "address": {"street": "Spinner's End", "city": "Cokeworth", "country": "GB"},
-    "symbol": "🖤"
+    "address": { "street": "Spinner's End", "city": "Cokeworth", "country": "GB" },
+    "symbol": "🖤",
+    "color": "#ca8a04"
   },
   {
     "id": "draco-malfoy",
@@ -108,8 +122,9 @@
     ],
     "gender": "male",
     "birthYear": 1980,
-    "address": {"street": "Malfoy Manor", "city": "Wiltshire", "country": "GB"},
-    "symbol": "🐍"
+    "address": { "street": "Malfoy Manor", "city": "Wiltshire", "country": "GB" },
+    "symbol": "🐍",
+    "color": "#16a34a"
   },
   {
     "id": "luna-lovegood",
@@ -127,6 +142,7 @@
     ],
     "gender": "female",
     "birthYear": 1981,
-    "symbol": "🌙"
+    "symbol": "🌙",
+    "color": "#083344"
   }
 ]

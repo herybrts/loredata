@@ -5,10 +5,11 @@ import type { UniverseMeta } from 'loredata/browser';
 
 interface Props {
 	universes: UniverseMeta[];
+	selectedId?: string;
 	featured?: number;
 }
 
-let { universes, featured = 12 }: Props = $props();
+let { universes, selectedId, featured = 12 }: Props = $props();
 
 let searchQuery = $state('');
 
@@ -60,7 +61,9 @@ function handleKeydown(event: KeyboardEvent): void {
 		{#each featuredUniverses as universe (universe.id)}
 			<a
 				href="/universes/{universe.id}"
-				class="btn btn-sm preset-tonal-surface hover:preset-filled-primary-500 transition-all">
+				class="btn btn-sm transition-all {universe.id === selectedId
+					? 'preset-filled-primary-500'
+					: 'preset-tonal-surface hover:preset-filled-primary-500'}">
 				{universe.name}
 			</a>
 		{/each}

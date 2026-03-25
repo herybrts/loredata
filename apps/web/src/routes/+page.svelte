@@ -1,8 +1,10 @@
 <script lang="ts">
 import { loadUniverse, UniverseStore } from 'loredata/browser';
 
+import { GenerateBar } from '$features/generator';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
+import { preferences } from '$shared/preferences.svelte';
 
 import type { PageData } from './$types';
 import type { CharacterEntry, Person } from 'loredata/browser';
@@ -11,18 +13,19 @@ let { data }: { data: PageData } = $props();
 
 const manifest = data.manifest;
 
-const COUNTS = [1, 4, 8, 16] as const;
+const MAX_COUNT = 16;
 
 let store = $state<UniverseStore | null>(null);
 let loadedUniverseId = $state<string | null>(data.initialUniverseId ?? null);
 
 let searchQuery = $state('');
-let personaCount = $state<number>(4);
-let personas = $state<Person[]>(data.initialPersonas ?? []);
+let allPersonas = $state<Person[]>(data.initialPersonas ?? []);
 let loading = $state(false);
 
+const personas = $derived(allPersonas.slice(0, preferences.personaCount ?? 4));
+
 async function ensureUniverseLoaded(id: string): Promise<void> {
-	if (loadedUniverseId === id) {
+	if (store && loadedUniverseId === id) {
 		return;
 	}
 
@@ -42,7 +45,7 @@ async function generateFromUniverse(id: string): Promise<void> {
 		return;
 	}
 
-	personas = store.generatePersonas({}, personaCount);
+	allPersonas = store.generatePersonas({}, MAX_COUNT);
 }
 
 async function generate(): Promise<void> {
@@ -106,7 +109,7 @@ $effect(() => {
 });
 
 async function rerollOne(index: number): Promise<void> {
-	const current = personas[index];
+	const current = allPersonas[index];
 
 	if (!current) {
 		return;
@@ -122,7 +125,7 @@ async function rerollOne(index: number): Promise<void> {
 
 	const fresh = store.personByCharacterId(current.characterId);
 
-	personas = personas.map((p, i) => (i === index ? fresh : p));
+	allPersonas = allPersonas.map((p, i) => (i === index ? fresh : p));
 }
 
 async function randomUniverse(): Promise<void> {
@@ -175,7 +178,7 @@ function generateFromCharacter(entry: CharacterEntry): void {
 
 	const persona = store.personByCharacterId(entry.characterId);
 
-	personas = [persona];
+	allPersonas = [persona];
 	searchQuery = '';
 
 	const inputEl = document.querySelector<HTMLInputElement>('input[type="text"]');
@@ -185,8 +188,10 @@ function generateFromCharacter(entry: CharacterEntry): void {
 	}
 }
 
-function setCount(count: number): void {
-	personaCount = count;
+async function handleCountChange(): Promise<void> {
+	if (allPersonas.length === 0) {
+		await generate();
+	}
 }
 </script>
 
@@ -250,30 +255,22 @@ function setCount(count: number): void {
 					class="btn btn-sm preset-tonal-surface"
 					onclick={randomUniverse}>↻ Random</button>
 			</div>
-			<UniverseSelector universes={manifest} />
+			<UniverseSelector
+				universes={manifest}
+				selectedId={loadedUniverseId ?? undefined} />
 		</div>
 
-		<div class="flex items-center justify-between">
-			<div class="btn-group">
-				{#each COUNTS as count (count)}
-					<button
-						class="btn btn-sm {personaCount === count ? 'preset-filled-primary-500' : 'preset-tonal-surface'}"
-						onclick={() => setCount(count)}>
-						{count}
-					</button>
-				{/each}
-			</div>
-			<button
-				class="btn preset-filled-primary-500"
-				onclick={generate}
-				disabled={loading}>
-				{loading ? 'Loading…' : 'Generate'}
-			</button>
-		</div>
+		<GenerateBar
+			ongenerate={generate}
+			oncount={handleCountChange}
+			loading={loading} />
 	</div>
 
 	{#if personas.length > 0}
-		<div class="grid gap-4 {personaCount === 1 || personas.length === 1 ? 'grid-cols-1 max-w-lg' : 'grid-cols-1 sm:grid-cols-2'}">
+		<div
+			class="grid gap-4 {(preferences.personaCount ?? 4) === 1 || personas.length === 1
+				? 'grid-cols-1 max-w-lg'
+				: 'grid-cols-1 sm:grid-cols-2'}">
 			{#each personas as persona, i (i)}
 				<PersonaCard
 					persona={persona}

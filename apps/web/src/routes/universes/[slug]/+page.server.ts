@@ -4,7 +4,7 @@ import { UniverseLoader, PersonFactory } from 'loredata';
 import type { PageServerLoad, EntryGenerator } from './$types';
 import type { Person, UniverseData } from 'loredata';
 
-const INITIAL_PERSONA_COUNT = 4;
+const INITIAL_PERSONA_COUNT = 16;
 
 export const prerender = true;
 

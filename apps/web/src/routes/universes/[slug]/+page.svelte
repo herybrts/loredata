@@ -1,11 +1,14 @@
 <script lang="ts">
 import { UniverseStore } from 'loredata/browser';
+import { untrack } from 'svelte';
 
+import { GenerateBar } from '$features/generator';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
+import { preferences } from '$shared/preferences.svelte';
 
 import type { PageData } from './$types';
-import type { CharacterQuery, Person } from 'loredata/browser';
+import type { Person } from 'loredata/browser';
 
 let { data }: { data: PageData } = $props();
 
@@ -17,23 +20,30 @@ const allInterests = $derived([...new Set(universe.characters.flatMap((c) => c.i
 
 const allLocations = $derived([...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort());
 
-const COUNTS = [1, 4, 8, 16] as const;
+const MAX_COUNT = 16;
 
-let personaCount = $state<number>(4);
-let personas = $state<Person[]>(data.initialPersonas);
+let allPersonas = $state<Person[]>([...data.initialPersonas]);
+let currentUniverseId = $state(data.universe.id);
+
+const personas = $derived(allPersonas.slice(0, preferences.personaCount ?? 4));
 
 $effect(() => {
-	personas = data.initialPersonas;
+	const id = universe.id;
+
+	if (id === untrack(() => currentUniverseId)) {
+		return;
+	}
+
+	currentUniverseId = id;
+	allPersonas = data.initialPersonas;
 });
 
 function generate(): void {
-	const query: CharacterQuery = {};
-
-	personas = store.generatePersonas(query, personaCount);
+	allPersonas = store.generatePersonas({}, MAX_COUNT);
 }
 
 function rerollOne(index: number): void {
-	const current = personas[index];
+	const current = allPersonas[index];
 
 	if (!current) {
 		return;
@@ -41,11 +51,7 @@ function rerollOne(index: number): void {
 
 	const fresh = store.personByCharacterId(current.characterId);
 
-	personas = personas.map((p, i) => (i === index ? fresh : p));
-}
-
-function setCount(count: number): void {
-	personaCount = count;
+	allPersonas = allPersonas.map((p, i) => (i === index ? fresh : p));
 }
 </script>
 
@@ -75,7 +81,7 @@ function setCount(count: number): void {
 			{universe.name}
 		</p>
 		<h1 class="h1 text-surface-950-50">{universe.name}</h1>
-		<p class="text-surface-400 text-sm">{universe.description}</p>
+		<p class="text-surface-400 text-sm min-h-[3lh]">{universe.description}</p>
 		<div class="flex gap-2 flex-wrap">
 			{#each universe.genre as g (g)}
 				<span class="badge preset-tonal-surface text-xs">{g}</span>
@@ -84,8 +90,9 @@ function setCount(count: number): void {
 	</div>
 
 	<div class="space-y-2">
-		<p class="text-surface-400 text-xs uppercase tracking-wide">Other universes</p>
-		<UniverseSelector universes={manifest.filter((u) => u.id !== universe.id)} />
+		<UniverseSelector
+			universes={manifest}
+			selectedId={universe.id} />
 	</div>
 
 	<div class="space-y-5">
@@ -104,24 +111,14 @@ function setCount(count: number): void {
 			</div>
 		{/if}
 
-		<div class="flex items-center justify-between">
-			<div class="btn-group">
-				{#each COUNTS as count (count)}
-					<button
-						class="btn btn-sm {personaCount === count ? 'preset-filled-primary-500' : 'preset-tonal-surface'}"
-						onclick={() => setCount(count)}>
-						{count}
-					</button>
-				{/each}
-			</div>
-			<button
-				class="btn preset-filled-primary-500"
-				onclick={generate}>Generate</button>
-		</div>
+		<GenerateBar ongenerate={generate} />
 	</div>
 
 	{#if personas.length > 0}
-		<div class="grid gap-4 {personaCount === 1 || personas.length === 1 ? 'grid-cols-1 max-w-lg' : 'grid-cols-1 sm:grid-cols-2'}">
+		<div
+			class="grid gap-4 {(preferences.personaCount ?? 4) === 1 || personas.length === 1
+				? 'grid-cols-1 max-w-lg'
+				: 'grid-cols-1 sm:grid-cols-2'}">
 			{#each personas as persona, i (i)}
 				<PersonaCard
 					persona={persona}

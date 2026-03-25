@@ -16,8 +16,9 @@
       "The eleventh hour. Armistice. Peace at last. Peace at last."
     ],
     "gender": "male",
-    "address": {"city": "Small Heath", "country": "GB"},
-    "symbol": "🗡️"
+    "address": { "city": "Small Heath", "country": "GB" },
+    "symbol": "🗡️",
+    "color": "#064e3b"
   },
   {
     "id": "arthur-shelby",
@@ -36,8 +37,9 @@
       "Not in Small Heath, it ain't."
     ],
     "gender": "male",
-    "address": {"city": "Small Heath", "country": "GB"},
-    "symbol": "👊"
+    "address": { "city": "Small Heath", "country": "GB" },
+    "symbol": "👊",
+    "color": "#083344"
   },
   {
     "id": "polly-gray",
@@ -56,7 +58,8 @@
       "Not anymore. My resignation."
     ],
     "gender": "female",
-    "symbol": "🔮"
+    "symbol": "🔮",
+    "color": "#16a34a"
   },
   {
     "id": "alfie-solomons",
@@ -75,8 +78,9 @@
       "You've got fuckin' angry, aint ya?!"
     ],
     "gender": "male",
-    "address": {"city": "Camden", "country": "GB"},
-    "symbol": "📖"
+    "address": { "city": "Camden", "country": "GB" },
+    "symbol": "📖",
+    "color": "#dc2626"
   },
   {
     "id": "michael-gray",
@@ -95,7 +99,8 @@
       "No one close to you makes a choice without your opinion, Tom. Not Arthur, not me, not Ada. We can't escape you. Your lethal hand is always on our shoulders."
     ],
     "gender": "male",
-    "symbol": "📒"
+    "symbol": "📒",
+    "color": "#0c4a6e"
   },
   {
     "id": "ada-shelby",
@@ -112,7 +117,8 @@
       "Not a normal man, your brother."
     ],
     "gender": "female",
-    "symbol": "🎬"
+    "symbol": "🎬",
+    "color": "#059669"
   },
   {
     "id": "john-shelby",
@@ -129,7 +135,8 @@
       "Arthur."
     ],
     "gender": "male",
-    "symbol": "🐎"
+    "symbol": "🐎",
+    "color": "#ea580c"
   },
   {
     "id": "grace-burgess",
@@ -148,7 +155,8 @@
       "In what way?"
     ],
     "gender": "female",
-    "symbol": "🎵"
+    "symbol": "🎵",
+    "color": "#0c4a6e"
   },
   {
     "id": "chester-campbell",
@@ -167,7 +175,8 @@
       "The end of the rope has been this man's destiny since the night he was born."
     ],
     "gender": "male",
-    "symbol": "🚔"
+    "symbol": "🚔",
+    "color": "#ea580c"
   },
   {
     "id": "luca-changretta",
@@ -186,7 +195,8 @@
       "None of you will survive."
     ],
     "gender": "male",
-    "symbol": "🤵"
+    "symbol": "🤵",
+    "color": "#4c1d95"
   },
   {
     "id": "lizzie-stark",
@@ -204,6 +214,7 @@
       "No more Polly, no more whiskey, no more Tommy."
     ],
     "gender": "female",
-    "symbol": "🌷"
+    "symbol": "🌷",
+    "color": "#064e3b"
   }
 ]

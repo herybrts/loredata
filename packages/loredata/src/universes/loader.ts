@@ -16,10 +16,12 @@ export class UniverseLoader {
 	}
 
 	static load(universeId: string): UniverseData {
-		const cached = this.cache.get(universeId);
+		if (process.env.NODE_ENV !== 'development') {
+			const cached = this.cache.get(universeId);
 
-		if (cached) {
-			return cached;
+			if (cached) {
+				return cached;
+			}
 		}
 
 		const universeDir = join(dataDir, universeId);

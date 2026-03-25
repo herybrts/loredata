@@ -3,7 +3,13 @@
     "id": "gregory-house",
     "firstName": "Gregory",
     "lastName": "House",
-    "usernames": ["everybody_lies", "vicodin_md", "cane_and_able", "diagnostics_genius", "not_lupus"],
+    "usernames": [
+      "everybody_lies",
+      "vicodin_md",
+      "cane_and_able",
+      "diagnostics_genius",
+      "not_lupus"
+    ],
     "profession": "diagnostician",
     "interests": ["medicine", "piano", "motorcycle", "puzzles", "vicodin"],
     "quotes": [
@@ -19,13 +25,19 @@
       "If the wonder's gone when the truth is known, there never was any wonder."
     ],
     "gender": "male",
-    "symbol": "🦯"
+    "symbol": "🦯",
+    "color": "#134e4a"
   },
   {
     "id": "james-wilson",
     "firstName": "James",
     "lastName": "Wilson",
-    "usernames": ["best_friend_of_house", "oncology_wilson", "enabler_in_chief", "three_divorces_wilson"],
+    "usernames": [
+      "best_friend_of_house",
+      "oncology_wilson",
+      "enabler_in_chief",
+      "three_divorces_wilson"
+    ],
     "profession": "oncologist",
     "interests": ["oncology", "friendship", "cooking", "relationships"],
     "quotes": [
@@ -40,7 +52,8 @@
       "Because you're not ordinary, House. You're way out there on the fringe somewhere. I'm your best friend, and half the time I don't understand you. You're alone. Been alone your whole life."
     ],
     "gender": "male",
-    "symbol": "🎗️"
+    "symbol": "🎗️",
+    "color": "#166534"
   },
   {
     "id": "lisa-cuddy",
@@ -60,7 +73,8 @@
       "You are waking her up so that you could both say goodbye to each other. She would want it."
     ],
     "gender": "female",
-    "symbol": "🏥"
+    "symbol": "🏥",
+    "color": "#3b1f0a"
   },
   {
     "id": "eric-foreman",
@@ -80,7 +94,8 @@
       "I think you got her in because of your usual messiah complex. I think you messed with the appointment schedule because of your I-like-to-have-sex complex."
     ],
     "gender": "male",
-    "symbol": "🧠"
+    "symbol": "🧠",
+    "color": "#083344"
   },
   {
     "id": "robert-chase",
@@ -100,13 +115,19 @@
       "This is why we left House's team. To avoid this constant flood of pure craziness."
     ],
     "gender": "male",
-    "symbol": "🏄"
+    "symbol": "🏄",
+    "color": "#4c1d95"
   },
   {
     "id": "allison-cameron",
     "firstName": "Allison",
     "lastName": "Cameron",
-    "usernames": ["dr_cameron_er", "always_caring_cameron", "cameron_immunology", "mercy_and_reason"],
+    "usernames": [
+      "dr_cameron_er",
+      "always_caring_cameron",
+      "cameron_immunology",
+      "mercy_and_reason"
+    ],
     "profession": "emergency medicine physician",
     "interests": ["medicine", "ethics", "immunology", "human rights"],
     "quotes": [
@@ -120,7 +141,8 @@
       "In ER we like to actually resuscitate dying people, not just let them flop around."
     ],
     "gender": "female",
-    "symbol": "❤️"
+    "symbol": "❤️",
+    "color": "#4a1942"
   },
   {
     "id": "chris-taub",
@@ -140,7 +162,8 @@
       "Why me?"
     ],
     "gender": "male",
-    "symbol": "👃"
+    "symbol": "👃",
+    "color": "#dc2626"
   },
   {
     "id": "remy-hadley",
@@ -160,7 +183,8 @@
       "We could save this patient but all you care about is getting your answer!"
     ],
     "gender": "female",
-    "symbol": "🎲"
+    "symbol": "🎲",
+    "color": "#4c1d95"
   },
   {
     "id": "lawrence-kutner",
@@ -180,13 +204,19 @@
       "Yeah he'd never do that. Oh wait — he already did last year!"
     ],
     "gender": "male",
-    "symbol": "🏃"
+    "symbol": "🏃",
+    "color": "#4a1942"
   },
   {
     "id": "jessica-adams",
     "firstName": "Jessica",
     "lastName": "Adams",
-    "usernames": ["dr_adams_ppth", "formerly_incarcerated_md", "adams_diagnostics", "jail_doc_adams"],
+    "usernames": [
+      "dr_adams_ppth",
+      "formerly_incarcerated_md",
+      "adams_diagnostics",
+      "jail_doc_adams"
+    ],
     "profession": "diagnostician",
     "interests": ["medicine", "ethics", "charity work", "volunteering"],
     "quotes": [
@@ -200,7 +230,8 @@
       "I could do $5,000. If you double your clinic hours."
     ],
     "gender": "female",
-    "symbol": "⚕️"
+    "symbol": "⚕️",
+    "color": "#4a1942"
   },
   {
     "id": "chi-park",
@@ -219,6 +250,7 @@
       "Would it hurt to do both?"
     ],
     "gender": "female",
-    "symbol": "👊"
+    "symbol": "👊",
+    "color": "#083344"
   }
 ]

@@ -3,7 +3,13 @@
     "id": "ross-geller",
     "firstName": "Ross",
     "lastName": "Geller",
-    "usernames": ["we_were_on_a_break", "divorcemaster_phd", "cookie_duuude", "pivot_guy", "homo_sapiens_are_people"],
+    "usernames": [
+      "we_were_on_a_break",
+      "divorcemaster_phd",
+      "cookie_duuude",
+      "pivot_guy",
+      "homo_sapiens_are_people"
+    ],
     "profession": "Paleontologist",
     "interests": ["dinosaurs", "paleontology", "archaeology", "coffee", "academia", "sci-fi"],
     "quotes": [
@@ -15,14 +21,21 @@
       "I'm going to be happy this year. I'm going to make myself happy."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "🦕"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "🦕",
+    "color": "#3b1f0a"
   },
   {
     "id": "rachel-green",
     "firstName": "Rachel",
     "lastName": "Green",
-    "usernames": ["got_off_the_plane", "who_is_fica", "steamed_milk_life", "not_a_library_card", "green_with_style"],
+    "usernames": [
+      "got_off_the_plane",
+      "who_is_fica",
+      "steamed_milk_life",
+      "not_a_library_card",
+      "green_with_style"
+    ],
     "profession": "Fashion Executive",
     "interests": ["fashion", "shopping", "coffee", "relationships", "style", "fitness"],
     "quotes": [
@@ -33,14 +46,26 @@
       "It's not that common, it doesn't happen to every guy, and it is a big deal!"
     ],
     "gender": "female",
-    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"},
-    "symbol": "👗"
+    "address": {
+      "street": "90 Bedford Street",
+      "city": "New York",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "👗",
+    "color": "#7f1d1d"
   },
   {
     "id": "chandler-bing",
     "firstName": "Chandler",
     "lastName": "Bing",
-    "usernames": ["jokes_when_uncomfortable", "the_nubbin", "could_i_be_more_sarcastic", "transponster", "bing_no_first_name"],
+    "usernames": [
+      "jokes_when_uncomfortable",
+      "the_nubbin",
+      "could_i_be_more_sarcastic",
+      "transponster",
+      "bing_no_first_name"
+    ],
     "profession": "Statistical Analysis and Data Reconfiguration",
     "interests": ["TV", "sarcasm", "foosball", "comedy", "movies", "video games"],
     "quotes": [
@@ -52,14 +77,21 @@
       "I thought this was going to be the most difficult thing I ever had to do. But when I saw you walking down that aisle, I realized how simple it was. I love you."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "😬"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "😬",
+    "color": "#4a1942"
   },
   {
     "id": "monica-geller",
     "firstName": "Monica",
     "lastName": "Geller",
-    "usernames": ["big_fat_goalie", "chef_mode_on", "eleven_towel_categories", "competitive_cook", "seven_erogenous_zones"],
+    "usernames": [
+      "big_fat_goalie",
+      "chef_mode_on",
+      "eleven_towel_categories",
+      "competitive_cook",
+      "seven_erogenous_zones"
+    ],
     "profession": "Chef",
     "interests": ["cooking", "cleaning", "competition", "catering", "organizing", "sports"],
     "quotes": [
@@ -70,16 +102,36 @@
       "I want a marriage."
     ],
     "gender": "female",
-    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"},
-    "symbol": "👨‍🍳"
+    "address": {
+      "street": "90 Bedford Street",
+      "city": "New York",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "👨‍🍳",
+    "color": "#312e81"
   },
   {
     "id": "joey-tribbiani",
     "firstName": "Joey",
     "lastName": "Tribbiani",
-    "usernames": ["how_you_doin", "joey_no_share_food", "drake_ramoray_md", "baby_kangaroo", "sandwich_first"],
+    "usernames": [
+      "how_you_doin",
+      "joey_no_share_food",
+      "drake_ramoray_md",
+      "baby_kangaroo",
+      "sandwich_first"
+    ],
     "profession": "Actor",
-    "interests": ["food", "acting", "women", "sandwiches", "Days of Our Lives", "foosball", "sports"],
+    "interests": [
+      "food",
+      "acting",
+      "women",
+      "sandwiches",
+      "Days of Our Lives",
+      "foosball",
+      "sports"
+    ],
     "quotes": [
       "JOEY DOESN'T SHARE FOOD.",
       "No, I had sex in high school.",
@@ -89,16 +141,31 @@
       "I want girls on bread!"
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "🍕"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "🍕",
+    "color": "#059669"
   },
   {
     "id": "phoebe-buffay",
     "firstName": "Phoebe",
     "lastName": "Buffay",
-    "usernames": ["smelly_cat_official", "princess_consuela", "buried_alive_tombstone", "not_so_much_evolution", "stabbed_a_cop"],
+    "usernames": [
+      "smelly_cat_official",
+      "princess_consuela",
+      "buried_alive_tombstone",
+      "not_so_much_evolution",
+      "stabbed_a_cop"
+    ],
     "profession": "Masseuse / Singer-Songwriter",
-    "interests": ["music", "massage", "spirituality", "the paranormal", "vegetarianism", "cats", "knitting"],
+    "interests": [
+      "music",
+      "massage",
+      "spirituality",
+      "the paranormal",
+      "vegetarianism",
+      "cats",
+      "knitting"
+    ],
     "quotes": [
       "Hello, teeny embryos. I'm Phoebe Buffay. I'm hoping to be your uterus for the next nine months.",
       "I don't believe in evolution.",
@@ -108,14 +175,21 @@
       "For 99 cents, I'd eat you."
     ],
     "gender": "female",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "🎸"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "🎸",
+    "color": "#083344"
   },
   {
     "id": "gunther",
     "firstName": "Gunther",
     "lastName": "",
-    "usernames": ["always_staring_at_rachel", "central_perk_forever", "ill_take_it_all", "blonde_barista", "unrequited_gunther"],
+    "usernames": [
+      "always_staring_at_rachel",
+      "central_perk_forever",
+      "ill_take_it_all",
+      "blonde_barista",
+      "unrequited_gunther"
+    ],
     "profession": "Barista / Coffee Shop Manager",
     "interests": ["Rachel Green", "coffee", "Central Perk", "Swedish culture"],
     "quotes": [
@@ -126,14 +200,21 @@
       "You don't have to fill these silences."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "☕"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "☕",
+    "color": "#0c4a6e"
   },
   {
     "id": "janice-litman-goralnik",
     "firstName": "Janice",
     "lastName": "Litman-Goralnik",
-    "usernames": ["oh_my_god_janice", "the_chandler_magnet", "janice_is_back", "never_fully_gone", "nasal_queen_nyc"],
+    "usernames": [
+      "oh_my_god_janice",
+      "the_chandler_magnet",
+      "janice_is_back",
+      "never_fully_gone",
+      "nasal_queen_nyc"
+    ],
     "profession": "Unknown",
     "interests": ["Chandler Bing", "shopping", "New York", "surprises"],
     "quotes": [
@@ -144,14 +225,21 @@
       "You got 'hate' from that?"
     ],
     "gender": "female",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "😱"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "😱",
+    "color": "#1e3a5f"
   },
   {
     "id": "richard-burke",
     "firstName": "Richard",
     "lastName": "Burke",
-    "usernames": ["the_mustache_guy", "dr_burke_ophthalmologist", "too_old_for_monica", "eye_doctor_nyc", "richard_with_mustache"],
+    "usernames": [
+      "the_mustache_guy",
+      "dr_burke_ophthalmologist",
+      "too_old_for_monica",
+      "eye_doctor_nyc",
+      "richard_with_mustache"
+    ],
     "profession": "Ophthalmologist",
     "interests": ["Monica Geller", "baseball", "ophthalmology", "cigars", "cooking"],
     "quotes": [
@@ -162,14 +250,21 @@
       "You're with Chandler, a guy I really like. And if you say he's straight, I'll believe you."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "👨‍⚕️"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "👨‍⚕️",
+    "color": "#2563eb"
   },
   {
     "id": "mike-hannigan",
     "firstName": "Mike",
     "lastName": "Hannigan",
-    "usernames": ["crap_bag_hannigan", "buffay_hannigan", "piano_mike", "phoebe_plus_one", "mike_not_vtox"],
+    "usernames": [
+      "crap_bag_hannigan",
+      "buffay_hannigan",
+      "piano_mike",
+      "phoebe_plus_one",
+      "mike_not_vtox"
+    ],
     "profession": "Lawyer / Pianist",
     "interests": ["piano", "Phoebe Buffay", "ping pong", "law", "crosswords"],
     "quotes": [
@@ -180,7 +275,8 @@
       "It's a speedo!"
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"},
-    "symbol": "🎹"
+    "address": { "city": "New York", "state": "NY", "country": "US" },
+    "symbol": "🎹",
+    "color": "#16a34a"
   }
 ]

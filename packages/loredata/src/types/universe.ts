@@ -11,6 +11,7 @@ export interface CharacterData {
 	address?: AddressData;
 	emailDomain?: string;
 	symbol?: string;
+	color?: string;
 }
 
 export interface AddressData {

@@ -14,8 +14,14 @@
       "I am Beyoncé, always."
     ],
     "gender": "male",
-    "address": {"street": "1725 Slough Ave", "city": "Scranton", "state": "PA", "country": "US"},
-    "symbol": "🏆"
+    "address": {
+      "street": "1725 Slough Ave",
+      "city": "Scranton",
+      "state": "PA",
+      "country": "US"
+    },
+    "symbol": "🏆",
+    "color": "#312e81"
   },
   {
     "id": "dwight-schrute",
@@ -32,8 +38,14 @@
       "Why tip someone for a job I'm capable of doing myself? I can deliver food. I can drive a taxi. I can, and do, cut my own hair."
     ],
     "gender": "male",
-    "address": {"street": "Schrute Farms, Honesdale Road", "city": "Honesdale", "state": "PA", "country": "US"},
-    "symbol": "🌱"
+    "address": {
+      "street": "Schrute Farms, Honesdale Road",
+      "city": "Honesdale",
+      "state": "PA",
+      "country": "US"
+    },
+    "symbol": "🌱",
+    "color": "#0c4a6e"
   },
   {
     "id": "jim-halpert",
@@ -50,7 +62,8 @@
       "My roommate wants to meet everybody. Because I'm pretty sure he thinks I'm making Dwight up. He is very real."
     ],
     "gender": "male",
-    "symbol": "😏"
+    "symbol": "😏",
+    "color": "#166534"
   },
   {
     "id": "pam-beesly",
@@ -67,7 +80,8 @@
       "There's a lot of beauty in ordinary things. Isn't that kind of the point?"
     ],
     "gender": "female",
-    "symbol": "🎨"
+    "symbol": "🎨",
+    "color": "#083344"
   },
   {
     "id": "ryan-howard",
@@ -84,7 +98,8 @@
       "I just think that at this stage of my career, I need to be in a place where I can take meetings."
     ],
     "gender": "male",
-    "symbol": "💻"
+    "symbol": "💻",
+    "color": "#312e81"
   },
   {
     "id": "andy-bernard",
@@ -101,7 +116,8 @@
       "The most romantic present you can give a woman is a clock. Because you're giving her your time."
     ],
     "gender": "male",
-    "symbol": "🎵"
+    "symbol": "🎵",
+    "color": "#475569"
   },
   {
     "id": "angela-martin",
@@ -118,7 +134,8 @@
       "I don't gossip. But I do hear things."
     ],
     "gender": "female",
-    "symbol": "🐱"
+    "symbol": "🐱",
+    "color": "#dc2626"
   },
   {
     "id": "kelly-kapoor",
@@ -135,7 +152,8 @@
       "I talk a lot. So I've learned to just tune myself out."
     ],
     "gender": "female",
-    "symbol": "💬"
+    "symbol": "💬",
+    "color": "#3b1f0a"
   },
   {
     "id": "kevin-malone",
@@ -152,7 +170,8 @@
       "Oscar is a great guy. I don't care what everyone says about him."
     ],
     "gender": "male",
-    "symbol": "🍲"
+    "symbol": "🍲",
+    "color": "#854d0e"
   },
   {
     "id": "oscar-martinez",
@@ -169,7 +188,8 @@
       "I can't believe you let this happen. I am going to correct this. I am going to fix this."
     ],
     "gender": "male",
-    "symbol": "💡"
+    "symbol": "💡",
+    "color": "#1d4ed8"
   },
   {
     "id": "darryl-philbin",
@@ -186,7 +206,8 @@
       "The Foreman's grille: the foreman being me."
     ],
     "gender": "male",
-    "symbol": "🎧"
+    "symbol": "🎧",
+    "color": "#312e81"
   },
   {
     "id": "stanley-hudson",
@@ -203,7 +224,8 @@
       "This is the worst thing that's ever happened to me, and I was on a Real Housewives episode."
     ],
     "gender": "male",
-    "symbol": "🥨"
+    "symbol": "🥨",
+    "color": "#083344"
   },
   {
     "id": "creed-bratton",
@@ -220,7 +242,8 @@
       "I already won the lottery. I was born in the US of A, baby."
     ],
     "gender": "male",
-    "symbol": "👻"
+    "symbol": "👻",
+    "color": "#9333ea"
   },
   {
     "id": "toby-flenderson",
@@ -237,7 +260,8 @@
       "This meeting is a waste of time."
     ],
     "gender": "male",
-    "symbol": "🗂️"
+    "symbol": "🗂️",
+    "color": "#3b1f0a"
   },
   {
     "id": "phyllis-vance",
@@ -254,6 +278,7 @@
       "I feel like I've been here before in a past life."
     ],
     "gender": "female",
-    "symbol": "🧶"
+    "symbol": "🧶",
+    "color": "#312e81"
   }
 ]
