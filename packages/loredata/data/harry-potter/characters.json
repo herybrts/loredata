@@ -15,7 +15,8 @@
     ],
     "gender": "male",
     "birthYear": 1980,
-    "address": {"street": "4 Privet Drive", "city": "Little Whinging", "state": "Surrey", "country": "GB"}
+    "address": {"street": "4 Privet Drive", "city": "Little Whinging", "state": "Surrey", "country": "GB"},
+    "symbol": "⚡"
   },
   {
     "id": "hermione-granger",
@@ -32,7 +33,8 @@
       "Fear of a name only increases fear of the thing itself."
     ],
     "gender": "female",
-    "birthYear": 1979
+    "birthYear": 1979,
+    "symbol": "📚"
   },
   {
     "id": "ron-weasley",
@@ -49,7 +51,8 @@
       "One person can't feel all that at once, they'd explode."
     ],
     "gender": "male",
-    "birthYear": 1980
+    "birthYear": 1980,
+    "symbol": "♟️"
   },
   {
     "id": "albus-dumbledore",
@@ -67,7 +70,8 @@
     ],
     "gender": "male",
     "birthYear": 1881,
-    "address": {"street": "Hogwarts School of Witchcraft and Wizardry", "city": "Scottish Highlands", "country": "GB"}
+    "address": {"street": "Hogwarts School of Witchcraft and Wizardry", "city": "Scottish Highlands", "country": "GB"},
+    "symbol": "🌟"
   },
   {
     "id": "severus-snape",
@@ -85,7 +89,8 @@
     ],
     "gender": "male",
     "birthYear": 1960,
-    "address": {"street": "Spinner's End", "city": "Cokeworth", "country": "GB"}
+    "address": {"street": "Spinner's End", "city": "Cokeworth", "country": "GB"},
+    "symbol": "🖤"
   },
   {
     "id": "draco-malfoy",
@@ -103,7 +108,8 @@
     ],
     "gender": "male",
     "birthYear": 1980,
-    "address": {"street": "Malfoy Manor", "city": "Wiltshire", "country": "GB"}
+    "address": {"street": "Malfoy Manor", "city": "Wiltshire", "country": "GB"},
+    "symbol": "🐍"
   },
   {
     "id": "luna-lovegood",
@@ -120,6 +126,7 @@
       "The most important thing about Nargles is that they're quite hard to see."
     ],
     "gender": "female",
-    "birthYear": 1981
+    "birthYear": 1981,
+    "symbol": "🌙"
   }
 ]

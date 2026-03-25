@@ -62,7 +62,8 @@ export class PersonFactory {
 			quote,
 			universe: universe.id,
 			universeName: universe.name,
-			avatar
+			avatar,
+			...(character.symbol ? { symbol: character.symbol } : {})
 		};
 
 		return person;
@@ -103,7 +104,8 @@ export class PersonFactory {
 			quote,
 			universe: universe.id,
 			universeName: universe.name,
-			avatar
+			avatar,
+			...(character.symbol ? { symbol: character.symbol } : {})
 		};
 
 		return person;

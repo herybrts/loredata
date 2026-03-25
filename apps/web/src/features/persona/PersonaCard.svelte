@@ -30,7 +30,7 @@ function closeJson(): void {
 			<a
 				href="/universes/{persona.universe}/{persona.characterId}"
 				class="h3 text-surface-950-50 hover:text-primary-400 transition-colors">
-				{PersonFormatter.fullName(persona)}
+				{#if persona.symbol}<span class="mr-1">{persona.symbol}</span>{/if}{PersonFormatter.fullName(persona)}
 			</a>
 			{#if persona.quote}
 				<p class="text-surface-400 text-sm italic mt-1">{persona.quote}</p>

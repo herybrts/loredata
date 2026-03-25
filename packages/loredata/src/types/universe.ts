@@ -10,6 +10,7 @@ export interface CharacterData {
 	birthYear?: number;
 	address?: AddressData;
 	emailDomain?: string;
+	symbol?: string;
 }
 
 export interface AddressData {

@@ -14,7 +14,8 @@
       "Nobody makes me do anything I don't want to."
     ],
     "gender": "male",
-    "address": {"street": "1327 East Adams Boulevard", "city": "Los Angeles", "state": "CA", "country": "US"}
+    "address": {"street": "1327 East Adams Boulevard", "city": "Los Angeles", "state": "CA", "country": "US"},
+    "symbol": "🏁"
   },
   {
     "id": "brian-oconner",
@@ -30,7 +31,8 @@
       "You almost had me? You never had me.",
       "See you around, Dom."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🚓"
   },
   {
     "id": "letty-ortiz",
@@ -46,7 +48,8 @@
       "You want me? You're gonna have to catch me first.",
       "This is who I am."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🔧"
   },
   {
     "id": "roman-pearce",
@@ -62,7 +65,8 @@
       "You know what I say? I say we take the money, we take the car, and we go.",
       "This is crazy. This is absolutely crazy."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💸"
   },
   {
     "id": "tej-parker",
@@ -78,7 +82,8 @@
       "I just need to reroute the transponder through the auxiliary grid.",
       "Money ain't a thing."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💻"
   },
   {
     "id": "han-lue",
@@ -94,7 +99,8 @@
       "Chaos, yeah. You know what that is? It's everything. It's your life.",
       "I have to try things for myself. That's just who I am."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🍿"
   },
   {
     "id": "hobbs",
@@ -110,6 +116,7 @@
       "You just earned yourself a dance with the devil, boy.",
       "I will beat you like a Cherokee drum."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💪"
   }
 ]

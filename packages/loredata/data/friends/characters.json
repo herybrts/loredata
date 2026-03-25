@@ -15,7 +15,8 @@
       "I'm going to be happy this year. I'm going to make myself happy."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "🦕"
   },
   {
     "id": "rachel-green",
@@ -32,7 +33,8 @@
       "It's not that common, it doesn't happen to every guy, and it is a big deal!"
     ],
     "gender": "female",
-    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"}
+    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"},
+    "symbol": "👗"
   },
   {
     "id": "chandler-bing",
@@ -50,7 +52,8 @@
       "I thought this was going to be the most difficult thing I ever had to do. But when I saw you walking down that aisle, I realized how simple it was. I love you."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "😬"
   },
   {
     "id": "monica-geller",
@@ -67,7 +70,8 @@
       "I want a marriage."
     ],
     "gender": "female",
-    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"}
+    "address": {"street": "90 Bedford Street", "city": "New York", "state": "NY", "country": "US"},
+    "symbol": "👨‍🍳"
   },
   {
     "id": "joey-tribbiani",
@@ -85,7 +89,8 @@
       "I want girls on bread!"
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "🍕"
   },
   {
     "id": "phoebe-buffay",
@@ -103,7 +108,8 @@
       "For 99 cents, I'd eat you."
     ],
     "gender": "female",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "🎸"
   },
   {
     "id": "gunther",
@@ -120,7 +126,8 @@
       "You don't have to fill these silences."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "☕"
   },
   {
     "id": "janice-litman-goralnik",
@@ -137,7 +144,8 @@
       "You got 'hate' from that?"
     ],
     "gender": "female",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "😱"
   },
   {
     "id": "richard-burke",
@@ -154,7 +162,8 @@
       "You're with Chandler, a guy I really like. And if you say he's straight, I'll believe you."
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "👨‍⚕️"
   },
   {
     "id": "mike-hannigan",
@@ -171,6 +180,7 @@
       "It's a speedo!"
     ],
     "gender": "male",
-    "address": {"city": "New York", "state": "NY", "country": "US"}
+    "address": {"city": "New York", "state": "NY", "country": "US"},
+    "symbol": "🎹"
   }
 ]

@@ -14,7 +14,8 @@
       "I'm gonna kill you.",
       "You're not John Locke. You disrespect his memory by wearing his face, but you're nothing like him. Turns out he was right about most everything. I just wish I could've told him that while he was still alive."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "✈️"
   },
   {
     "id": "kate-austen",
@@ -30,7 +31,8 @@
       "Since when did shooting kids and blowing up hydrogen bombs become okay?",
       "I saved you a bullet!"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🏃"
   },
   {
     "id": "john-locke",
@@ -47,7 +49,8 @@
       "No, I don't think that's true. You're not running now.",
       "Two players. Two sides. One is light... one is dark."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🗺️"
   },
   {
     "id": "hugo-hurley-reyes",
@@ -64,7 +67,8 @@
       "I can sorta use someone with, like, experience. For a little while. So... will you help me, Ben?",
       "It's kind of true, dude. He's worse than Yoda."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🍗"
   },
   {
     "id": "james-sawyer-ford",
@@ -81,7 +85,8 @@
       "I ain't no hero, Mike.",
       "Some of us are meant to be alone."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "📖"
   },
   {
     "id": "sayid-jarrah",
@@ -98,7 +103,8 @@
       "I've tortured more people than I can remember. I murdered. Wherever I'm going... it can't be very pleasant.",
       "Because it is going to be you, Jack."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "📡"
   },
   {
     "id": "charlie-pace",
@@ -115,7 +121,8 @@
       "It wouldn't be an irrational fear of bees if I could just pull myself together, would it?",
       "Charlie! Tell him I said hi!"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🎸"
   },
   {
     "id": "desmond-hume",
@@ -132,7 +139,8 @@
       "What's the point in being afraid?",
       "Calling my bloody constant."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "⌚"
   },
   {
     "id": "sun-hwa-kwon",
@@ -149,7 +157,8 @@
       "We can start a new life. We'll go away.",
       "So, Seoul. Is that in the good Korea or the bad Korea? The good one."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🌱"
   },
   {
     "id": "jin-soo-kwon",
@@ -165,7 +174,8 @@
       "Daniel... No more flash?",
       "Please, translate!"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🎣"
   },
   {
     "id": "benjamin-linus",
@@ -182,7 +192,8 @@
       "John Locke was a... a believer, he was a man of faith, he was... a much better man than I will ever be. And I'm very sorry I murdered him.",
       "I would be honored."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "📚"
   },
   {
     "id": "richard-alpert",
@@ -199,6 +210,7 @@
       "I want my wife back.",
       "I never want to die. I want to live forever."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "⏳"
   }
 ]

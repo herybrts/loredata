@@ -18,7 +18,8 @@
       "Solving puzzles. Saving lives is just collateral damage.",
       "If the wonder's gone when the truth is known, there never was any wonder."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🦯"
   },
   {
     "id": "james-wilson",
@@ -38,7 +39,8 @@
       "Dying's easy. Living's hard!",
       "Because you're not ordinary, House. You're way out there on the fringe somewhere. I'm your best friend, and half the time I don't understand you. You're alone. Been alone your whole life."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🎗️"
   },
   {
     "id": "lisa-cuddy",
@@ -57,7 +59,8 @@
       "An egomaniacal, narcissistic pain in the ass — same as before you left.",
       "You are waking her up so that you could both say goodbye to each other. She would want it."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🏥"
   },
   {
     "id": "eric-foreman",
@@ -76,7 +79,8 @@
       "Every slavemaster thought they were doing the black man a favour.",
       "I think you got her in because of your usual messiah complex. I think you messed with the appointment schedule because of your I-like-to-have-sex complex."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🧠"
   },
   {
     "id": "robert-chase",
@@ -95,7 +99,8 @@
       "If people told nothing but the truth, the world would probably burn down overnight.",
       "This is why we left House's team. To avoid this constant flood of pure craziness."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🏄"
   },
   {
     "id": "allison-cameron",
@@ -114,7 +119,8 @@
       "It's why I left House. You got fired.",
       "In ER we like to actually resuscitate dying people, not just let them flop around."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "❤️"
   },
   {
     "id": "chris-taub",
@@ -133,7 +139,8 @@
       "I'll bring it up at the next world domination subcommittee meeting.",
       "Why me?"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "👃"
   },
   {
     "id": "remy-hadley",
@@ -152,7 +159,8 @@
       "Patient has spinal muscular atrophy. It's genetic, incurable. This is not a diagnostic mystery.",
       "We could save this patient but all you care about is getting your answer!"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🎲"
   },
   {
     "id": "lawrence-kutner",
@@ -171,7 +179,8 @@
       "You slept with Foreman? Sorry, you were busy.",
       "Yeah he'd never do that. Oh wait — he already did last year!"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🏃"
   },
   {
     "id": "jessica-adams",
@@ -190,7 +199,8 @@
       "Thad Barton? We only help rich white guys?",
       "I could do $5,000. If you double your clinic hours."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "⚕️"
   },
   {
     "id": "chi-park",
@@ -208,6 +218,7 @@
       "If you were me, what would you do?",
       "Would it hurt to do both?"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "👊"
   }
 ]

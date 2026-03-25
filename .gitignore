@@ -52,6 +52,9 @@ coverage/
 ehthumbs.db
 Thumbs.db
 
+# Script inputs
+packages/loredata/scripts/patch.json
+
 # Temporary files
 *.tmp
 *.temp

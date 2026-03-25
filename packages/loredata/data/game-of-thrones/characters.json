@@ -15,7 +15,8 @@
     ],
     "gender": "male",
     "birthYear": 281,
-    "address": {"city": "Castle Black"}
+    "address": {"city": "Castle Black"},
+    "symbol": "❄️"
   },
   {
     "id": "daenerys-targaryen",
@@ -33,7 +34,8 @@
     ],
     "gender": "female",
     "birthYear": 284,
-    "address": {"city": "Dragonstone"}
+    "address": {"city": "Dragonstone"},
+    "symbol": "🐉"
   },
   {
     "id": "tyrion-lannister",
@@ -51,7 +53,8 @@
     ],
     "gender": "male",
     "birthYear": 273,
-    "address": {"city": "King's Landing"}
+    "address": {"city": "King's Landing"},
+    "symbol": "🍷"
   },
   {
     "id": "cersei-lannister",
@@ -69,7 +72,8 @@
     ],
     "gender": "female",
     "birthYear": 267,
-    "address": {"street": "The Red Keep", "city": "King's Landing"}
+    "address": {"street": "The Red Keep", "city": "King's Landing"},
+    "symbol": "👑"
   },
   {
     "id": "arya-stark",
@@ -87,7 +91,8 @@
     ],
     "gender": "female",
     "birthYear": 289,
-    "address": {"city": "Winterfell"}
+    "address": {"city": "Winterfell"},
+    "symbol": "⚔️"
   },
   {
     "id": "ned-stark",
@@ -105,7 +110,8 @@
     ],
     "gender": "male",
     "birthYear": 263,
-    "address": {"city": "Winterfell"}
+    "address": {"city": "Winterfell"},
+    "symbol": "🐺"
   },
   {
     "id": "sansa-stark",
@@ -123,7 +129,8 @@
     ],
     "gender": "female",
     "birthYear": 286,
-    "address": {"city": "Winterfell"}
+    "address": {"city": "Winterfell"},
+    "symbol": "🌹"
   },
   {
     "id": "ygritte",
@@ -140,7 +147,8 @@
       "Free folk don't kneel."
     ],
     "gender": "female",
-    "birthYear": 283
+    "birthYear": 283,
+    "symbol": "🏹"
   },
   {
     "id": "jaime-lannister",
@@ -158,7 +166,8 @@
     ],
     "gender": "male",
     "birthYear": 266,
-    "address": {"city": "Casterly Rock"}
+    "address": {"city": "Casterly Rock"},
+    "symbol": "🦁"
   },
   {
     "id": "bran-stark",
@@ -176,7 +185,8 @@
     ],
     "gender": "male",
     "birthYear": 290,
-    "address": {"city": "Winterfell"}
+    "address": {"city": "Winterfell"},
+    "symbol": "🦅"
   },
   {
     "id": "joffrey-baratheon",
@@ -194,7 +204,8 @@
     ],
     "gender": "male",
     "birthYear": 286,
-    "address": {"street": "The Red Keep", "city": "King's Landing"}
+    "address": {"street": "The Red Keep", "city": "King's Landing"},
+    "symbol": "💀"
   },
   {
     "id": "petyr-baelish",
@@ -212,7 +223,8 @@
     ],
     "gender": "male",
     "birthYear": 268,
-    "address": {"city": "King's Landing"}
+    "address": {"city": "King's Landing"},
+    "symbol": "🗡️"
   },
   {
     "id": "stannis-baratheon",
@@ -230,7 +242,8 @@
     ],
     "gender": "male",
     "birthYear": 264,
-    "address": {"city": "Dragonstone"}
+    "address": {"city": "Dragonstone"},
+    "symbol": "⚓"
   },
   {
     "id": "melisandre",
@@ -247,7 +260,8 @@
       "For the night is dark and full of terrors, and only the Lord of Light can protect us."
     ],
     "gender": "female",
-    "birthYear": 240
+    "birthYear": 240,
+    "symbol": "🔥"
   },
   {
     "id": "theon-greyjoy",
@@ -265,6 +279,7 @@
     ],
     "gender": "male",
     "birthYear": 278,
-    "address": {"city": "Pyke"}
+    "address": {"city": "Pyke"},
+    "symbol": "🦑"
   }
 ]

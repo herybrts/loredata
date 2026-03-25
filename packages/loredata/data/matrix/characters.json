@@ -15,7 +15,8 @@
       "Because I choose to.",
       "I'm going to show these people what you don't want them to see. I'm going to show them a world without you. A world without rules or controls, borders or boundaries. A world where anything is possible."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💊"
   },
   {
     "id": "morpheus",
@@ -33,7 +34,8 @@
       "What is real? How do you define real? If you're talking about what you can feel, what you can smell, what you can taste and see, then real is simply electrical signals interpreted by your brain.",
       "Then tomorrow we may all be dead, but how would that be different from any other day? This is a war, and we are soldiers. Death can come for us at any time, in any place."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🔴"
   },
   {
     "id": "trinity",
@@ -51,7 +53,8 @@
       "I will not stand here and do nothing. I will not wait here to watch them die.",
       "Neo, no one has ever done anything like this."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "💻"
   },
   {
     "id": "agent-smith",
@@ -69,7 +72,8 @@
       "I killed you, Mr. Anderson, I watched you die; and with a certain satisfaction, I might add.",
       "Why, Mr. Anderson?! Why?! WHY DO YOU PERSIST?!"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🕶️"
   },
   {
     "id": "the-oracle",
@@ -87,7 +91,8 @@
       "One way or another, Neo, this war is going to end. Tonight, the future of both worlds will be in your hands… or in his.",
       "What do you think I am? Human?"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🍪"
   },
   {
     "id": "cypher",
@@ -105,7 +110,8 @@
       "I don't believe it!",
       "He lied to us, Trinity. He tricked us."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🥩"
   },
   {
     "id": "tank",
@@ -123,7 +129,8 @@
       "Believe it or not, you piece of shit, you're still gonna burn!",
       "So what do you need, besides a miracle?"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "⚙️"
   },
   {
     "id": "mouse",
@@ -139,7 +146,8 @@
       "So what if he makes it?",
       "I know, I know. But what if he does?"
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "👻"
   },
   {
     "id": "the-architect",
@@ -157,7 +165,8 @@
       "If I am the father of the Matrix, she would undoubtedly be its mother.",
       "We won't."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "📐"
   },
   {
     "id": "seraph",
@@ -173,7 +182,8 @@
       "So be it.",
       "I have beaten you before."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🛡️"
   },
   {
     "id": "niobe",
@@ -189,6 +199,7 @@
       "There must be some kind of failsafe.",
       "Then what do you need us for?"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🚀"
   }
 ]

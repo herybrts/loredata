@@ -14,7 +14,8 @@
       "I am Beyoncé, always."
     ],
     "gender": "male",
-    "address": {"street": "1725 Slough Ave", "city": "Scranton", "state": "PA", "country": "US"}
+    "address": {"street": "1725 Slough Ave", "city": "Scranton", "state": "PA", "country": "US"},
+    "symbol": "🏆"
   },
   {
     "id": "dwight-schrute",
@@ -31,7 +32,8 @@
       "Why tip someone for a job I'm capable of doing myself? I can deliver food. I can drive a taxi. I can, and do, cut my own hair."
     ],
     "gender": "male",
-    "address": {"street": "Schrute Farms, Honesdale Road", "city": "Honesdale", "state": "PA", "country": "US"}
+    "address": {"street": "Schrute Farms, Honesdale Road", "city": "Honesdale", "state": "PA", "country": "US"},
+    "symbol": "🌱"
   },
   {
     "id": "jim-halpert",
@@ -47,7 +49,8 @@
       "I'm in love with you. I'm really sorry if that's weird for you to hear, but I needed you to hear it.",
       "My roommate wants to meet everybody. Because I'm pretty sure he thinks I'm making Dwight up. He is very real."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "😏"
   },
   {
     "id": "pam-beesly",
@@ -63,7 +66,8 @@
       "I feel like all my kids grew up and then they married each other. It's every parent's dream.",
       "There's a lot of beauty in ordinary things. Isn't that kind of the point?"
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🎨"
   },
   {
     "id": "ryan-howard",
@@ -79,7 +83,8 @@
       "I was in my mid-twenties and I was going through a lot of stuff. I think I never fully processed 9/11.",
       "I just think that at this stage of my career, I need to be in a place where I can take meetings."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💻"
   },
   {
     "id": "andy-bernard",
@@ -95,7 +100,8 @@
       "I do parkour.",
       "The most romantic present you can give a woman is a clock. Because you're giving her your time."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🎵"
   },
   {
     "id": "angela-martin",
@@ -111,7 +117,8 @@
       "I always imagined I'd have a traditional wedding. Nothing over the top. Maybe a church. Simple flowers. No clowns.",
       "I don't gossip. But I do hear things."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🐱"
   },
   {
     "id": "kelly-kapoor",
@@ -127,7 +134,8 @@
       "Ryan used me as an object. But I actually fell for him. Woops!",
       "I talk a lot. So I've learned to just tune myself out."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "💬"
   },
   {
     "id": "kevin-malone",
@@ -143,7 +151,8 @@
       "I am a great cook. My famous chili is a closely guarded secret.",
       "Oscar is a great guy. I don't care what everyone says about him."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🍲"
   },
   {
     "id": "oscar-martinez",
@@ -159,7 +168,8 @@
       "I am gay, and I want to say to anyone watching this who is also gay: it gets better.",
       "I can't believe you let this happen. I am going to correct this. I am going to fix this."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💡"
   },
   {
     "id": "darryl-philbin",
@@ -175,7 +185,8 @@
       "I'm not going to beg to be taken seriously as a musician. I'm just going to keep making music and let it speak for itself.",
       "The Foreman's grille: the foreman being me."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🎧"
   },
   {
     "id": "stanley-hudson",
@@ -191,7 +202,8 @@
       "I do not apologize unless I think I'm wrong, and if you don't like it you can leave.",
       "This is the worst thing that's ever happened to me, and I was on a Real Housewives episode."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🥨"
   },
   {
     "id": "creed-bratton",
@@ -207,7 +219,8 @@
       "I've been involved in a number of cults, both as a leader and a follower. You have more fun as a follower, but you make more money as a leader.",
       "I already won the lottery. I was born in the US of A, baby."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "👻"
   },
   {
     "id": "toby-flenderson",
@@ -223,7 +236,8 @@
       "I'm not a part of this family. I'm HR, which means I work for corporate.",
       "This meeting is a waste of time."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🗂️"
   },
   {
     "id": "phyllis-vance",
@@ -239,6 +253,7 @@
       "Bob Vance, Vance Refrigeration.",
       "I feel like I've been here before in a past life."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🧶"
   }
 ]

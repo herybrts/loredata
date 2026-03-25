@@ -15,7 +15,13 @@
     ],
     "gender": "male",
     "birthYear": 1959,
-    "address": { "street": "308 Negra Arroyo Lane", "city": "Albuquerque", "state": "NM", "country": "US" }
+    "address": {
+      "street": "308 Negra Arroyo Lane",
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "US"
+    },
+    "symbol": "☢️"
   },
   {
     "id": "jesse-pinkman",
@@ -32,7 +38,8 @@
       "Maybe. But some people are just... broken."
     ],
     "gender": "male",
-    "birthYear": 1984
+    "birthYear": 1984,
+    "symbol": "🎨"
   },
   {
     "id": "saul-goodman",
@@ -49,7 +56,13 @@
       "I fight for you, Albuquerque!"
     ],
     "gender": "male",
-    "address": { "street": "160 Juan Tabo Blvd NE", "city": "Albuquerque", "state": "NM", "country": "US" }
+    "address": {
+      "street": "160 Juan Tabo Blvd NE",
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "US"
+    },
+    "symbol": "⚖️"
   },
   {
     "id": "skyler-white",
@@ -65,7 +78,8 @@
       "I don't know what to do.",
       "You've lied to me, manipulated me."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "💼"
   },
   {
     "id": "hank-schrader",
@@ -81,7 +95,8 @@
       "This is my chance to catch the big one.",
       "Minerals, not rocks."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🔍"
   },
   {
     "id": "gustavo-fring",
@@ -99,7 +114,13 @@
     ],
     "gender": "male",
     "birthYear": 1958,
-    "address": { "street": "4257 Isleta Blvd SW", "city": "Albuquerque", "state": "NM", "country": "US" }
+    "address": {
+      "street": "4257 Isleta Blvd SW",
+      "city": "Albuquerque",
+      "state": "NM",
+      "country": "US"
+    },
+    "symbol": "🍗"
   },
   {
     "id": "mike-ehrmantraut",
@@ -115,6 +136,7 @@
       "Everyone sounds like Meryl Streep with a gun to their head.",
       "You talk too much."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "🧹"
   }
 ]

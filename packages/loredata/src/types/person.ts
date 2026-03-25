@@ -22,4 +22,5 @@ export interface Person {
 	universe: string;
 	universeName: string;
 	avatar: string;
+	symbol?: string;
 }

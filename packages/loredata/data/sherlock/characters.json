@@ -19,7 +19,8 @@
       "Mrs Hudson, leave Baker Street? England would fall!"
     ],
     "gender": "male",
-    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
+    "symbol": "🔬"
   },
   {
     "id": "john-watson",
@@ -41,7 +42,8 @@
       "I cheated on you, Mary. There was a woman on the bus..."
     ],
     "gender": "male",
-    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
+    "symbol": "🩺"
   },
   {
     "id": "james-moriarty",
@@ -60,7 +62,8 @@
       "That's what people DO!",
       "I wrote my own version of the Nativity when I was a child, 'The Hungry Donkey'. It was a bit gory, but if you're going to put a baby in a manger, you're asking for trouble."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "💣"
   },
   {
     "id": "irene-adler",
@@ -80,7 +83,8 @@
       "Well, I am. Look at us both."
     ],
     "gender": "female",
-    "address": { "street": "Egerton Gardens", "city": "London", "country": "GB" }
+    "address": { "street": "Egerton Gardens", "city": "London", "country": "GB" },
+    "symbol": "🔐"
   },
   {
     "id": "mycroft-holmes",
@@ -101,7 +105,8 @@
       "Babies? Humans."
     ],
     "gender": "male",
-    "address": { "street": "Pall Mall", "city": "London", "country": "GB" }
+    "address": { "street": "Pall Mall", "city": "London", "country": "GB" },
+    "symbol": "🕴️"
   },
   {
     "id": "mrs-hudson",
@@ -121,7 +126,8 @@
       "Sherlock Holmes, if you've been YouTubing--"
     ],
     "gender": "female",
-    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" }
+    "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
+    "symbol": "☕"
   },
   {
     "id": "greg-lestrade",
@@ -140,7 +146,8 @@
       "NOT REALLY!",
       "Two years and the theories keep getting more stupid."
     ],
-    "gender": "male"
+    "gender": "male",
+    "symbol": "👮"
   },
   {
     "id": "molly-hooper",
@@ -160,7 +167,8 @@
       "I was wondering if you'd like to have coffee? ...Okay."
     ],
     "gender": "female",
-    "address": { "street": "West Smithfield", "city": "London", "country": "GB" }
+    "address": { "street": "West Smithfield", "city": "London", "country": "GB" },
+    "symbol": "🔪"
   },
   {
     "id": "mary-watson",
@@ -179,6 +187,7 @@
       "My Baker Street Boys; Sherlock Holmes and Doctor Watson.",
       "Well, then...John Watson. Get the hell on with it."
     ],
-    "gender": "female"
+    "gender": "female",
+    "symbol": "🎯"
   }
 ]
