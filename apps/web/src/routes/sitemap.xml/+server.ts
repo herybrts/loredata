@@ -13,17 +13,28 @@ export const GET: RequestHandler = () => {
 
 	const universeRoutes = ids.map((id) => `/universes/${id}`);
 
-	const allRoutes = [...staticRoutes, ...universeRoutes];
+	const characterRoutes = ids.flatMap((id) => {
+		const universe = UniverseLoader.load(id);
+
+		return universe.characters.map((c) => `/universes/${id}/${c.id}`);
+	});
+
+	const allRoutes = [...staticRoutes, ...universeRoutes, ...characterRoutes];
 
 	const urlEntries = allRoutes
-		.map(
-			(path) => `
+		.map((path) => {
+			let priority = '0.6';
+
+			if (path === '/') priority = '1.0';
+			else if (universeRoutes.includes(path)) priority = '0.8';
+
+			return `
   <url>
     <loc>${SITE_URL}${path}</loc>
     <changefreq>weekly</changefreq>
-    <priority>${path === '/' ? '1.0' : '0.8'}</priority>
-  </url>`
-		)
+    <priority>${priority}</priority>
+  </url>`;
+		})
 		.join('');
 
 	const xml = `<?xml version="1.0" encoding="UTF-8"?>

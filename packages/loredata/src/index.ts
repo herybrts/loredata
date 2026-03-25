@@ -19,7 +19,7 @@ export function universes(): UniverseMeta[] {
 }
 
 export { UniverseLoader } from '@/universes';
-export { UniverseStore } from '@/engine';
+export { UniverseStore, PersonFactory } from '@/engine';
 
 export type { Person, UniverseMeta, PersonOptions, GroupOptions } from '@/types';
 export type { Address, UniverseData, CharacterData, AddressData, DomainsData } from '@/types';

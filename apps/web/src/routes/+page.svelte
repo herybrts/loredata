@@ -5,7 +5,7 @@ import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
 
 import type { PageData } from './$types';
-import type { CharacterEntry, CharacterQuery, Person } from 'loredata/browser';
+import type { CharacterEntry, Person } from 'loredata/browser';
 
 let { data }: { data: PageData } = $props();
 
@@ -14,12 +14,11 @@ const manifest = data.manifest;
 const COUNTS = [1, 4, 8, 16] as const;
 
 let store = $state<UniverseStore | null>(null);
-let loadedUniverseId = $state<string | null>(null);
+let loadedUniverseId = $state<string | null>(data.initialUniverseId ?? null);
 
 let searchQuery = $state('');
-let selectedInterests = $state<string[]>([]);
 let personaCount = $state<number>(4);
-let personas = $state<Person[]>([]);
+let personas = $state<Person[]>(data.initialPersonas ?? []);
 let loading = $state(false);
 
 async function ensureUniverseLoaded(id: string): Promise<void> {
@@ -43,12 +42,7 @@ async function generateFromUniverse(id: string): Promise<void> {
 		return;
 	}
 
-	const query: CharacterQuery = {
-		interests: selectedInterests,
-		interestsMode: 'and'
-	};
-
-	personas = store.generatePersonas(query, personaCount);
+	personas = store.generatePersonas({}, personaCount);
 }
 
 async function generate(): Promise<void> {
@@ -67,8 +61,6 @@ async function generate(): Promise<void> {
 	await generateFromUniverse(firstId);
 }
 
-void generate();
-
 let searchResults = $derived.by(() => {
 	if (searchQuery.trim().length === 0) {
 		return null;
@@ -78,13 +70,7 @@ let searchResults = $derived.by(() => {
 		return null;
 	}
 
-	const query: CharacterQuery = {
-		interests: selectedInterests,
-		interestsMode: 'and',
-		name: searchQuery
-	};
-
-	const entries = store.findCharacters(query);
+	const entries = store.findCharacters({ name: searchQuery });
 	const needle = searchQuery.trim().toLowerCase();
 
 	function relevance(entry: CharacterEntry): number {
@@ -119,14 +105,18 @@ $effect(() => {
 	highlightedIndex = -1;
 });
 
-function rerollOne(index: number): void {
-	if (!store) {
-		return;
-	}
-
+async function rerollOne(index: number): Promise<void> {
 	const current = personas[index];
 
 	if (!current) {
+		return;
+	}
+
+	if (!store && loadedUniverseId) {
+		await ensureUniverseLoaded(loadedUniverseId);
+	}
+
+	if (!store) {
 		return;
 	}
 
@@ -193,16 +183,6 @@ function generateFromCharacter(entry: CharacterEntry): void {
 	if (inputEl) {
 		inputEl.value = '';
 	}
-}
-
-function filterByInterest(interest: string): void {
-	selectedInterests = [interest];
-	void generate();
-}
-
-function clearInterests(): void {
-	selectedInterests = [];
-	void generate();
 }
 
 function setCount(count: number): void {
@@ -273,16 +253,6 @@ function setCount(count: number): void {
 			<UniverseSelector universes={manifest} />
 		</div>
 
-		{#if selectedInterests.length > 0}
-			<div class="flex items-center gap-2">
-				<p class="text-surface-400 text-xs uppercase tracking-wide">Interest</p>
-				<span class="badge preset-filled-primary-500 text-xs">{selectedInterests[0]}</span>
-				<button
-					class="btn btn-sm preset-tonal-surface"
-					onclick={clearInterests}>✕</button>
-			</div>
-		{/if}
-
 		<div class="flex items-center justify-between">
 			<div class="btn-group">
 				{#each COUNTS as count (count)}
@@ -307,8 +277,7 @@ function setCount(count: number): void {
 			{#each personas as persona, i (i)}
 				<PersonaCard
 					persona={persona}
-					onreroll={() => rerollOne(i)}
-					oninterest={filterByInterest} />
+					onreroll={() => rerollOne(i)} />
 			{/each}
 		</div>
 	{:else if !loading}

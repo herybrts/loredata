@@ -8,11 +8,10 @@ import type { Person } from 'loredata/browser';
 interface Props {
 	persona: Person;
 	onreroll?: () => void;
-	oninterest?: (interest: string) => void;
 	onshowjson?: () => void;
 }
 
-let { persona, onreroll, oninterest, onshowjson }: Props = $props();
+let { persona, onreroll, onshowjson }: Props = $props();
 
 let showJson = $state(false);
 
@@ -28,7 +27,11 @@ function closeJson(): void {
 <div class="group card preset-tonal-surface border border-surface-700/30 p-6 flex flex-col gap-6 h-full">
 	<div class="flex items-start justify-between gap-4">
 		<div>
-			<h2 class="h3 text-surface-950-50">{PersonFormatter.fullName(persona)}</h2>
+			<a
+				href="/universes/{persona.universe}/{persona.characterId}"
+				class="h3 text-surface-950-50 hover:text-primary-400 transition-colors">
+				{PersonFormatter.fullName(persona)}
+			</a>
 			{#if persona.quote}
 				<p class="text-surface-400 text-sm italic mt-1">{persona.quote}</p>
 			{/if}
@@ -75,17 +78,11 @@ function closeJson(): void {
 			<p class="text-surface-400 text-xs uppercase tracking-wide">Interests</p>
 			<div class="flex flex-wrap gap-2">
 				{#each persona.interests as interest (interest)}
-					{#if oninterest}
-						<button
-							class="badge preset-tonal-primary text-xs px-3 py-1 rounded-full hover:preset-filled-primary-500 transition-colors cursor-pointer"
-							onclick={() => oninterest(interest)}>
-							{interest}
-						</button>
-					{:else}
-						<span class="badge preset-tonal-primary text-xs px-3 py-1 rounded-full">
-							{interest}
-						</span>
-					{/if}
+					<a
+						href="/interests/{interest}"
+						class="badge preset-tonal-primary text-xs px-3 py-1 rounded-full hover:preset-filled-primary-500 transition-colors">
+						{interest}
+					</a>
 				{/each}
 			</div>
 		</div>

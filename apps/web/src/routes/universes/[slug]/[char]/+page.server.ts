@@ -1,8 +1,8 @@
 import { error } from '@sveltejs/kit';
-import { UniverseLoader } from 'loredata';
+import { UniverseLoader, PersonFactory } from 'loredata';
 
 import type { PageServerLoad, EntryGenerator } from './$types';
-import type { UniverseData, CharacterData } from 'loredata';
+import type { UniverseData, CharacterData, Person } from 'loredata';
 
 export const prerender = true;
 
@@ -35,7 +35,13 @@ export const load: PageServerLoad = ({ params }) => {
 		error(404, `Character "${params.char}" not found`);
 	}
 
-	const data: { universe: UniverseData; character: CharacterData } = { universe, character };
+	const initialPersona: Person = PersonFactory.buildCanonical(character.id, universe);
+
+	const data: { universe: UniverseData; character: CharacterData; initialPersona: Person } = {
+		universe,
+		character,
+		initialPersona
+	};
 
 	return data;
 };

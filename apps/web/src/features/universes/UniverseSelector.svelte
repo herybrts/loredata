@@ -60,7 +60,7 @@ function handleKeydown(event: KeyboardEvent): void {
 		{#each featuredUniverses as universe (universe.id)}
 			<a
 				href="/universes/{universe.id}"
-				class="btn btn-sm preset-tonal-surface transition-all">
+				class="btn btn-sm preset-tonal-surface hover:preset-filled-primary-500 transition-all">
 				{universe.name}
 			</a>
 		{/each}

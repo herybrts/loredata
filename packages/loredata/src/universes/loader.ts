@@ -1,9 +1,12 @@
 import { readFileSync, readdirSync } from 'fs';
-import { join } from 'path';
+import { createRequire } from 'module';
+import { dirname, join } from 'path';
 
 import type { UniverseData, UniverseMeta, CharacterData, AddressData, DomainsData } from '@/types';
 
-const dataDir = join(import.meta.dirname, '../data');
+const require = createRequire(import.meta.url);
+const packageRoot = dirname(require.resolve('loredata/package.json'));
+const dataDir = join(packageRoot, 'data');
 
 export class UniverseLoader {
 	private static cache = new Map<string, UniverseData>();

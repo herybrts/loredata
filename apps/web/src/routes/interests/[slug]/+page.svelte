@@ -29,7 +29,9 @@ const { interest, characters } = data;
 				href="/"
 				class="hover:text-surface-300 transition-colors">loredata</a>
 			<span class="mx-1">›</span>
-			interests
+			<a
+				href="/interests"
+				class="hover:text-surface-300 transition-colors">interests</a>
 			<span class="mx-1">›</span>
 			{interest}
 		</p>
@@ -43,8 +45,9 @@ const { interest, characters } = data;
 			<div class="card preset-tonal-surface border border-surface-700/20 px-4 py-3 flex items-center justify-between">
 				<a
 					href="/universes/{character.universe.id}/{character.id}"
-					class="flex-1 hover:opacity-80 transition-opacity">
-					<p class="text-surface-950-50 font-medium">{character.firstName} {character.lastName}</p>
+					class="flex-1 group/char transition-colors">
+					<p class="text-surface-950-50 font-medium group-hover/char:text-primary-400 transition-colors"
+						>{character.firstName} {character.lastName}</p>
 					<p class="text-surface-400 text-xs">{character.profession}</p>
 				</a>
 				<a

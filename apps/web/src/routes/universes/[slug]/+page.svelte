@@ -1,7 +1,6 @@
 <script lang="ts">
 import { UniverseStore } from 'loredata/browser';
 
-import { goto } from '$app/navigation';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import UniverseSelector from '$features/universes/UniverseSelector.svelte';
 
@@ -10,26 +9,28 @@ import type { CharacterQuery, Person } from 'loredata/browser';
 
 let { data }: { data: PageData } = $props();
 
-const { universe } = data;
-const manifest = data.manifest;
-const store = new UniverseStore([universe]);
+const universe = $derived(data.universe);
+const manifest = $derived(data.manifest);
+const store = $derived(new UniverseStore([universe]));
 
-const allInterests = [...new Set(universe.characters.flatMap((c) => c.interests))].sort();
+const allInterests = $derived([...new Set(universe.characters.flatMap((c) => c.interests))].sort());
 
-const allLocations = [...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort();
+const allLocations = $derived([...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort());
 
 const COUNTS = [1, 4, 8, 16] as const;
 
 let personaCount = $state<number>(4);
-let personas = $state<Person[]>([]);
+let personas = $state<Person[]>(data.initialPersonas);
+
+$effect(() => {
+	personas = data.initialPersonas;
+});
 
 function generate(): void {
 	const query: CharacterQuery = {};
 
 	personas = store.generatePersonas(query, personaCount);
 }
-
-generate();
 
 function rerollOne(index: number): void {
 	const current = personas[index];
@@ -95,7 +96,7 @@ function setCount(count: number): void {
 					{#each allInterests as interest (interest)}
 						<a
 							href="/interests/{interest}"
-							class="badge preset-tonal-surface transition-colors hover:preset-tonal-primary">
+							class="badge preset-tonal-surface transition-colors hover:preset-filled-primary-500">
 							{interest}
 						</a>
 					{/each}
@@ -124,8 +125,7 @@ function setCount(count: number): void {
 			{#each personas as persona, i (i)}
 				<PersonaCard
 					persona={persona}
-					onreroll={() => rerollOne(i)}
-					oninterest={(interest) => void goto(`/interests/${interest}`)} />
+					onreroll={() => rerollOne(i)} />
 			{/each}
 		</div>
 	{:else}

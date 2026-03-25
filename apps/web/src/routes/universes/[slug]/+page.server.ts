@@ -1,8 +1,10 @@
 import { error } from '@sveltejs/kit';
-import { UniverseLoader } from 'loredata';
+import { UniverseLoader, PersonFactory } from 'loredata';
 
 import type { PageServerLoad, EntryGenerator } from './$types';
-import type { UniverseData } from 'loredata';
+import type { Person, UniverseData } from 'loredata';
+
+const INITIAL_PERSONA_COUNT = 4;
 
 export const prerender = true;
 
@@ -21,7 +23,10 @@ export const load: PageServerLoad = ({ params }) => {
 
 	const universe = UniverseLoader.load(params.slug);
 
-	const data: { universe: UniverseData } = { universe };
+	const topCharacterIds = universe.characters.slice(0, INITIAL_PERSONA_COUNT).map((c) => c.id);
+	const initialPersonas: Person[] = topCharacterIds.map((id) => PersonFactory.buildCanonical(id, universe));
+
+	const data: { universe: UniverseData; initialPersonas: Person[] } = { universe, initialPersonas };
 
 	return data;
 };

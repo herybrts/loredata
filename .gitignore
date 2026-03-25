@@ -16,6 +16,9 @@ build/
 # SvelteKit
 .svelte-kit/
 
+# Wrangler
+.wrangler/
+
 # Cache directories
 .vite/
 .cache/

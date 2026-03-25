@@ -1,34 +1,20 @@
 <script lang="ts">
 import { UniverseStore } from 'loredata/browser';
 
-import { goto } from '$app/navigation';
 import JsonModal from '$features/persona/JsonModal.svelte';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
 import { PersonFormatter } from '$shared/formatters';
 
 import type { PageData } from './$types';
-import type { CharacterQuery, Person } from 'loredata/browser';
+import type { Person } from 'loredata/browser';
 
 let { data }: { data: PageData } = $props();
 
 const { universe, character } = data;
 const store = new UniverseStore([universe]);
 
-let personas = $state<Person[]>([]);
+let personas = $state<Person[]>([data.initialPersona]);
 let showJson = $state(false);
-
-function generate(): void {
-	const query: CharacterQuery = {};
-	const all = store.generatePersonas(query, 1);
-
-	if (all.length > 0) {
-		const byChar = store.personByCharacterId(character.id);
-
-		personas = [byChar];
-	}
-}
-
-generate();
 
 function reroll(): void {
 	const fresh = store.personByCharacterId(character.id);
@@ -73,7 +59,7 @@ function reroll(): void {
 			{#each character.interests as interest (interest)}
 				<a
 					href="/interests/{interest}"
-					class="badge preset-tonal-surface text-xs hover:preset-tonal-primary transition-colors">
+					class="badge preset-tonal-surface text-xs hover:preset-filled-primary-500 transition-colors">
 					{interest}
 				</a>
 			{/each}
@@ -86,7 +72,7 @@ function reroll(): void {
 			<div class="space-y-2">
 				{#each character.quotes as quote (quote)}
 					<blockquote class="card preset-tonal-surface border border-surface-700/20 px-4 py-3">
-						<p class="text-surface-300 text-sm italic">{quote}</p>
+						<p class="text-surface-950-50 text-sm italic">{quote}</p>
 					</blockquote>
 				{/each}
 			</div>
@@ -115,8 +101,7 @@ function reroll(): void {
 				{#each personas as persona (persona.characterId)}
 					<PersonaCard
 						persona={persona}
-						onshowjson={() => {}}
-						oninterest={(interest) => void goto(`/interests/${interest}`)} />
+						onshowjson={() => {}} />
 				{/each}
 			</div>
 		{/if}
