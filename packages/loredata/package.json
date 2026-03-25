@@ -1,6 +1,6 @@
 {
   "name": "loredata",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Generate personas from pop culture universes. Every field belongs to the same fictional world.",
   "keywords": [
     "fake-data",
@@ -16,7 +16,7 @@
     "characters",
     "cli"
   ],
-  "homepage": "https://github.com/orchidfiles/loredata#readme",
+  "homepage": "https://loredata.orchidfiles.com",
   "repository": {
     "type": "git",
     "url": "https://github.com/orchidfiles/loredata"

@@ -38,8 +38,6 @@ export class PersonFactory {
 		const phone = PhoneGenerator.generate(universe.domains, rng);
 		const password = PasswordGenerator.generate(universe.domains, rng);
 		const quote = character.quotes[0];
-		const avatarName = encodeURIComponent(`${character.firstName} ${character.lastName}`);
-		const avatar = `https://ui-avatars.com/api/?name=${avatarName}&background=random`;
 
 		const person: Person = {
 			id: crypto.randomUUID(),
@@ -62,7 +60,6 @@ export class PersonFactory {
 			quote,
 			universe: universe.id,
 			universeName: universe.name,
-			avatar,
 			...(character.symbol ? { symbol: character.symbol } : {}),
 			...(character.color ? { color: character.color } : {})
 		};
@@ -81,8 +78,6 @@ export class PersonFactory {
 		const phone = PhoneGenerator.generate(universe.domains, rng);
 		const password = PasswordGenerator.generate(universe.domains, rng);
 		const quote = pickRandom(character.quotes, rng);
-		const avatarName = encodeURIComponent(`${character.firstName} ${character.lastName}`);
-		const avatar = `https://ui-avatars.com/api/?name=${avatarName}&background=random`;
 
 		const person: Person = {
 			id: crypto.randomUUID(),
@@ -105,7 +100,6 @@ export class PersonFactory {
 			quote,
 			universe: universe.id,
 			universeName: universe.name,
-			avatar,
 			...(character.symbol ? { symbol: character.symbol } : {}),
 			...(character.color ? { color: character.color } : {})
 		};

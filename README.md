@@ -8,6 +8,8 @@
 
 Generate fake personas using real characters from pop culture universes. Every field — name, email, address, profession, quote — comes from the same fictional world.
 
+**Demo:** [loredata.orchidfiles.com](https://loredata.orchidfiles.com)
+
 ```ts
 import { person, group } from 'loredata';
 
@@ -15,10 +17,16 @@ const p = person({ universe: 'breaking-bad' });
 // {
 //   firstName: 'Walter',
 //   lastName: 'White',
-//   email: 'heisenberg@lospollos.com',
+//   username: 'heisenberg',
+//   email: 'blue_sky_cook@lospollos.com',
+//   quote: "I am the one who knocks.",
 //   profession: 'chemistry teacher',
+//   interests: ['chemistry', 'cooking', 'family'],
 //   address: { street: '308 Negra Arroyo Lane', city: 'Albuquerque', state: 'NM' },
-//   ...
+//   symbol: '☢️',
+//   color: '#4c1d95',
+//   universe: 'breaking-bad',
+//   universeName: 'Breaking Bad'
 // }
 
 const team = group({ universe: 'game-of-thrones', size: 3 });
@@ -49,7 +57,13 @@ universes();
 
 ## Persona fields
 
-Each `Person` includes: `firstName`, `lastName`, `username`, `email`, `password`, `phone`, `address`, `profession`, `interests`, `quote`, `avatar`, `universe`.
+Each `Person` includes:
+
+- `firstName`, `lastName`
+- `username`, `email`, `password`, `phone`
+- `address`, `profession`, `interests`
+- `quote`, `symbol`, `color`
+- `universe`, `universeName`
 
 ## Deterministic output
 
@@ -62,7 +76,10 @@ const p = person({ universe: 'matrix', seed: 42 });
 ## Browser
 
 ```ts
-import { UniverseStore } from 'loredata/browser';
+import { loadUniverse, personFromData } from 'loredata/browser';
+
+const universe = await loadUniverse('breaking-bad');
+const p = personFromData(universe);
 ```
 
 No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
@@ -71,6 +88,9 @@ No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
 
 ```sh
 npx loredata person --universe breaking-bad
+npx loredata person --universe breaking-bad --format json
+npx loredata person --interests chemistry,cooking
+npx loredata person --name walter
 npx loredata group --universe friends --size 5
 npx loredata universes
 ```
@@ -83,6 +103,7 @@ npx loredata universes
 - [x] Deterministic output via seed
 - [x] Browser-safe entry point
 - [x] CLI tool
+- [x] Character symbol and color fields
 
 ## Development
 
