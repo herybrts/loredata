@@ -30,6 +30,11 @@ const p = person({ universe: 'breaking-bad' });
 // }
 
 const team = group({ universe: 'game-of-thrones', size: 3 });
+// [
+//   { firstName: 'Jon', lastName: 'Snow', username: 'lord_commander', ... },
+//   { firstName: 'Daenerys', lastName: 'Targaryen', username: 'mother_of_dragons', ... },
+//   { firstName: 'Tyrion', lastName: 'Lannister', username: 'halfman', ... },
+// ]
 ```
 
 Works in Node.js, browser, and as a CLI tool.
@@ -122,7 +127,7 @@ pnpm --filter @loredata/dev-kit build
 Build the library:
 
 ```sh
-pnpm run package:build
+pnpm --filter loredata build
 ```
 
 Run the demo app:

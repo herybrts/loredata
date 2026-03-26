@@ -2,5 +2,12 @@
   "id": "harry-potter",
   "name": "Harry Potter",
   "genre": ["fantasy", "adventure"],
-  "description": "A young wizard discovers his place in the magical world and fights the dark lord who killed his parents."
+  "description": "A young wizard discovers his place in the magical world and fights the dark lord who killed his parents.",
+  "tmdbId": 671,
+  "mediaType": "movie",
+  "year": 2001,
+  "rating": 7.9,
+  "networks": ["Warner Bros. Pictures", "Heyday Films", "1492 Pictures"],
+  "posterPath": "/wuMc08IPKEatf9rnMNXvIDxqP4W.jpg",
+  "backdropPath": "/1XAC6RPT01UX9EQGy2JVn5c8pgy.jpg"
 }

@@ -37,6 +37,13 @@ export interface UniverseData {
 	characters: CharacterData[];
 	addresses: AddressData[];
 	domains: DomainsData;
+	tmdbId?: number;
+	mediaType?: 'tv' | 'movie';
+	rating?: number;
+	year?: number;
+	networks?: string[];
+	posterPath?: string;
+	backdropPath?: string;
 }
 
 export interface UniverseMeta {
@@ -44,4 +51,11 @@ export interface UniverseMeta {
 	name: string;
 	genre: string[];
 	description: string;
+	tmdbId?: number;
+	mediaType?: 'tv' | 'movie';
+	rating?: number;
+	year?: number;
+	networks?: string[];
+	posterPath?: string;
+	backdropPath?: string;
 }

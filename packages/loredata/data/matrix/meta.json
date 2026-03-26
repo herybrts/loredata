@@ -2,5 +2,17 @@
   "id": "matrix",
   "name": "The Matrix",
   "genre": ["sci-fi", "action"],
-  "description": "A hacker discovers that reality is a simulation controlled by machines and joins the resistance fighting for humanity's freedom."
+  "description": "A hacker discovers that reality is a simulation controlled by machines and joins the resistance fighting for humanity's freedom.",
+  "tmdbId": 603,
+  "mediaType": "movie",
+  "year": 1999,
+  "rating": 8.2,
+  "networks": [
+    "Village Roadshow Pictures",
+    "Groucho II Film Partnership",
+    "Silver Pictures",
+    "Warner Bros. Pictures"
+  ],
+  "posterPath": "/p96dm7sCMn4VYAStA6siNz30G1r.jpg",
+  "backdropPath": "/tlm8UkiQsitc8rSuIAscQDCnP8d.jpg"
 }

@@ -20,6 +20,8 @@ const allInterests = $derived([...new Set(universe.characters.flatMap((c) => c.i
 
 const allLocations = $derived([...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort());
 
+const universeMeta = $derived([universe.year].filter(Boolean).join(''));
+
 const MAX_COUNT = 16;
 
 let allPersonas = $state<Person[]>([...data.initialPersonas]);
@@ -72,20 +74,29 @@ function rerollOne(index: number): void {
 </svelte:head>
 
 <div class="space-y-8 pt-4">
-	<div class="space-y-2">
-		<p class="text-surface-500 text-sm">
-			<a
-				href="/"
-				class="hover:text-surface-300 transition-colors">loredata</a>
-			<span class="mx-1">›</span>
-			{universe.name}
-		</p>
-		<h1 class="h1 text-surface-950-50">{universe.name}</h1>
-		<p class="text-surface-400 text-sm min-h-[3lh]">{universe.description}</p>
-		<div class="flex gap-2 flex-wrap">
-			{#each universe.genre as g (g)}
-				<span class="badge preset-tonal-surface text-xs">{g}</span>
-			{/each}
+	<div class="relative rounded-xl overflow-hidden h-64 sm:h-74">
+		{#if universe.backdropPath}
+			<img
+				src="https://image.tmdb.org/t/p/w1280{universe.backdropPath}"
+				alt=""
+				aria-hidden="true"
+				class="absolute inset-0 w-full h-full object-cover object-top" />
+			<div class="absolute inset-0 bg-black/60"></div>
+		{/if}
+
+		<div class="absolute inset-0 flex p-6 items-end">
+			<div class="flex-1 space-y-2 min-w-0">
+				<h1 class="h1 text-white/95">{universe.name}</h1>
+				{#if universeMeta}
+					<p class="text-white/60 text-sm">{universeMeta}</p>
+				{/if}
+				<p class="text-white/90 max-w-[65%]">{universe.description}</p>
+				<div class="flex flex-wrap gap-1.5">
+					{#each universe.genre as g (g)}
+						<span class="badge text-xs capitalize border border-white/40 text-white/80">{g}</span>
+					{/each}
+				</div>
+			</div>
 		</div>
 	</div>
 

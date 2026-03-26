@@ -2,5 +2,12 @@
   "id": "house-md",
   "name": "House M.D.",
   "genre": ["drama", "mystery", "medical"],
-  "description": "A misanthropic diagnostic genius leads a team of doctors solving medical mysteries no one else can crack."
+  "description": "A misanthropic diagnostic genius leads a team of doctors solving medical mysteries no one else can crack.",
+  "tmdbId": 1408,
+  "mediaType": "tv",
+  "year": 2004,
+  "rating": 8.6,
+  "networks": ["FOX"],
+  "posterPath": "/3Cz7ySOQJmqiuTdrc6CY0r65yDI.jpg",
+  "backdropPath": "/r0Q6eeN9L1ORL9QsV0Sg8ZV3vnv.jpg"
 }

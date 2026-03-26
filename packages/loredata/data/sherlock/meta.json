@@ -2,5 +2,12 @@
   "id": "sherlock",
   "name": "Sherlock",
   "genre": ["crime", "drama", "mystery"],
-  "description": "A modern-day Sherlock Holmes and his partner Dr. Watson solve complex crimes in contemporary London."
+  "description": "A modern-day Sherlock Holmes and his partner Dr. Watson solve complex crimes in contemporary London.",
+  "tmdbId": 19885,
+  "mediaType": "tv",
+  "year": 2010,
+  "rating": 8.5,
+  "networks": ["BBC One"],
+  "posterPath": "/7WTsnHkbA0FaG6R9twfFde0I9hl.jpg",
+  "backdropPath": "/8rvLEmdI4gLrMO1rLqbNdnNcPFE.jpg"
 }

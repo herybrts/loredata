@@ -2,5 +2,12 @@
   "id": "the-office",
   "name": "The Office",
   "genre": ["comedy", "mockumentary"],
-  "description": "A mockumentary following the mundane daily lives of employees at a Scranton, Pennsylvania paper company managed by an oblivious boss."
+  "description": "A mockumentary following the mundane daily lives of employees at a Scranton, Pennsylvania paper company managed by an oblivious boss.",
+  "tmdbId": 2316,
+  "mediaType": "tv",
+  "year": 2005,
+  "rating": 8.6,
+  "networks": ["NBC"],
+  "posterPath": "/7DJKHzAi83BmQrWLrYYOqcoKfhR.jpg",
+  "backdropPath": "/mLyW3UTgi2lsMdtueYODcfAB9Ku.jpg"
 }

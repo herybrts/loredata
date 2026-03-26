@@ -2,5 +2,17 @@
   "id": "fast-and-furious",
   "name": "Fast & Furious",
   "genre": ["action", "thriller"],
-  "description": "A crew of street racers and ex-convicts take on increasingly dangerous heists and missions around the world."
+  "description": "A crew of street racers and ex-convicts take on increasingly dangerous heists and missions around the world.",
+  "tmdbId": 9799,
+  "mediaType": "movie",
+  "year": 2001,
+  "rating": 7,
+  "networks": [
+    "Ardustry Entertainment",
+    "Universal Pictures",
+    "Original Film",
+    "Mediastream Film"
+  ],
+  "posterPath": "/gqY0ITBgT7A82poL9jv851qdnIb.jpg",
+  "backdropPath": "/jY9ef5nqY4xIIMu3yzW3qamUCoi.jpg"
 }

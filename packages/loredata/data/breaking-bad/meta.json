@@ -2,5 +2,12 @@
   "id": "breaking-bad",
   "name": "Breaking Bad",
   "genre": ["crime", "drama", "thriller"],
-  "description": "A high school chemistry teacher turned methamphetamine manufacturer navigates the criminal underworld of Albuquerque, New Mexico."
+  "description": "A high school chemistry teacher turned methamphetamine manufacturer navigates the criminal underworld of Albuquerque, New Mexico.",
+  "tmdbId": 1396,
+  "mediaType": "tv",
+  "year": 2008,
+  "rating": 8.9,
+  "networks": ["AMC"],
+  "posterPath": "/ztkUQFLlC19CCMYHW9o1zWhJRNq.jpg",
+  "backdropPath": "/tsRy63Mu5cu8etL1X7ZLyf7UP1M.jpg"
 }

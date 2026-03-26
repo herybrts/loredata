@@ -2,5 +2,12 @@
   "id": "lost",
   "name": "Lost",
   "genre": ["drama", "mystery", "sci-fi"],
-  "description": "Survivors of a plane crash are stranded on a mysterious island that harbors supernatural forces and hidden conspiracies."
+  "description": "Survivors of a plane crash are stranded on a mysterious island that harbors supernatural forces and hidden conspiracies.",
+  "tmdbId": 4607,
+  "mediaType": "tv",
+  "year": 2004,
+  "rating": 7.9,
+  "networks": ["ABC"],
+  "posterPath": "/og6S0aTZU6YUJAbqxeKjCa3kY1E.jpg",
+  "backdropPath": "/yUOFocKDW7MCC5isx4FK8A68QFp.jpg"
 }

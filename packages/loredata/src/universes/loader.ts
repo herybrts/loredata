@@ -25,12 +25,7 @@ export class UniverseLoader {
 		}
 
 		const universeDir = join(dataDir, universeId);
-		const meta = JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as {
-			id: string;
-			name: string;
-			genre: string[];
-			description: string;
-		};
+		const meta = JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as UniverseMeta;
 
 		const characters = JSON.parse(readFileSync(join(universeDir, 'characters.json'), 'utf-8')) as CharacterData[];
 
@@ -45,7 +40,14 @@ export class UniverseLoader {
 			description: meta.description,
 			characters,
 			addresses,
-			domains
+			domains,
+			...(meta.tmdbId !== undefined && { tmdbId: meta.tmdbId }),
+			...(meta.mediaType !== undefined && { mediaType: meta.mediaType }),
+			...(meta.rating !== undefined && { rating: meta.rating }),
+			...(meta.year !== undefined && { year: meta.year }),
+			...(meta.networks !== undefined && { networks: meta.networks }),
+			...(meta.posterPath !== undefined && { posterPath: meta.posterPath }),
+			...(meta.backdropPath !== undefined && { backdropPath: meta.backdropPath })
 		};
 
 		this.cache.set(universeId, universeData);
@@ -58,16 +60,8 @@ export class UniverseLoader {
 
 		const result = ids.map((id) => {
 			const universeDir = join(dataDir, id);
-			const meta = JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as UniverseMeta;
 
-			const entry: UniverseMeta = {
-				id: meta.id,
-				name: meta.name,
-				genre: meta.genre,
-				description: meta.description
-			};
-
-			return entry;
+			return JSON.parse(readFileSync(join(universeDir, 'meta.json'), 'utf-8')) as UniverseMeta;
 		});
 
 		return result;

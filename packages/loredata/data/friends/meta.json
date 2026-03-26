@@ -2,5 +2,12 @@
   "id": "friends",
   "name": "Friends",
   "genre": ["comedy", "romance"],
-  "description": "Six friends navigate life, love, and careers in New York City over ten years of coffee-shop conversations and apartment mishaps."
+  "description": "Six friends navigate life, love, and careers in New York City over ten years of coffee-shop conversations and apartment mishaps.",
+  "tmdbId": 1668,
+  "mediaType": "tv",
+  "year": 1994,
+  "rating": 8.4,
+  "networks": ["NBC"],
+  "posterPath": "/2koX1xLkpTQM4IZebYvKysFW1Nh.jpg",
+  "backdropPath": "/ykDYy50mHU52PqYEu4xiFFOw5mw.jpg"
 }

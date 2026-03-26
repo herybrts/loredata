@@ -55,6 +55,9 @@ Thumbs.db
 # Script inputs
 packages/loredata/scripts/patch.json
 
+# Environment variables
+.env*
+
 # Temporary files
 *.tmp
 *.temp

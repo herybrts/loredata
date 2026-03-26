@@ -2,5 +2,12 @@
   "id": "game-of-thrones",
   "name": "Game of Thrones",
   "genre": ["fantasy", "drama", "action"],
-  "description": "Noble families of Westeros fight for control of the Iron Throne while an ancient threat stirs beyond the Wall."
+  "description": "Noble families of Westeros fight for control of the Iron Throne while an ancient threat stirs beyond the Wall.",
+  "tmdbId": 1399,
+  "mediaType": "tv",
+  "year": 2011,
+  "rating": 8.5,
+  "networks": ["HBO"],
+  "posterPath": "/1XS1oqL89opfnbLl8WnZY1O1uJx.jpg",
+  "backdropPath": "/zZqpAXxVSBtxV9qPBcscfXBcL2w.jpg"
 }

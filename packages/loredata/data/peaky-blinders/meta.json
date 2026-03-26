@@ -2,5 +2,12 @@
   "id": "peaky-blinders",
   "name": "Peaky Blinders",
   "genre": ["crime", "drama", "historical"],
-  "description": "The Shelby crime family rises from the streets of post-WWI Birmingham to become one of Britain's most powerful criminal empires."
+  "description": "The Shelby crime family rises from the streets of post-WWI Birmingham to become one of Britain's most powerful criminal empires.",
+  "tmdbId": 60574,
+  "mediaType": "tv",
+  "year": 2013,
+  "rating": 8.5,
+  "networks": ["BBC One", "Netflix", "BBC Two", "BBC Television"],
+  "posterPath": "/vUUqzWa2LnHIVqkaKVlVGkVcZIW.jpg",
+  "backdropPath": "/wiE9doxiLwq3WCGamDIOb2PqBqc.jpg"
 }
