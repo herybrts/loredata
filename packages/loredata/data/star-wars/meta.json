@@ -1,0 +1,13 @@
+{
+  "id": "star-wars",
+  "name": "Star Wars",
+  "genre": ["science fiction", "action", "adventure"],
+  "description": "An epic space opera saga following the eternal struggle between the Jedi and the Sith across a galaxy far, far away.",
+  "tmdbId": 11,
+  "mediaType": "movie",
+  "year": 1977,
+  "rating": 8.2,
+  "networks": ["Lucasfilm Ltd.", "20th Century Fox"],
+  "posterPath": "/6FfCtAuVAW8XJjZ7eWeLibRLWTw.jpg",
+  "backdropPath": "/yUiXA68FfQeA8cRBhd0Ao0jIRZt.jpg"
+}

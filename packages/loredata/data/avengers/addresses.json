@@ -1,0 +1,27 @@
+[
+  {
+    "street": "200 Park Avenue",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10166",
+    "country": "US"
+  },
+  {
+    "city": "Upstate New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "street": "1327 F Street NW",
+    "city": "Washington",
+    "state": "DC",
+    "zip": "20004",
+    "country": "US"
+  },
+  {
+    "city": "Wakanda"
+  },
+  {
+    "city": "Asgard"
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "city": "Tatooine"
+  },
+  {
+    "city": "Coruscant"
+  },
+  {
+    "city": "Hoth"
+  },
+  {
+    "street": "Cloud City",
+    "city": "Bespin"
+  },
+  {
+    "street": "Mos Eisley",
+    "city": "Tatooine"
+  }
+]

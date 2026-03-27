@@ -35,7 +35,8 @@
     "gender": "male",
     "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
     "symbol": "🔬",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["221b-baker.co.uk", "detective-consulting.net"]
   },
   {
     "id": "john-watson",
@@ -65,7 +66,8 @@
     "gender": "male",
     "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
     "symbol": "🩺",
-    "color": "#65a30d"
+    "color": "#65a30d",
+    "emailDomains": ["221b-baker.co.uk", "watson-surgery.co.uk"]
   },
   {
     "id": "james-moriarty",
@@ -92,7 +94,8 @@
     ],
     "gender": "male",
     "symbol": "💣",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["criminal-consulting.net", "london-crime.org"]
   },
   {
     "id": "irene-adler",
@@ -120,7 +123,8 @@
     "gender": "female",
     "address": { "street": "Egerton Gardens", "city": "London", "country": "GB" },
     "symbol": "🔐",
-    "color": "#1e3a5f"
+    "color": "#1e3a5f",
+    "emailDomains": ["london-post.net", "adler-consulting.co.uk"]
   },
   {
     "id": "mycroft-holmes",
@@ -149,7 +153,8 @@
     "gender": "male",
     "address": { "street": "Pall Mall", "city": "London", "country": "GB" },
     "symbol": "🕴️",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["diogenes-club.co.uk", "whitehall-gov.uk"]
   },
   {
     "id": "mrs-hudson",
@@ -177,7 +182,8 @@
     "gender": "female",
     "address": { "street": "221B Baker Street", "city": "London", "country": "GB" },
     "symbol": "☕",
-    "color": "#16a34a"
+    "color": "#16a34a",
+    "emailDomains": ["221b-baker.co.uk", "london-post.net"]
   },
   {
     "id": "greg-lestrade",
@@ -204,7 +210,8 @@
     ],
     "gender": "male",
     "symbol": "👮",
-    "color": "#064e3b"
+    "color": "#064e3b",
+    "emailDomains": ["met-police.gov.uk", "scotland-yard.co.uk"]
   },
   {
     "id": "molly-hooper",
@@ -232,7 +239,8 @@
     "gender": "female",
     "address": { "street": "West Smithfield", "city": "London", "country": "GB" },
     "symbol": "🔪",
-    "color": "#0284c7"
+    "color": "#0284c7",
+    "emailDomains": ["barts-hospital.co.uk", "pathology-london.net"]
   },
   {
     "id": "mary-watson",
@@ -259,6 +267,7 @@
     ],
     "gender": "female",
     "symbol": "🎯",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["221b-baker.co.uk", "watson-surgery.co.uk"]
   }
 ]

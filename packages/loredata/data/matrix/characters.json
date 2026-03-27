@@ -23,7 +23,8 @@
     ],
     "gender": "male",
     "symbol": "💊",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["metacortex.com", "zion-free.net"]
   },
   {
     "id": "morpheus",
@@ -49,7 +50,8 @@
     ],
     "gender": "male",
     "symbol": "🔴",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["zion-free.net", "nebuchadnezzar.net"]
   },
   {
     "id": "trinity",
@@ -75,7 +77,8 @@
     ],
     "gender": "female",
     "symbol": "💻",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["zion-free.net", "nebuchadnezzar.net"]
   },
   {
     "id": "agent-smith",
@@ -101,7 +104,8 @@
     ],
     "gender": "male",
     "symbol": "🕶️",
-    "color": "#059669"
+    "color": "#059669",
+    "emailDomains": ["matrix-agents.com", "machine-city.net"]
   },
   {
     "id": "the-oracle",
@@ -127,7 +131,8 @@
     ],
     "gender": "female",
     "symbol": "🍪",
-    "color": "#16a34a"
+    "color": "#16a34a",
+    "emailDomains": ["zion-free.net", "oracle-program.net"]
   },
   {
     "id": "cypher",
@@ -153,7 +158,8 @@
     ],
     "gender": "male",
     "symbol": "🥩",
-    "color": "#d97706"
+    "color": "#d97706",
+    "emailDomains": ["matrix-agents.com", "zion-free.net"]
   },
   {
     "id": "tank",
@@ -179,7 +185,8 @@
     ],
     "gender": "male",
     "symbol": "⚙️",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["nebuchadnezzar.net", "hardline-operator.net"]
   },
   {
     "id": "mouse",
@@ -203,7 +210,8 @@
     ],
     "gender": "male",
     "symbol": "👻",
-    "color": "#475569"
+    "color": "#475569",
+    "emailDomains": ["nebuchadnezzar.net", "construct-sim.net"]
   },
   {
     "id": "the-architect",
@@ -229,7 +237,8 @@
     ],
     "gender": "male",
     "symbol": "📐",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["machine-city.net", "matrix-agents.com"]
   },
   {
     "id": "seraph",
@@ -253,7 +262,8 @@
     ],
     "gender": "male",
     "symbol": "🛡️",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["oracle-program.net", "tea-house.net"]
   },
   {
     "id": "niobe",
@@ -277,6 +287,7 @@
     ],
     "gender": "female",
     "symbol": "🚀",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["zion-free.net", "logos-ship.net"]
   }
 ]

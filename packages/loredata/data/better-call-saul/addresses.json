@@ -1,0 +1,37 @@
+[
+  {
+    "street": "9800 Montgomery Blvd NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87111",
+    "country": "US"
+  },
+  {
+    "street": "4257 Isleta Blvd SW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87105",
+    "country": "US"
+  },
+  {
+    "street": "160 Juan Tabo Blvd NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87123",
+    "country": "US"
+  },
+  {
+    "street": "6501 Montgomery Blvd NE",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87109",
+    "country": "US"
+  },
+  {
+    "street": "2727 Rio Grande Blvd NW",
+    "city": "Albuquerque",
+    "state": "NM",
+    "zip": "87104",
+    "country": "US"
+  }
+]

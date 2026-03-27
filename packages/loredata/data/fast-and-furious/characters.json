@@ -21,7 +21,8 @@
       "country": "US"
     },
     "symbol": "🏁",
-    "color": "#2563eb"
+    "color": "#2563eb",
+    "emailDomains": ["toretto-garage.com", "la-street.net"]
   },
   {
     "id": "brian-oconner",
@@ -39,7 +40,8 @@
     ],
     "gender": "male",
     "symbol": "🚓",
-    "color": "#7c3aed"
+    "color": "#7c3aed",
+    "emailDomains": ["fbi.gov", "la-street.net"]
   },
   {
     "id": "letty-ortiz",
@@ -57,7 +59,8 @@
     ],
     "gender": "female",
     "symbol": "🔧",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["toretto-garage.com", "la-street.net"]
   },
   {
     "id": "roman-pearce",
@@ -75,7 +78,8 @@
     ],
     "gender": "male",
     "symbol": "💸",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["la-street.net", "pearce-driving.com"]
   },
   {
     "id": "tej-parker",
@@ -93,7 +97,8 @@
     ],
     "gender": "male",
     "symbol": "💻",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["la-street.net", "parker-tech.net"]
   },
   {
     "id": "han-lue",
@@ -111,7 +116,8 @@
     ],
     "gender": "male",
     "symbol": "🍿",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["la-street.net", "tokyo-drift.net"]
   },
   {
     "id": "hobbs",
@@ -129,6 +135,7 @@
     ],
     "gender": "male",
     "symbol": "💪",
-    "color": "#7f1d1d"
+    "color": "#7f1d1d",
+    "emailDomains": ["dss-agency.gov", "dss-hq.net"]
   }
 ]

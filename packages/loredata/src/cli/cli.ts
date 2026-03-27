@@ -49,7 +49,6 @@ program
 				`
 Name:       ${result.firstName} ${result.lastName} (@${result.username})
 Email:      ${result.email}
-Phone:      ${result.phone}
 Address:    ${[result.address.street, result.address.city, result.address.country].filter(Boolean).join(', ')}
 Profession: ${result.profession}
 Interests:  ${result.interests.join(', ')}

@@ -13,8 +13,6 @@ export interface Person {
 	lastName: string;
 	username: string;
 	email: string;
-	password: string;
-	phone: string;
 	address: Address;
 	profession: string;
 	interests: string[];

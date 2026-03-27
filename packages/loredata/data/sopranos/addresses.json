@@ -1,0 +1,37 @@
+[
+  {
+    "street": "14 Aspen Drive",
+    "city": "North Caldwell",
+    "state": "NJ",
+    "zip": "07006",
+    "country": "US"
+  },
+  {
+    "street": "392 Kearny Avenue",
+    "city": "Kearny",
+    "state": "NJ",
+    "zip": "07032",
+    "country": "US"
+  },
+  {
+    "street": "430 Route 17 North",
+    "city": "Lodi",
+    "state": "NJ",
+    "zip": "07644",
+    "country": "US"
+  },
+  {
+    "street": "1063 Broad Street",
+    "city": "Bloomfield",
+    "state": "NJ",
+    "zip": "07003",
+    "country": "US"
+  },
+  {
+    "street": "303 Parsonage Hill Road",
+    "city": "Short Hills",
+    "state": "NJ",
+    "zip": "07078",
+    "country": "US"
+  }
+]

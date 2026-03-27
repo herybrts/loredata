@@ -1,0 +1,13 @@
+{
+  "id": "guardians-of-the-galaxy",
+  "name": "Guardians of the Galaxy",
+  "genre": ["action", "sci-fi", "comedy"],
+  "description": "A ragtag group of intergalactic misfits bands together to protect the galaxy from cosmic threats.",
+  "tmdbId": 118340,
+  "mediaType": "movie",
+  "year": 2014,
+  "rating": 7.9,
+  "networks": ["Marvel Studios"],
+  "posterPath": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
+  "backdropPath": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg"
+}

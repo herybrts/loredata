@@ -1,0 +1,153 @@
+[
+  {
+    "id": "luke-skywalker",
+    "firstName": "Luke",
+    "lastName": "Skywalker",
+    "usernames": ["last_jedi", "tatooine_farm_boy", "bulls_eye_womprat"],
+    "profession": "pilot",
+    "interests": ["flying", "lightsaber training", "rebellion", "droids", "moisture farming"],
+    "quotes": [
+      "I am a Jedi, like my father before me.",
+      "I'll never join you!",
+      "The Force is strong in my family.",
+      "I will not fight you, Father.",
+      "May the Force be with you."
+    ],
+    "gender": "male",
+    "symbol": "💚",
+    "color": "#1e3a5f",
+    "emailDomains": ["rebel-alliance.net", "jedi-order.org"]
+  },
+  {
+    "id": "darth-vader",
+    "firstName": "Darth",
+    "lastName": "Vader",
+    "usernames": ["i_find_your_lack", "no_i_am_your_father", "heavy_breathing"],
+    "profession": "commander",
+    "interests": ["military tactics", "the Empire", "interrogation", "engineering"],
+    "quotes": [
+      "I am your father.",
+      "The Force is strong with this one.",
+      "There is no escape. Don't make me destroy you.",
+      "Luke, you can destroy the Emperor. He has foreseen this. It is your destiny. Join me, and together we can rule the galaxy as father and son.",
+      "I find your lack of faith disturbing."
+    ],
+    "gender": "male",
+    "symbol": "🌑",
+    "color": "#7f1d1d",
+    "emailDomains": ["galactic-empire.com", "sith-order.net"]
+  },
+  {
+    "id": "han-solo",
+    "firstName": "Han",
+    "lastName": "Solo",
+    "usernames": ["millennium_falcon", "nerf_herder", "never_tell_odds"],
+    "profession": "smuggler",
+    "interests": ["smuggling", "flying", "gambling", "sabacc", "starship mechanics"],
+    "quotes": [
+      "Never tell me the odds.",
+      "I know.",
+      "Punch it.",
+      "Hokey religions and ancient weapons are no match for a good blaster at your side, kid.",
+      "You know, sometimes I amaze even myself."
+    ],
+    "gender": "male",
+    "symbol": "🚀",
+    "color": "#166534",
+    "emailDomains": ["rebel-alliance.net", "corellian-post.net"]
+  },
+  {
+    "id": "leia-organa",
+    "firstName": "Leia",
+    "lastName": "Organa",
+    "usernames": ["into_the_garbage", "buns_of_alderaan", "tighten_your_grip"],
+    "profession": "senator",
+    "interests": ["rebellion", "diplomacy", "leadership", "freedom"],
+    "quotes": [
+      "Help me, Obi-Wan Kenobi. You're my only hope.",
+      "Will somebody get this walking carpet out of my way?!",
+      "Aren't you a little short for a stormtrooper?",
+      "The more you tighten your grip, Tarkin, the more star systems will slip through your fingers.",
+      "Why you stuck-up, half-witted, scruffy-looking, nerf herder!"
+    ],
+    "gender": "female",
+    "symbol": "🕊️",
+    "color": "#4a1942",
+    "emailDomains": ["rebel-alliance.net", "alderaan-senate.gov"]
+  },
+  {
+    "id": "yoda",
+    "firstName": "Yoda",
+    "usernames": ["do_or_do_not", "nine_hundred_years", "luminous_being"],
+    "profession": "Jedi Master",
+    "interests": ["Force philosophy", "cooking", "training", "the Jedi Order", "meditation"],
+    "quotes": [
+      "Do or do not. There is no try.",
+      "Fear is the path to the dark side.",
+      "Wars not make one great.",
+      "When nine hundred years old you reach, look as good you will not.",
+      "Luminous beings are we, not this crude matter."
+    ],
+    "gender": "male",
+    "symbol": "🌿",
+    "color": "#166534",
+    "emailDomains": ["jedi-order.org", "dagobah-exile.net"]
+  },
+  {
+    "id": "obi-wan-kenobi",
+    "firstName": "Obi-Wan",
+    "lastName": "Kenobi",
+    "usernames": ["hello_there", "old_ben", "the_high_ground"],
+    "profession": "Jedi Knight",
+    "interests": ["lightsaber combat", "training", "negotiation", "the Republic", "philosophy"],
+    "quotes": [
+      "These aren't the droids you're looking for.",
+      "Hello there.",
+      "Use the Force, Luke.",
+      "In my experience, there is no such thing as luck.",
+      "You were my brother, Anakin! I loved you!"
+    ],
+    "gender": "male",
+    "symbol": "⚔️",
+    "color": "#1e3a5f",
+    "emailDomains": ["jedi-order.org", "tatooine-exile.net"]
+  },
+  {
+    "id": "emperor-palpatine",
+    "firstName": "Sheev",
+    "lastName": "Palpatine",
+    "usernames": ["unlimited_power", "senate_is_me", "order_66"],
+    "profession": "Emperor",
+    "interests": [
+      "senate procedure",
+      "the dark side",
+      "Sith alchemy",
+      "the Sith",
+      "political scheming"
+    ],
+    "quotes": [
+      "Now, young Skywalker, you will die.",
+      "Everything is proceeding as I have foreseen.",
+      "Good. I can feel your anger.",
+      "Your feeble skills are no match for the power of the dark side.",
+      "Do it.",
+      "I am the Senate."
+    ],
+    "gender": "male",
+    "symbol": "🌩️",
+    "color": "#2d1b69",
+    "emailDomains": ["galactic-empire.com", "sith-order.net"]
+  },
+  {
+    "id": "chewbacca",
+    "firstName": "Chewbacca",
+    "usernames": ["walking_carpet", "twelve_parsecs", "life_debt_paid"],
+    "profession": "co-pilot",
+    "interests": ["the Millennium Falcon", "dejarik", "Wookiee culture", "mechanics"],
+    "quotes": ["Aaaargh!", "Rrraaawwwr!", "Wuaaaah!", "Hrraaah!", "Rrwwgg!"],
+    "gender": "male",
+    "symbol": "🐻",
+    "color": "#4a3728",
+    "emailDomains": ["millennium-falcon.net", "kashyyyk-mail.net"]
+  }
+]

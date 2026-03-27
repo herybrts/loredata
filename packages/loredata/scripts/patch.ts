@@ -6,6 +6,8 @@
  *   node --import tsx/esm scripts/patch.ts chars breaking-bad
  *   node --import tsx/esm scripts/patch.ts meta
  *   node --import tsx/esm scripts/patch.ts meta breaking-bad
+ *   node --import tsx/esm scripts/patch.ts delete-key domains someField
+ *   node --import tsx/esm scripts/patch.ts delete-key domains someField breaking-bad
  *
  * Patches are read from scripts/patch.json (gitignored).
  *
@@ -24,7 +26,7 @@
  * }
  */
 
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { join } from 'path';
 
 import { formatJson } from './format-json';
@@ -114,6 +116,28 @@ class Patcher {
 		console.log(`  ✓ ${universeId}: ${patchedCount} character(s) patched`);
 	}
 
+	deleteKey(file: string, key: string, targetUniverse?: string): void {
+		const universes = targetUniverse
+			? [targetUniverse]
+			: readdirSync(DATA_DIR, { withFileTypes: true })
+					.filter((d) => d.isDirectory())
+					.map((d) => d.name);
+
+		for (const universeId of universes) {
+			const filePath = join(DATA_DIR, universeId, `${file}.json`);
+
+			if (!existsSync(filePath)) continue;
+
+			const data = JSON.parse(readFileSync(filePath, 'utf-8')) as Record<string, unknown>;
+
+			if (!(key in data)) continue;
+
+			delete data[key];
+			writeFileSync(filePath, formatJson(data));
+			console.log(`  ✓ ${universeId}/${file}.json: removed "${key}"`);
+		}
+	}
+
 	private patchMeta(universeId: string, patch: MetaPatch): void {
 		const filePath = join(DATA_DIR, universeId, 'meta.json');
 
@@ -130,14 +154,21 @@ class Patcher {
 	}
 }
 
-const [mode, universe] = process.argv.slice(2);
+const [mode, arg1, arg2, arg3] = process.argv.slice(2);
 const patcher = new Patcher();
 
 if (mode === 'chars') {
-	patcher.chars(universe);
+	patcher.chars(arg1);
 } else if (mode === 'meta') {
-	patcher.meta(universe);
+	patcher.meta(arg1);
+} else if (mode === 'delete-key') {
+	if (!arg1 || !arg2) {
+		console.error('Usage: patch.ts delete-key <file> <key> [universe-id]');
+		process.exit(1);
+	}
+
+	patcher.deleteKey(arg1, arg2, arg3);
 } else {
-	console.error('Usage: patch.ts <chars|meta> [universe-id]');
+	console.error('Usage: patch.ts <chars|meta|delete-key> [args]');
 	process.exit(1);
 }

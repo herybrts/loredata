@@ -1,0 +1,13 @@
+{
+  "id": "better-call-saul",
+  "name": "Better Call Saul",
+  "genre": ["crime", "drama", "thriller"],
+  "description": "A small-time lawyer in Albuquerque transforms into the morally compromised criminal attorney Saul Goodman, drawn step by step into the world of drug cartels and organized crime.",
+  "tmdbId": 60059,
+  "mediaType": "tv",
+  "year": 2015,
+  "rating": 8.7,
+  "networks": ["AMC"],
+  "posterPath": "/zjg4jpK1Wp2kiRvtt5ND0kznako.jpg",
+  "backdropPath": "/t15KHp3iNfHVQBNIaqUGW12xQA4.jpg"
+}

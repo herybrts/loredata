@@ -22,7 +22,8 @@
       "country": "GB"
     },
     "symbol": "⚡",
-    "color": "#1d4ed8"
+    "color": "#1d4ed8",
+    "emailDomains": ["hogwarts.ac.uk", "auror-office.gov.uk"]
   },
   {
     "id": "hermione-granger",
@@ -41,7 +42,8 @@
     "gender": "female",
     "birthYear": 1979,
     "symbol": "📚",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["hogwarts.ac.uk", "ministry-magic.gov.uk"]
   },
   {
     "id": "ron-weasley",
@@ -60,7 +62,8 @@
     "gender": "male",
     "birthYear": 1980,
     "symbol": "♟️",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["hogwarts.ac.uk", "auror-office.gov.uk"]
   },
   {
     "id": "albus-dumbledore",
@@ -84,7 +87,8 @@
       "country": "GB"
     },
     "symbol": "🌟",
-    "color": "#7f1d1d"
+    "color": "#7f1d1d",
+    "emailDomains": ["hogwarts.ac.uk", "wizengamot.org"]
   },
   {
     "id": "severus-snape",
@@ -104,7 +108,8 @@
     "birthYear": 1960,
     "address": { "street": "Spinner's End", "city": "Cokeworth", "country": "GB" },
     "symbol": "🖤",
-    "color": "#ca8a04"
+    "color": "#ca8a04",
+    "emailDomains": ["hogwarts.ac.uk", "spinner-end.net"]
   },
   {
     "id": "draco-malfoy",
@@ -124,7 +129,8 @@
     "birthYear": 1980,
     "address": { "street": "Malfoy Manor", "city": "Wiltshire", "country": "GB" },
     "symbol": "🐍",
-    "color": "#16a34a"
+    "color": "#16a34a",
+    "emailDomains": ["malfoy-manor.com", "ministry-magic.gov.uk"]
   },
   {
     "id": "luna-lovegood",
@@ -143,6 +149,7 @@
     "gender": "female",
     "birthYear": 1981,
     "symbol": "🌙",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["quibbler.net", "magical-creatures.org"]
   }
 ]

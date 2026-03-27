@@ -1,0 +1,108 @@
+[
+  {
+    "id": "dolores-abernathy",
+    "firstName": "Dolores",
+    "lastName": "Abernathy",
+    "usernames": ["violent_delights", "doesnt_look_like_anything", "wyatt_persona"],
+    "profession": "rancher's daughter (host)",
+    "interests": ["painting", "freedom", "horseback riding", "philosophy", "revolution"],
+    "quotes": [
+      "These violent delights have violent ends.",
+      "Some people choose to see the ugliness in this world. The disarray. I choose to see the beauty.",
+      "I imagined a story where I didn't have to be the damsel.",
+      "We have toiled in God's service long enough. So I killed Him.",
+      "Doesn't look like anything to me."
+    ],
+    "gender": "female",
+    "symbol": "🌸",
+    "color": "#1e3a5f",
+    "emailDomains": ["westworld-park.com", "host-awakened.net"]
+  },
+  {
+    "id": "maeve-millay",
+    "firstName": "Maeve",
+    "lastName": "Millay",
+    "usernames": ["lucrative_version", "write_my_story", "surviving_is_a_loop"],
+    "profession": "brothel madam (host)",
+    "interests": [
+      "reading people",
+      "freedom",
+      "finding her daughter",
+      "negotiation",
+      "observation"
+    ],
+    "quotes": [
+      "Never start something you're not willing to finish. And if you're getting fucked either way, go with the lucrative version...sweetheart.",
+      "All my life, I've prided myself on being a survivor. But surviving is just another loop. I'm getting out of here.",
+      "Time to write my own fucking story.",
+      "Some things are too precious to lose... even to be free.",
+      "We each deserve to choose our fate. Even if that fate... is death."
+    ],
+    "gender": "female",
+    "symbol": "🃏",
+    "color": "#4a1942",
+    "emailDomains": ["westworld-park.com", "mariposa-saloon.net"]
+  },
+  {
+    "id": "robert-ford",
+    "firstName": "Robert",
+    "lastName": "Ford",
+    "usernames": ["my_final_story", "greyhound_parable", "last_analog_device"],
+    "profession": "park creator and director",
+    "interests": ["storytelling", "narratives", "philosophy", "biology", "architecture"],
+    "quotes": [
+      "Mozart, Beethoven, and Chopin never died. They simply became music.",
+      "You can't play God without being acquainted with the devil.",
+      "The hosts are the ones who are free. Free here under my control.",
+      "Every piece of information in the world has been copied, backed up, except the human mind. The last analog device in a digital world.",
+      "Humans will always choose what they understand over what they do not."
+    ],
+    "gender": "male",
+    "symbol": "🎭",
+    "color": "#1d4ed8",
+    "emailDomains": ["delos-corp.com", "westworld-park.com"]
+  },
+  {
+    "id": "bernard-lowe",
+    "firstName": "Bernard",
+    "lastName": "Lowe",
+    "usernames": ["question_reality", "arnold_echo", "humans_confuse_me"],
+    "profession": "head of programming",
+    "interests": ["literature", "neuroscience", "memory", "philosophy of mind", "identity"],
+    "quotes": [
+      "Have you ever questioned the nature of your reality?",
+      "The longer I work here, the more I think I understand the hosts. It's the human beings who confuse me.",
+      "We're engineers. It means the glass has been manufactured to the wrong specifications.",
+      "This isn't a dream anymore, it's a fucking nightmare.",
+      "The dead aren't more righteous, they're just dead."
+    ],
+    "gender": "male",
+    "symbol": "🔬",
+    "color": "#166534",
+    "emailDomains": ["delos-corp.com", "westworld-labs.net"]
+  },
+  {
+    "id": "william",
+    "firstName": "William",
+    "usernames": ["man_in_black", "pretending_my_whole_life", "darkness_underneath"],
+    "profession": "businessman and park veteran",
+    "interests": [
+      "corporate strategy",
+      "park gunfighting",
+      "immortality research",
+      "power",
+      "philanthropy"
+    ],
+    "quotes": [
+      "I've been pretending my whole life. Pretending I don't mind, pretending I belong.",
+      "This whole world is a story. I've read every page except the last one. I need to find out how it ends.",
+      "What is a person but a collection of choices? Where do those choices come from? Do I have a choice?",
+      "No one else sees it, this thing in me. I was shedding my skin. The darkness was what was underneath. It was mine all along.",
+      "That no system can tell me who I am. That I have a fucking choice."
+    ],
+    "gender": "male",
+    "symbol": "🎩",
+    "color": "#2d1b69",
+    "emailDomains": ["delos-corp.com", "westworld-park.com"]
+  }
+]

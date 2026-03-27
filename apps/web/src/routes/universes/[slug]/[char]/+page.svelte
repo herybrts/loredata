@@ -27,7 +27,7 @@ function reroll(): void {
 	<title>{character.firstName} {character.lastName} — {universe.name} — loredata</title>
 	<meta
 		name="description"
-		content="Generate fake data for {character.firstName} {character.lastName} from {universe.name}. Realistic email, phone, address and more." />
+		content="Generate fake data for {character.firstName} {character.lastName} from {universe.name}. Realistic email, address and more." />
 	<meta
 		property="og:title"
 		content="{character.firstName} {character.lastName} — {universe.name}" />
@@ -39,7 +39,7 @@ function reroll(): void {
 		content="website" />
 </svelte:head>
 
-<div class="space-y-8 pt-4">
+<div class="space-y-8">
 	<div class="space-y-2">
 		<p class="text-surface-500 text-sm">
 			<a

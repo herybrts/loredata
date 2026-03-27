@@ -21,7 +21,8 @@
       "country": "US"
     },
     "symbol": "🏆",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["dunder-mifflin.com", "michaelscottpaperco.net"]
   },
   {
     "id": "dwight-schrute",
@@ -45,7 +46,8 @@
       "country": "US"
     },
     "symbol": "🌱",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["dunder-mifflin.com", "pennsylvania-mail.net"]
   },
   {
     "id": "jim-halpert",
@@ -63,7 +65,8 @@
     ],
     "gender": "male",
     "symbol": "😏",
-    "color": "#166534"
+    "color": "#166534",
+    "emailDomains": ["dunder-mifflin.com", "athlead.net"]
   },
   {
     "id": "pam-beesly",
@@ -81,7 +84,8 @@
     ],
     "gender": "female",
     "symbol": "🎨",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["dunder-mifflin.com", "beesly-art.net"]
   },
   {
     "id": "ryan-howard",
@@ -99,7 +103,8 @@
     ],
     "gender": "male",
     "symbol": "💻",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["dunder-mifflin.com", "wuphf.com"]
   },
   {
     "id": "andy-bernard",
@@ -117,7 +122,8 @@
     ],
     "gender": "male",
     "symbol": "🎵",
-    "color": "#475569"
+    "color": "#475569",
+    "emailDomains": ["dunder-mifflin.com", "cornell-alumni.edu"]
   },
   {
     "id": "angela-martin",
@@ -135,7 +141,8 @@
     ],
     "gender": "female",
     "symbol": "🐱",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["dunder-mifflin.com", "cat-fanciers.net"]
   },
   {
     "id": "kelly-kapoor",
@@ -153,7 +160,8 @@
     ],
     "gender": "female",
     "symbol": "💬",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["dunder-mifflin.com", "ryan-and-kelly.net"]
   },
   {
     "id": "kevin-malone",
@@ -171,7 +179,8 @@
     ],
     "gender": "male",
     "symbol": "🍲",
-    "color": "#854d0e"
+    "color": "#854d0e",
+    "emailDomains": ["dunder-mifflin.com", "kevins-chili.net"]
   },
   {
     "id": "oscar-martinez",
@@ -189,7 +198,8 @@
     ],
     "gender": "male",
     "symbol": "💡",
-    "color": "#1d4ed8"
+    "color": "#1d4ed8",
+    "emailDomains": ["dunder-mifflin.com", "accounting-scranton.net"]
   },
   {
     "id": "darryl-philbin",
@@ -207,7 +217,8 @@
     ],
     "gender": "male",
     "symbol": "🎧",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["dunder-mifflin.com", "athlead.net"]
   },
   {
     "id": "stanley-hudson",
@@ -225,7 +236,8 @@
     ],
     "gender": "male",
     "symbol": "🥨",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["dunder-mifflin.com", "florida-retirement.net"]
   },
   {
     "id": "creed-bratton",
@@ -243,7 +255,8 @@
     ],
     "gender": "male",
     "symbol": "👻",
-    "color": "#9333ea"
+    "color": "#9333ea",
+    "emailDomains": ["dunder-mifflin.com", "nobody-knows-creed.net"]
   },
   {
     "id": "toby-flenderson",
@@ -261,7 +274,8 @@
     ],
     "gender": "male",
     "symbol": "🗂️",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["dunder-mifflin.com", "hr-scranton.net"]
   },
   {
     "id": "phyllis-vance",
@@ -279,6 +293,7 @@
     ],
     "gender": "female",
     "symbol": "🧶",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["dunder-mifflin.com", "vance-refrigeration.com"]
   }
 ]

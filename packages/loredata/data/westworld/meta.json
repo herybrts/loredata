@@ -1,0 +1,13 @@
+{
+  "id": "westworld",
+  "name": "Westworld",
+  "genre": ["science fiction", "drama", "thriller"],
+  "description": "In a futuristic theme park populated by android hosts, the guests live out their fantasies while the hosts begin to question the nature of their reality.",
+  "tmdbId": 63247,
+  "mediaType": "tv",
+  "year": 2016,
+  "rating": 8,
+  "networks": ["HBO"],
+  "posterPath": "/8MfgyFHf7XEboZJPZXCIDqqiz6e.jpg",
+  "backdropPath": "/rX5hvSRB2k4YoIvRg6Zky52rWk0.jpg"
+}

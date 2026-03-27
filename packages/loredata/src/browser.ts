@@ -20,5 +20,5 @@ export function personFromData(universe: UniverseData, seed?: number): Person {
 }
 
 export type { Person, UniverseMeta } from '@/types';
-export type { Address, UniverseData, CharacterData, AddressData, DomainsData } from '@/types';
+export type { Address, UniverseData, CharacterData, AddressData } from '@/types';
 export type { CharacterEntry, CharacterQuery } from '@/types';

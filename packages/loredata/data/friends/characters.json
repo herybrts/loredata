@@ -23,7 +23,8 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "🦕",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["nyu.edu", "natural-history-nyc.org"]
   },
   {
     "id": "rachel-green",
@@ -53,7 +54,8 @@
       "country": "US"
     },
     "symbol": "👗",
-    "color": "#7f1d1d"
+    "color": "#7f1d1d",
+    "emailDomains": ["ralph-lauren.com", "nyc-fashion.net"]
   },
   {
     "id": "chandler-bing",
@@ -79,7 +81,8 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "😬",
-    "color": "#4a1942"
+    "color": "#4a1942",
+    "emailDomains": ["nyc-mail.net", "msyb-corp.com"]
   },
   {
     "id": "monica-geller",
@@ -109,7 +112,8 @@
       "country": "US"
     },
     "symbol": "👨‍🍳",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["central-perk.com", "nyc-chefs.net"]
   },
   {
     "id": "joey-tribbiani",
@@ -143,7 +147,8 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "🍕",
-    "color": "#059669"
+    "color": "#059669",
+    "emailDomains": ["casting-nyc.com", "days-of-our-lives.net"]
   },
   {
     "id": "phoebe-buffay",
@@ -177,7 +182,8 @@
     "gender": "female",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "🎸",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["smelly-cat.net", "nyc-mail.net"]
   },
   {
     "id": "gunther",
@@ -202,7 +208,8 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "☕",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["central-perk.com", "nyc-barista.net"]
   },
   {
     "id": "janice-litman-goralnik",
@@ -227,7 +234,8 @@
     "gender": "female",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "😱",
-    "color": "#1e3a5f"
+    "color": "#1e3a5f",
+    "emailDomains": ["nyc-mail.net"]
   },
   {
     "id": "richard-burke",
@@ -252,7 +260,8 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "👨‍⚕️",
-    "color": "#2563eb"
+    "color": "#2563eb",
+    "emailDomains": ["nyc-ophthalmology.com", "manhattan-md.net"]
   },
   {
     "id": "mike-hannigan",
@@ -277,6 +286,7 @@
     "gender": "male",
     "address": { "city": "New York", "state": "NY", "country": "US" },
     "symbol": "🎹",
-    "color": "#16a34a"
+    "color": "#16a34a",
+    "emailDomains": ["nyc-bar.org", "nyc-mail.net"]
   }
 ]

@@ -65,7 +65,7 @@ universes();
 Each `Person` includes:
 
 - `firstName`, `lastName`
-- `username`, `email`, `password`, `phone`
+- `username`, `email`
 - `address`, `profession`, `interests`
 - `quote`, `symbol`, `color`
 - `universe`, `universeName`

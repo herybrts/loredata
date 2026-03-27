@@ -2,7 +2,7 @@ import { readFileSync, readdirSync } from 'fs';
 import { createRequire } from 'module';
 import { dirname, join } from 'path';
 
-import type { UniverseData, UniverseMeta, CharacterData, AddressData, DomainsData } from '@/types';
+import type { UniverseData, UniverseMeta, CharacterData, AddressData, CharacterEntry } from '@/types';
 
 const require = createRequire(import.meta.url);
 const packageRoot = dirname(require.resolve('loredata/package.json'));
@@ -31,8 +31,6 @@ export class UniverseLoader {
 
 		const addresses = JSON.parse(readFileSync(join(universeDir, 'addresses.json'), 'utf-8')) as AddressData[];
 
-		const domains = JSON.parse(readFileSync(join(universeDir, 'domains.json'), 'utf-8')) as DomainsData;
-
 		const universeData: UniverseData = {
 			id: meta.id,
 			name: meta.name,
@@ -40,7 +38,6 @@ export class UniverseLoader {
 			description: meta.description,
 			characters,
 			addresses,
-			domains,
 			...(meta.tmdbId !== undefined && { tmdbId: meta.tmdbId }),
 			...(meta.mediaType !== undefined && { mediaType: meta.mediaType }),
 			...(meta.rating !== undefined && { rating: meta.rating }),
@@ -103,6 +100,29 @@ export class UniverseLoader {
 		const result = Array.from(citySet).sort();
 
 		return result;
+	}
+
+	static buildCharacterIndex(): CharacterEntry[] {
+		const ids = this.listAvailable();
+		const entries: CharacterEntry[] = [];
+
+		for (const id of ids) {
+			const universe = this.load(id);
+
+			for (const character of universe.characters) {
+				entries.push({
+					characterId: character.id,
+					universeId: universe.id,
+					universeName: universe.name,
+					firstName: character.firstName ?? '',
+					lastName: character.lastName ?? '',
+					interests: character.interests,
+					profession: character.profession
+				});
+			}
+		}
+
+		return entries;
 	}
 
 	static listAvailable(): string[] {

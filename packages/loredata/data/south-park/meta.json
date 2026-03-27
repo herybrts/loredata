@@ -1,0 +1,13 @@
+{
+  "id": "south-park",
+  "name": "South Park",
+  "genre": ["animation", "comedy", "satire"],
+  "description": "Four foul-mouthed third-graders in a small Colorado mountain town stumble through absurd adventures that skewer politics, religion, and pop culture.",
+  "tmdbId": 2190,
+  "mediaType": "tv",
+  "year": 1997,
+  "rating": 8.3,
+  "networks": ["Comedy Central"],
+  "posterPath": "/1CGwZCFX2qerXaXQJJUB3qUvxq7.jpg",
+  "backdropPath": "/3UviYOlhn8EgXMBuiT6MnUuo1w9.jpg"
+}

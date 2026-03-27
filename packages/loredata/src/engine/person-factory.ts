@@ -1,4 +1,4 @@
-import { createRng, pickRandom, EmailGenerator, PhoneGenerator, PasswordGenerator } from '@/generators';
+import { createRng, pickRandom, EmailGenerator } from '@/generators';
 
 import type { Person, UniverseData, CharacterData } from '@/types';
 
@@ -32,11 +32,8 @@ export class PersonFactory {
 
 		const address = character.address ?? universe.addresses[0];
 		const username = character.usernames[0];
-		const domains = character.emailDomain ? { ...universe.domains, emailDomains: [character.emailDomain] } : universe.domains;
 		const rng = createRng(0);
-		const email = EmailGenerator.generateFromUsername(username, domains, rng);
-		const phone = PhoneGenerator.generate(universe.domains, rng);
-		const password = PasswordGenerator.generate(universe.domains, rng);
+		const email = EmailGenerator.generateFromUsername(username, character.emailDomains, rng);
 		const quote = character.quotes[0];
 
 		const person: Person = {
@@ -46,8 +43,6 @@ export class PersonFactory {
 			lastName: character.lastName,
 			username,
 			email,
-			password,
-			phone,
 			address: {
 				street: address.street,
 				city: address.city,
@@ -69,14 +64,8 @@ export class PersonFactory {
 
 	private static buildFromCharacter(character: CharacterData, universe: UniverseData, rng: () => number): Person {
 		const address = character.address ?? pickRandom(universe.addresses, rng);
-
 		const username = pickRandom(character.usernames, rng);
-
-		const domains = character.emailDomain ? { ...universe.domains, emailDomains: [character.emailDomain] } : universe.domains;
-
-		const email = EmailGenerator.generateFromUsername(username, domains, rng);
-		const phone = PhoneGenerator.generate(universe.domains, rng);
-		const password = PasswordGenerator.generate(universe.domains, rng);
+		const email = EmailGenerator.generateFromUsername(username, character.emailDomains, rng);
 		const quote = pickRandom(character.quotes, rng);
 
 		const person: Person = {
@@ -86,8 +75,6 @@ export class PersonFactory {
 			lastName: character.lastName,
 			username,
 			email,
-			password,
-			phone,
 			address: {
 				street: address.street,
 				city: address.city,

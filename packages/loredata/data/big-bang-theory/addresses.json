@@ -1,0 +1,31 @@
+[
+  {
+    "street": "2311 North Los Robles Avenue",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "street": "1200 East California Boulevard",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "street": "364 South Lake Avenue",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "street": "215 South Lake Avenue",
+    "city": "Pasadena",
+    "state": "CA",
+    "country": "US"
+  },
+  {
+    "city": "Medford",
+    "state": "TX",
+    "country": "US"
+  }
+]

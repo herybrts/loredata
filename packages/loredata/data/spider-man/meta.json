@@ -1,0 +1,13 @@
+{
+  "id": "spider-man",
+  "name": "Spider-Man",
+  "genre": ["action", "adventure", "sci-fi"],
+  "description": "A teenager from Queens gains spider-like abilities and struggles to balance high school life with fighting crime as a masked vigilante.",
+  "tmdbId": 634649,
+  "mediaType": "movie",
+  "year": 2021,
+  "rating": 7.9,
+  "networks": ["Marvel Studios", "Pascal Pictures", "Columbia Pictures"],
+  "posterPath": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+  "backdropPath": "/zD5v1E4joAzFvmAEytt7fM3ivyT.jpg"
+}

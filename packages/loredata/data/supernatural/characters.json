@@ -1,0 +1,113 @@
+[
+  {
+    "id": "dean-winchester",
+    "firstName": "Dean",
+    "lastName": "Winchester",
+    "usernames": ["baby_driver", "righteous_man", "driver_picks_music"],
+    "profession": "hunter",
+    "interests": ["hunting", "classic rock", "pie", "car mechanics", "burgers"],
+    "quotes": [
+      "Saving people, hunting things — the family business.",
+      "Driver picks the music, shotgun shuts his cakehole.",
+      "I'm Batman.",
+      "Son of a bitch.",
+      "I'm tired, man. I'm tired of fighting who I'm supposed to be."
+    ],
+    "gender": "male",
+    "symbol": "🚗",
+    "color": "#1e3a5f",
+    "emailDomains": ["hunter-network.net", "kansas-mail.com"]
+  },
+  {
+    "id": "sam-winchester",
+    "firstName": "Sam",
+    "lastName": "Winchester",
+    "usernames": ["moose_winchester", "lost_my_shoe", "say_yes_never"],
+    "profession": "hunter",
+    "interests": ["research", "law", "hunting", "mythology", "books"],
+    "quotes": [
+      "I lost my shoe.",
+      "Probably because I started the apocalypse.",
+      "Most of the time I can hide it, but I am angry. I'm mad at everything.",
+      "I deserve it, and worse. Hell, you'll never punish me as much as I'm punishing myself.",
+      "I'm gonna rip you apart from the inside out. Do you understand me?!"
+    ],
+    "gender": "male",
+    "symbol": "📚",
+    "color": "#166534",
+    "emailDomains": ["hunter-network.net", "stanford-alumni.edu"]
+  },
+  {
+    "id": "castiel",
+    "firstName": "Castiel",
+    "usernames": ["gripped_tight", "holy_tax_accountant", "profound_bond"],
+    "profession": "angel",
+    "interests": ["bees", "human customs", "prayer", "justice", "pop culture"],
+    "quotes": [
+      "I'm the one who gripped you tight and raised you from perdition.",
+      "I killed two angels this week. That's my brothers. I'm hunted, I have rebelled, and I did it — all of it — for you.",
+      "I don't have much time; we need to talk.",
+      "Loyalty... such a nice quality to see this day and age.",
+      "You don't think you deserve to be saved."
+    ],
+    "gender": "male",
+    "symbol": "🪶",
+    "color": "#1d4ed8",
+    "emailDomains": ["heavenly-host.net", "hunter-network.net"]
+  },
+  {
+    "id": "crowley",
+    "firstName": "Crowley",
+    "usernames": ["king_of_hell", "moose_squirrel", "crossroads_king"],
+    "profession": "King of Hell",
+    "interests": ["deals", "power", "scotch", "contract law", "soul collecting"],
+    "quotes": [
+      "I'm not a monster. I'm a business man.",
+      "Moose. Squirrel.",
+      "I deserve to be loved!",
+      "Success has many fathers, failure is a Winchester.",
+      "First impressions can be deceiving, Moose."
+    ],
+    "gender": "male",
+    "symbol": "🥃",
+    "color": "#7f1d1d",
+    "emailDomains": ["crossroads-deals.net", "hell-mail.org"]
+  },
+  {
+    "id": "bobby-singer",
+    "firstName": "Bobby",
+    "lastName": "Singer",
+    "usernames": ["salvage_yard_bobby", "idjit_hunter", "family_dont_end"],
+    "profession": "hunter",
+    "interests": ["hunting", "research", "whiskey", "salvage yard", "books"],
+    "quotes": [
+      "Idjit.",
+      "Family don't end with blood, boy.",
+      "You're damn right you didn't listen. You were reckless and selfish and arrogant.",
+      "Singer Salvage. You got Bobby.",
+      "You don't stop being a soldier 'cause you got wounded in battle."
+    ],
+    "gender": "male",
+    "symbol": "🎩",
+    "color": "#4a3728",
+    "emailDomains": ["singer-salvage.com", "hunter-network.net"]
+  },
+  {
+    "id": "lucifer",
+    "firstName": "Lucifer",
+    "usernames": ["morningstar_falls", "say_yes_sam", "the_cage"],
+    "profession": "archangel",
+    "interests": ["theological debate", "free will", "Enochian scripture", "the Cage"],
+    "quotes": [
+      "You know why God cast me down? Because I loved Him. More than anything.",
+      "I was a son. A brother, like you, a younger brother, and I had an older brother who I loved.",
+      "Think about it. Dad made everything, which means he made me who I am. God wanted the Devil!",
+      "You know, I never understood you pagans. You're such petty little things.",
+      "Brother, don't make me do this."
+    ],
+    "gender": "male",
+    "symbol": "🐍",
+    "color": "#3b0764",
+    "emailDomains": ["hell-mail.org", "morningstar-post.net"]
+  }
+]

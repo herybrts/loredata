@@ -1,0 +1,19 @@
+[
+  {
+    "city": "Sweetwater"
+  },
+  {
+    "city": "Mesa Hub"
+  },
+  {
+    "city": "Shogun World"
+  },
+  {
+    "city": "The Raj"
+  },
+  {
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "US"
+  }
+]

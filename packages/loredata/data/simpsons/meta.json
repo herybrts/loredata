@@ -1,0 +1,13 @@
+{
+  "id": "simpsons",
+  "name": "The Simpsons",
+  "genre": ["animation", "comedy", "satire"],
+  "description": "The dysfunctional Simpson family lives in the fictional American town of Springfield, navigating everyday life with irreverent humor and social commentary.",
+  "tmdbId": 456,
+  "mediaType": "tv",
+  "year": 1989,
+  "rating": 8,
+  "networks": ["FOX"],
+  "posterPath": "/uWpG7GqfKGQqX4YMAo3nv5OrglV.jpg",
+  "backdropPath": "/jIArNHIekrCSVgdMbKPAXpPY03Y.jpg"
+}

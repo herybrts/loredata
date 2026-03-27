@@ -1,0 +1,219 @@
+[
+  {
+    "id": "homer-simpson",
+    "firstName": "Homer",
+    "lastName": "Simpson",
+    "usernames": ["donut_man", "d_oh_head", "safety_inspector", "beer_me_up", "number_1_dad"],
+    "profession": "safety inspector",
+    "interests": ["donuts", "beer", "television", "bowling", "napping"],
+    "quotes": [
+      "D'oh!",
+      "Mmm... donuts.",
+      "To alcohol! The cause of, and solution to, all of life's problems.",
+      "I am so smart! S-M-R-T!",
+      "It takes two to lie. One to lie and one to listen.",
+      "Lord help me, I'm just not that bright."
+    ],
+    "gender": "male",
+    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "symbol": "🍩",
+    "color": "#1e3a5f",
+    "emailDomains": ["springfield-nuclear.com", "springfield-mail.net"]
+  },
+  {
+    "id": "marge-simpson",
+    "firstName": "Marge",
+    "lastName": "Simpson",
+    "usernames": ["blue_beehive", "evergreen_terrace_mom", "marge_the_artist"],
+    "profession": "homemaker",
+    "interests": ["painting", "cooking", "family", "gambling", "crafts"],
+    "quotes": [
+      "Homer, there's something I have to tell you. I'm a gambling addict.",
+      "I'm not going to live in a house of evil just to save a few dollars.",
+      "We drove around until 3:00 in the morning looking for another open all-you-can-eat seafood restaurant.",
+      "I tried to be a patient mother, but there are limits.",
+      "I want to help you, Homie, but I don't know how."
+    ],
+    "gender": "female",
+    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "symbol": "🌀",
+    "color": "#166534",
+    "emailDomains": ["springfield-mail.net"]
+  },
+  {
+    "id": "bart-simpson",
+    "firstName": "Bart",
+    "lastName": "Simpson",
+    "usernames": ["el_barto", "underachiever", "cowabunga_dude", "eat_my_shorts"],
+    "profession": "student",
+    "interests": ["skateboarding", "pranks", "comic books", "video games", "graffiti"],
+    "quotes": [
+      "Eat my shorts!",
+      "Cowabunga!",
+      "Don't have a cow, man.",
+      "I'm Bart Simpson, who the hell are you?",
+      "I didn't do it.",
+      "Ay, caramba!"
+    ],
+    "gender": "male",
+    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "symbol": "🛹",
+    "color": "#7f1d1d",
+    "emailDomains": ["springfield-school.edu", "springfield-mail.net"]
+  },
+  {
+    "id": "lisa-simpson",
+    "firstName": "Lisa",
+    "lastName": "Simpson",
+    "usernames": ["lisa_the_vegetarian", "jazz_prodigy", "future_president", "little_achiever"],
+    "profession": "student",
+    "interests": ["jazz", "environmentalism", "feminism", "reading", "saxophone"],
+    "quotes": [
+      "I AM THE LIZARD QUEEN!",
+      "Dad, just because you're a man doesn't mean you can't have feelings.",
+      "Unless the next word was 'burped', you didn't have to.",
+      "I'm the sane one.",
+      "The truth is sometimes hard to accept."
+    ],
+    "gender": "female",
+    "address": { "street": "742 Evergreen Terrace", "city": "Springfield" },
+    "symbol": "🎷",
+    "color": "#1d4ed8",
+    "emailDomains": ["springfield-school.edu", "saxophone-society.org"]
+  },
+  {
+    "id": "montgomery-burns",
+    "firstName": "Montgomery",
+    "lastName": "Burns",
+    "usernames": ["excellent_one", "sector_7g_boss", "nuclear_overlord", "release_the_hounds"],
+    "profession": "nuclear power plant owner",
+    "interests": ["money", "power", "collecting", "hunting", "chess"],
+    "quotes": [
+      "Excellent.",
+      "Release the hounds.",
+      "Ironic, isn't it Smithers. This anonymous clan of slack-jawed troglodytes has cost me the election, and yet if I were to have them killed, I would be the one to go to jail. That's democracy for you!",
+      "Who is this Homer Simpson? One of your drones, no doubt.",
+      "A lifetime of wealth and achievement means nothing compared to a roll of toilet paper."
+    ],
+    "gender": "male",
+    "address": { "street": "1000 Mammon Lane", "city": "Springfield" },
+    "symbol": "☢️",
+    "color": "#166534",
+    "emailDomains": ["springfield-nuclear.com", "burns-manor.net"]
+  },
+  {
+    "id": "ned-flanders",
+    "firstName": "Ned",
+    "lastName": "Flanders",
+    "usernames": ["okily_dokily", "neighborino", "leftorium_ned", "hidily_ho"],
+    "profession": "shop owner",
+    "interests": ["religion", "family", "skiing", "the Bible", "left-handed products"],
+    "quotes": [
+      "Okily-dokily!",
+      "Hi-diddly-ho, neighborino!",
+      "I've done everything the Bible says, even the stuff that contradicts the other stuff.",
+      "I just don't understand why God keeps testing me.",
+      "Well, that just blows my mind!"
+    ],
+    "gender": "male",
+    "address": { "street": "744 Evergreen Terrace", "city": "Springfield" },
+    "symbol": "✝️",
+    "color": "#1e3a5f",
+    "emailDomains": ["leftorium.com", "springfield-mail.net"]
+  },
+  {
+    "id": "krusty-the-clown",
+    "firstName": "Herschel",
+    "lastName": "Krustofsky",
+    "usernames": ["krusty_klown", "corporate_clown", "hey_hey_kids"],
+    "profession": "entertainer",
+    "interests": ["gambling", "smoking", "show business", "fast food"],
+    "quotes": [
+      "Hey hey, kids!",
+      "I heartily endorse this event or product.",
+      "They drove a dump truck full of money up to my house. I'm not made of stone.",
+      "I'm a simple man with a simple dream: a Vegas-style floor show at reasonable prices.",
+      "This is the worst day of my life. What? No, I was wrong before."
+    ],
+    "gender": "male",
+    "symbol": "🤡",
+    "color": "#4a1942",
+    "emailDomains": ["krusty-brand.com", "krustylu-studios.net"]
+  },
+  {
+    "id": "apu-nahasapeemapetilon",
+    "firstName": "Apu",
+    "lastName": "Nahasapeemapetilon",
+    "usernames": ["kwik_e_mart_man", "thank_you_come_again", "octuplet_father"],
+    "profession": "store clerk",
+    "interests": ["religion", "cricket", "cooking", "family", "business"],
+    "quotes": [
+      "Thank you, come again.",
+      "I have come to make amends, sir. At first, I blamed you for squealing, but then I realized, it was I who wronged you.",
+      "Yes, in fact I am a graduate of the Calcutta Institute of Technology.",
+      "I have been shot eight times this year, and as a result, I am a little bit woozy.",
+      "By the many arms of Vishnu, I will shoot you dead!"
+    ],
+    "gender": "male",
+    "symbol": "🏪",
+    "color": "#1e3a5f",
+    "emailDomains": ["kwik-e-mart.com", "springfield-mail.net"]
+  },
+  {
+    "id": "moe-szyslak",
+    "firstName": "Moe",
+    "lastName": "Szyslak",
+    "usernames": ["al_coholic", "face_for_radio", "speak_a_meen"],
+    "profession": "bartender",
+    "interests": ["drinking", "fighting", "boxing", "failed cooking"],
+    "quotes": [
+      "I'm better than dirt. Well, most kinds of dirt, not that fancy store-bought dirt. That stuff is loaded with nutrients. I can't compete with that stuff.",
+      "Call this an unfair generalization if you must, but old people are no good at everything.",
+      "The deep fryer's here! I got it used from the Navy. You can flash-fry a buffalo in 40 seconds.",
+      "All right, maybe I did. But I didn't shoot him!",
+      "I'm so desperately lonely."
+    ],
+    "gender": "male",
+    "symbol": "🍺",
+    "color": "#7f1d1d",
+    "emailDomains": ["moes-tavern.com", "springfield-mail.net"]
+  },
+  {
+    "id": "chief-wiggum",
+    "firstName": "Clancy",
+    "lastName": "Wiggum",
+    "usernames": ["pretzels_repeat_pretzels", "springfield_pd", "bake_em_away_toys"],
+    "profession": "police chief",
+    "interests": ["donuts", "corruption", "television", "eating"],
+    "quotes": [
+      "Bake 'em away, toys.",
+      "You have the right to remain silent. Do you understand? Good, because I'm tired of your whining.",
+      "Oh, we have a picture of you at the scene of the crime. Here's what the police artist came up with.",
+      "Listen up, ding dongs.",
+      "This is Papa Bear. Put out an APB for a male suspect, driving a... car of some sort, heading in the direction of, uh, you know, that place that sells chili. Suspect is hatless. Repeat, hatless."
+    ],
+    "gender": "male",
+    "symbol": "🚔",
+    "color": "#166534",
+    "emailDomains": ["springfield-mail.net", "springfield-law.gov"]
+  },
+  {
+    "id": "groundskeeper-willie",
+    "firstName": "Willie",
+    "lastName": "MacDougal",
+    "usernames": ["cheese_eatin_surrender_monkeys", "wee_turtles_willie", "bun_jurr"],
+    "profession": "groundskeeper",
+    "interests": ["Scotland", "bagpipes", "working outdoors", "fighting"],
+    "quotes": [
+      "Bon-jour, you cheese-eatin' surrender monkeys!",
+      "If I don't save the wee turtles, who will?!",
+      "Back off! I've got a sharpened mop handle!",
+      "Willie hears ya. Willie don't care.",
+      "Damn Scots! They ruined Scotland!"
+    ],
+    "gender": "male",
+    "symbol": "🏴",
+    "color": "#4a6fa5",
+    "emailDomains": ["springfield-school.edu", "scotland-mail.net"]
+  }
+]

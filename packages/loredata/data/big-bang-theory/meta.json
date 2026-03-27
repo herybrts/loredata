@@ -1,0 +1,13 @@
+{
+  "id": "big-bang-theory",
+  "name": "The Big Bang Theory",
+  "genre": ["comedy", "romance", "drama"],
+  "description": "A group of brilliant but socially awkward physicists navigate friendships, romance, and the gap between genius intellect and everyday social skills in Pasadena, California.",
+  "tmdbId": 1418,
+  "mediaType": "tv",
+  "year": 2007,
+  "rating": 7.9,
+  "networks": ["CBS"],
+  "posterPath": "/an3uTx1P0XgHPylgfPV6W7yxKAo.jpg",
+  "backdropPath": "/gMqQY6SwuhKg1LvmiTxKX6YrINr.jpg"
+}

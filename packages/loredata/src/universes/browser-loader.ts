@@ -1,4 +1,4 @@
-import type { UniverseData, UniverseMeta, CharacterData, AddressData, DomainsData } from '@/types';
+import type { UniverseData, UniverseMeta, CharacterData, AddressData } from '@/types';
 
 interface MetaJson {
 	id: string;
@@ -10,7 +10,6 @@ interface MetaJson {
 const metaModules = import.meta.glob('../data/*/meta.json', { eager: false });
 const characterModules = import.meta.glob('../data/*/characters.json', { eager: false });
 const addressModules = import.meta.glob('../data/*/addresses.json', { eager: false });
-const domainModules = import.meta.glob('../data/*/domains.json', { eager: false });
 
 function extractId(path: string): string {
 	const parts = path.split('/');
@@ -54,28 +53,24 @@ export async function loadUniverse(id: string): Promise<UniverseData> {
 	const metaPath = `../data/${id}/meta.json`;
 	const charactersPath = `../data/${id}/characters.json`;
 	const addressesPath = `../data/${id}/addresses.json`;
-	const domainsPath = `../data/${id}/domains.json`;
 
 	const metaLoader = metaModules[metaPath];
 	const charactersLoader = characterModules[charactersPath];
 	const addressesLoader = addressModules[addressesPath];
-	const domainsLoader = domainModules[domainsPath];
 
-	if (!metaLoader || !charactersLoader || !addressesLoader || !domainsLoader) {
+	if (!metaLoader || !charactersLoader || !addressesLoader) {
 		throw new Error(`Universe "${id}" not found`);
 	}
 
-	const [metaModule, charactersModule, addressesModule, domainsModule] = await Promise.all([
+	const [metaModule, charactersModule, addressesModule] = await Promise.all([
 		metaLoader(),
 		charactersLoader(),
-		addressesLoader(),
-		domainsLoader()
+		addressesLoader()
 	]);
 
 	const meta = (metaModule as { default: MetaJson }).default;
 	const characters = (charactersModule as { default: CharacterData[] }).default;
 	const addresses = (addressesModule as { default: AddressData[] }).default;
-	const domains = (domainsModule as { default: DomainsData }).default;
 
 	const universeData: UniverseData = {
 		id: meta.id,
@@ -83,8 +78,7 @@ export async function loadUniverse(id: string): Promise<UniverseData> {
 		genre: meta.genre,
 		description: meta.description,
 		characters,
-		addresses,
-		domains
+		addresses
 	};
 
 	return universeData;

@@ -1,0 +1,13 @@
+{
+  "id": "prison-break",
+  "name": "Prison Break",
+  "genre": ["drama", "thriller", "crime"],
+  "description": "A structural engineer devises an elaborate plan to break his wrongly condemned brother out of a maximum security prison.",
+  "tmdbId": 2288,
+  "mediaType": "tv",
+  "year": 2005,
+  "rating": 8.1,
+  "networks": ["FOX"],
+  "posterPath": "/wnmNPaLvhnMeOqnWlhNkYCZxtda.jpg",
+  "backdropPath": "/n3Brk7roueE9HOwVmYlJx5j462g.jpg"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sopranos",
+  "name": "The Sopranos",
+  "genre": ["crime", "drama"],
+  "description": "A New Jersey mob boss navigates the competing demands of his criminal empire and his dysfunctional family while seeing a psychiatrist for panic attacks.",
+  "tmdbId": 1398,
+  "mediaType": "tv",
+  "year": 1999,
+  "rating": 8.7,
+  "networks": ["HBO"],
+  "posterPath": "/rTc7ZXdroqjkKivFPvCPX0Ru7uw.jpg",
+  "backdropPath": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg"
+}

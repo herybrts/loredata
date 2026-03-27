@@ -22,7 +22,7 @@ const { interest, characters } = data;
 		content="website" />
 </svelte:head>
 
-<div class="space-y-8 pt-4">
+<div class="space-y-8">
 	<div class="space-y-2">
 		<p class="text-surface-500 text-sm">
 			<a

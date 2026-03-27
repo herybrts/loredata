@@ -22,7 +22,8 @@
     ],
     "gender": "male",
     "symbol": "✈️",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["los-angeles-med.com", "island-survivors.net"]
   },
   {
     "id": "kate-austen",
@@ -46,7 +47,8 @@
     ],
     "gender": "female",
     "symbol": "🏃",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["island-survivors.net", "fugitive-runner.net"]
   },
   {
     "id": "john-locke",
@@ -71,7 +73,8 @@
     ],
     "gender": "male",
     "symbol": "🗺️",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["dharma-initiative.net", "island-survivors.net"]
   },
   {
     "id": "hugo-hurley-reyes",
@@ -96,7 +99,8 @@
     ],
     "gender": "male",
     "symbol": "🍗",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["mr-cluck.com", "island-survivors.net"]
   },
   {
     "id": "james-sawyer-ford",
@@ -121,7 +125,8 @@
     ],
     "gender": "male",
     "symbol": "📖",
-    "color": "#65a30d"
+    "color": "#65a30d",
+    "emailDomains": ["island-survivors.net", "dharma-initiative.net"]
   },
   {
     "id": "sayid-jarrah",
@@ -146,7 +151,8 @@
     ],
     "gender": "male",
     "symbol": "📡",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["island-survivors.net", "iraqi-telecom.net"]
   },
   {
     "id": "charlie-pace",
@@ -171,7 +177,8 @@
     ],
     "gender": "male",
     "symbol": "🎸",
-    "color": "#064e3b"
+    "color": "#064e3b",
+    "emailDomains": ["drive-shaft.net", "island-survivors.net"]
   },
   {
     "id": "desmond-hume",
@@ -196,7 +203,8 @@
     ],
     "gender": "male",
     "symbol": "⌚",
-    "color": "#0891b2"
+    "color": "#0891b2",
+    "emailDomains": ["dharma-initiative.net", "hatch-mail.net"]
   },
   {
     "id": "sun-hwa-kwon",
@@ -221,7 +229,8 @@
     ],
     "gender": "female",
     "symbol": "🌱",
-    "color": "#312e81"
+    "color": "#312e81",
+    "emailDomains": ["paik-industries.com", "island-survivors.net"]
   },
   {
     "id": "jin-soo-kwon",
@@ -245,7 +254,8 @@
     ],
     "gender": "male",
     "symbol": "🎣",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["paik-industries.com", "island-survivors.net"]
   },
   {
     "id": "benjamin-linus",
@@ -270,7 +280,8 @@
     ],
     "gender": "male",
     "symbol": "📚",
-    "color": "#7c2d12"
+    "color": "#7c2d12",
+    "emailDomains": ["dharma-initiative.net", "the-others.net"]
   },
   {
     "id": "richard-alpert",
@@ -295,6 +306,7 @@
     ],
     "gender": "male",
     "symbol": "⏳",
-    "color": "#1e3a5f"
+    "color": "#1e3a5f",
+    "emailDomains": ["the-others.net", "island-survivors.net"]
   }
 ]

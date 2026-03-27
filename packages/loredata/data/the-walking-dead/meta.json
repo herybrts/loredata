@@ -1,0 +1,13 @@
+{
+  "id": "the-walking-dead",
+  "name": "The Walking Dead",
+  "genre": ["horror", "drama", "thriller"],
+  "description": "Survivors navigate a post-apocalyptic world overrun by zombies, struggling to maintain their humanity while building new communities.",
+  "tmdbId": 1402,
+  "mediaType": "tv",
+  "year": 2010,
+  "rating": 8.1,
+  "networks": ["AMC"],
+  "posterPath": "/s3OIDrCErUjthsnPPreY7XktQXB.jpg",
+  "backdropPath": "/rAOjnEFTuNysY7bot8zonhImGMh.jpg"
+}

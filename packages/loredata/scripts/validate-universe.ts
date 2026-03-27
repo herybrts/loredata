@@ -1,7 +1,7 @@
 import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join } from 'path';
 
-import type { CharacterData, AddressData, DomainsData } from '@/types/universe';
+import type { CharacterData, AddressData } from '@/types/universe';
 
 const DATA_DIR = join(import.meta.dirname, '../data');
 const NAME_INITIAL_PATTERN = /^[a-z]+_[a-z]$/;
@@ -49,16 +49,10 @@ class UniverseValidator {
 		if (addresses) {
 			this.validateAddresses(id, addresses);
 		}
-
-		const domains = this.loadJson<DomainsData>(id, dir, 'domains.json');
-
-		if (domains) {
-			this.validateDomains(id, domains);
-		}
 	}
 
 	private validateRequiredFiles(id: string, dir: string): void {
-		const required = ['meta.json', 'characters.json', 'addresses.json', 'domains.json'];
+		const required = ['meta.json', 'characters.json', 'addresses.json'];
 
 		for (const file of required) {
 			if (!existsSync(join(dir, file))) {
@@ -130,6 +124,10 @@ class UniverseValidator {
 		if (!character.interests || character.interests.length === 0) {
 			this.error(id, name, 'interests', 'Missing interests');
 		}
+
+		if (!character.emailDomains || character.emailDomains.length === 0) {
+			this.error(id, name, 'emailDomains', 'Missing emailDomains');
+		}
 	}
 
 	private validateUsernames(id: string, character: string, usernames: string[]): void {
@@ -199,16 +197,6 @@ class UniverseValidator {
 					`Address has "unknown" country — omit the field instead: ${JSON.stringify(address)}`
 				);
 			}
-		}
-	}
-
-	private validateDomains(id: string, domains: DomainsData): void {
-		if (!domains.emailDomains || domains.emailDomains.length === 0) {
-			this.error(id, undefined, 'domains.emailDomains', 'No email domains defined');
-		}
-
-		if (!domains.phonePrefixes || domains.phonePrefixes.length === 0) {
-			this.error(id, undefined, 'domains.phonePrefixes', 'No phone prefixes defined');
 		}
 	}
 

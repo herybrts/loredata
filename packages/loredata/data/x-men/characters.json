@@ -1,0 +1,158 @@
+[
+  {
+    "id": "logan",
+    "firstName": "Logan",
+    "usernames": ["wolverine", "weapon_x", "yellow_spandex"],
+    "profession": "soldier",
+    "interests": ["motorcycles", "cigars", "cage fighting", "wilderness"],
+    "quotes": [
+      "I'm the best there is at what I do. But what I do best isn't very nice.",
+      "You gonna tell me to stay away from your girl?",
+      "You actually go outside in these things?",
+      "Nature made me a freak. Man made me a weapon. And God made it last too long.",
+      "Don't be what they made you."
+    ],
+    "gender": "male",
+    "address": {
+      "street": "1407 Graymalkin Lane",
+      "city": "Salem Center",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "🐺",
+    "color": "#4a1942",
+    "emailDomains": ["xavier-institute.edu", "canada-mail.net"]
+  },
+  {
+    "id": "charles-xavier",
+    "firstName": "Charles",
+    "lastName": "Xavier",
+    "usernames": ["professor_x", "cerebro_mind", "hope_remains"],
+    "profession": "professor",
+    "interests": ["genetics", "telepathy", "chess", "education"],
+    "quotes": [
+      "Mutation: it is the key to our evolution.",
+      "Just because someone stumbles and loses their way, it doesn't mean they're lost forever.",
+      "I don't want your suffering. I don't want your future!",
+      "I feel a great swell of pity for the poor soul who comes to that school looking for trouble.",
+      "Please, Charles, we need you to hope again."
+    ],
+    "gender": "male",
+    "address": {
+      "street": "1407 Graymalkin Lane",
+      "city": "Salem Center",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "♟️",
+    "color": "#1e3a5f",
+    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+  },
+  {
+    "id": "erik-lehnsherr",
+    "firstName": "Erik",
+    "lastName": "Lehnsherr",
+    "usernames": ["magneto", "plastic_prison", "homo_superior"],
+    "profession": "activist",
+    "interests": ["magnetism", "chess", "mutant rights", "history"],
+    "quotes": [
+      "Peace was never an option.",
+      "We are the future, Charles, not them. They no longer matter.",
+      "Mankind has always feared what it doesn't understand.",
+      "We are the future. We are the ones who inherit this earth.",
+      "If there's one thing I'm guilty of, it's fighting for people like us."
+    ],
+    "gender": "male",
+    "symbol": "🧲",
+    "color": "#7f1d1d",
+    "emailDomains": ["brotherhood-mutants.net", "genosha-post.org"]
+  },
+  {
+    "id": "jean-grey",
+    "firstName": "Jean",
+    "lastName": "Grey",
+    "usernames": ["phoenix_force", "dark_phoenix", "grey_matter"],
+    "profession": "doctor",
+    "interests": ["genetics", "research", "medicine", "psychology"],
+    "quotes": [
+      "I am not the woman I was. I am something more.",
+      "When I lose control, bad things happen. But it feels good.",
+      "I can see inside their minds. What they truly feel.",
+      "I don't want to fix it. This is who I am.",
+      "You shouldn't have to hide."
+    ],
+    "gender": "female",
+    "address": {
+      "street": "1407 Graymalkin Lane",
+      "city": "Salem Center",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "🔥",
+    "color": "#1e3a5f",
+    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+  },
+  {
+    "id": "storm",
+    "firstName": "Ororo",
+    "lastName": "Munroe",
+    "usernames": ["storm_goddess", "weather_witch", "wind_rider"],
+    "profession": "teacher",
+    "interests": ["africa", "gardening", "flying", "leadership"],
+    "quotes": [
+      "Do you know what happens to a toad when it's struck by lightning? The same thing that happens to everything else.",
+      "Sometimes anger can help you survive.",
+      "I am a goddess. I will not be caged.",
+      "You must have faith.",
+      "The weather is not something you control. It's something you feel."
+    ],
+    "gender": "female",
+    "symbol": "⚡",
+    "color": "#1d4ed8",
+    "emailDomains": ["xavier-institute.edu", "xaviers-school.org"]
+  },
+  {
+    "id": "mystique",
+    "firstName": "Raven",
+    "lastName": "Darkhölme",
+    "usernames": ["shapeshifter", "natural_blue", "mutant_and_proud"],
+    "profession": "spy",
+    "interests": ["espionage", "disguise", "combat", "mutant liberation"],
+    "quotes": [
+      "Mutant and proud.",
+      "I shouldn't have to. I'm a natural blue.",
+      "We should be running this country.",
+      "I know what I have to do. It's not their pain. It's ours.",
+      "You know, sometimes I wonder what my life would have been like if you hadn't found me here that night."
+    ],
+    "gender": "female",
+    "symbol": "🦎",
+    "color": "#4a1942",
+    "emailDomains": ["brotherhood-mutants.net", "shape-shift.net"]
+  },
+  {
+    "id": "cyclops",
+    "firstName": "Scott",
+    "lastName": "Summers",
+    "usernames": ["optic_blast", "visor_on", "prove_it"],
+    "profession": "team leader",
+    "interests": ["tactics", "aviation", "leadership", "motorcycles"],
+    "quotes": [
+      "We're a team, Professor. We take care of each other.",
+      "She did make a choice. It was you.",
+      "You can't just keep running from this.",
+      "I would die for any one of them.",
+      "Prove it."
+    ],
+    "gender": "male",
+    "address": {
+      "street": "1407 Graymalkin Lane",
+      "city": "Salem Center",
+      "state": "NY",
+      "country": "US"
+    },
+    "symbol": "🔴",
+    "color": "#166534",
+    "emailDomains": ["xavier-institute.edu", "x-men-ops.net"]
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "city": "Queens",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "street": "Midtown School of Science and Technology",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "street": "177A Bleecker Street",
+    "city": "New York",
+    "state": "NY",
+    "zip": "10012",
+    "country": "US"
+  },
+  {
+    "city": "Manhattan",
+    "state": "NY",
+    "country": "US"
+  },
+  {
+    "street": "Statue of Liberty",
+    "city": "New York",
+    "state": "NY",
+    "country": "US"
+  }
+]

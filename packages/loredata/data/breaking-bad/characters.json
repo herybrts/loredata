@@ -22,7 +22,8 @@
       "country": "US"
     },
     "symbol": "☢️",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["los-pollos.com", "abq-chem.edu", "new-mexico-mail.net"]
   },
   {
     "id": "jesse-pinkman",
@@ -41,7 +42,8 @@
     "gender": "male",
     "birthYear": 1984,
     "symbol": "🎨",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["abq-mail.net"]
   },
   {
     "id": "saul-goodman",
@@ -65,7 +67,8 @@
       "country": "US"
     },
     "symbol": "⚖️",
-    "color": "#4a1942"
+    "color": "#4a1942",
+    "emailDomains": ["saul-goodman.net", "abq-bar.org"]
   },
   {
     "id": "skyler-white",
@@ -83,7 +86,8 @@
     ],
     "gender": "female",
     "symbol": "💼",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["abq-mail.net", "car-wash-nm.com"]
   },
   {
     "id": "hank-schrader",
@@ -101,7 +105,8 @@
     ],
     "gender": "male",
     "symbol": "🔍",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["dea.gov", "abq-pd.gov"]
   },
   {
     "id": "gustavo-fring",
@@ -126,7 +131,8 @@
       "country": "US"
     },
     "symbol": "🍗",
-    "color": "#1e3a5f"
+    "color": "#1e3a5f",
+    "emailDomains": ["pollos-hermanos.net", "abq-business.net"]
   },
   {
     "id": "mike-ehrmantraut",
@@ -144,6 +150,7 @@
     ],
     "gender": "male",
     "symbol": "🧹",
-    "color": "#9333ea"
+    "color": "#9333ea",
+    "emailDomains": ["abq-mail.net", "ehrmantraut-security.com"]
   }
 ]

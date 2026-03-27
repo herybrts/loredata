@@ -1,0 +1,114 @@
+[
+  {
+    "id": "rick-grimes",
+    "firstName": "Rick",
+    "lastName": "Grimes",
+    "usernames": ["officer_friendly", "coral_dad", "not_a_democracy"],
+    "profession": "sheriff",
+    "interests": ["farming", "family", "justice", "law enforcement"],
+    "quotes": [
+      "We are the walking dead.",
+      "You're staying, this isn't a democracy anymore.",
+      "We can still come back. We're not too far gone. We get to come back. I know we all can change.",
+      "They're screwin' with the wrong people.",
+      "We're the ones who live. You, you just sit and plan and hesitate."
+    ],
+    "gender": "male",
+    "symbol": "⭐",
+    "color": "#7f1d1d",
+    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+  },
+  {
+    "id": "daryl-dixon",
+    "firstName": "Daryl",
+    "lastName": "Dixon",
+    "usernames": ["crossbow_rider", "angel_wings", "cherokee_rose"],
+    "profession": "hunter",
+    "interests": ["hunting", "motorcycles", "survival", "tracking"],
+    "quotes": [
+      "We ain't them. We're not them.",
+      "Yeah, you used to be somebody's, huh? Now you're just yours.",
+      "I'm tryin'.",
+      "Some days, I don't know what the hell to think.",
+      "Sorry, brother."
+    ],
+    "gender": "male",
+    "symbol": "🏹",
+    "color": "#4a3728",
+    "emailDomains": ["georgia-survivors.net", "alexandria-safe-zone.net"]
+  },
+  {
+    "id": "negan",
+    "firstName": "Negan",
+    "usernames": ["pee_pants_city", "lucille_swings", "eeny_meeny"],
+    "profession": "warlord",
+    "interests": ["power", "whistling", "Lucille", "rules", "survival"],
+    "quotes": [
+      "You are so gonna regret crossing me in a few minutes.",
+      "I simply cannot decide. I got an idea.",
+      "I don't wanna kill you people. Just wanna make that clear from the get go.",
+      "You work for me now. You have shit, you give it to me; that's your job.",
+      "You don't mess with the New World Order."
+    ],
+    "gender": "male",
+    "symbol": "⚾",
+    "color": "#7f1d1d",
+    "emailDomains": ["the-saviors.net", "sanctuary-hq.com"]
+  },
+  {
+    "id": "michonne",
+    "firstName": "Michonne",
+    "usernames": ["pet_walkers", "just_another_monster", "andre_mom"],
+    "profession": "warrior",
+    "interests": ["survival", "art", "justice", "community"],
+    "quotes": [
+      "They deserve what they got. They weren't human to begin with.",
+      "I made it so they couldn't bite, couldn't scratch. I tied chains around their necks. It was insane. It was sick. It felt like what I deserved.",
+      "I was just another monster.",
+      "He's already given me fleas.",
+      "I had a three-year-old son and he happened to find me extremely funny."
+    ],
+    "gender": "female",
+    "symbol": "⚔️",
+    "color": "#1e3a5f",
+    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+  },
+  {
+    "id": "carol-peletier",
+    "firstName": "Carol",
+    "lastName": "Peletier",
+    "usernames": ["cookie_lady", "look_at_flowers", "oh_sunshine"],
+    "profession": "survivor",
+    "interests": ["baking", "strategy", "marksmanship", "protecting the group"],
+    "quotes": [
+      "You can never tell anyone, especially your mom.",
+      "I don't know if I believe in God anymore or heaven, but if I'm going to hell, I'm making damn sure I'm holding it off as long as I can.",
+      "I don't think we get to save people anymore.",
+      "Oh, sunshine, you don't get both.",
+      "I could kill you right now. I could. I will."
+    ],
+    "gender": "female",
+    "symbol": "🍪",
+    "color": "#166534",
+    "emailDomains": ["alexandria-safe-zone.net", "georgia-survivors.net"]
+  },
+  {
+    "id": "glenn-rhee",
+    "firstName": "Glenn",
+    "lastName": "Rhee",
+    "usernames": ["dumpster_survivor", "pizza_delivery", "cozy_in_there"],
+    "profession": "delivery driver",
+    "interests": ["scavenging", "supply runs", "cars", "community"],
+    "quotes": [
+      "Hey, you. Dumbass. Hey, you in the tank. Cozy in there?",
+      "Nice moves there, Clint Eastwood. You the new sheriff come riding in to clean up the town?",
+      "I'm supposed to be delivering pizzas, man.",
+      "Hey, we can make it together. But we can only make it together.",
+      "People you love, they made you who you are. They're still part of you. If you stop being you, that last bit of them that's still around inside, who you are, it's gone."
+    ],
+    "gender": "male",
+    "symbol": "🍕",
+    "color": "#1e3a5f",
+    "emailDomains": ["georgia-survivors.net", "alexandria-safe-zone.net"]
+  }
+]

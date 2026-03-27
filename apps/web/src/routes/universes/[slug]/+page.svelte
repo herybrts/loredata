@@ -4,7 +4,6 @@ import { untrack } from 'svelte';
 
 import { GenerateBar } from '$features/generator';
 import PersonaCard from '$features/persona/PersonaCard.svelte';
-import UniverseSelector from '$features/universes/UniverseSelector.svelte';
 import { preferences } from '$shared/preferences.svelte';
 
 import type { PageData } from './$types';
@@ -13,10 +12,7 @@ import type { Person } from 'loredata/browser';
 let { data }: { data: PageData } = $props();
 
 const universe = $derived(data.universe);
-const manifest = $derived(data.manifest);
 const store = $derived(new UniverseStore([universe]));
-
-const allInterests = $derived([...new Set(universe.characters.flatMap((c) => c.interests))].sort());
 
 const allLocations = $derived([...new Set(universe.addresses.filter((a) => a.city).map((a) => a.city!))].sort());
 
@@ -73,16 +69,16 @@ function rerollOne(index: number): void {
 		content="website" />
 </svelte:head>
 
-<div class="space-y-8 pt-4">
-	<div class="relative rounded-xl overflow-hidden h-64 sm:h-74">
+<div class="space-y-8">
+	<div class="relative rounded-xl overflow-hidden h-64 sm:h-74 bg-surface-800">
 		{#if universe.backdropPath}
 			<img
 				src="https://image.tmdb.org/t/p/w1280{universe.backdropPath}"
 				alt=""
 				aria-hidden="true"
 				class="absolute inset-0 w-full h-full object-cover object-top" />
-			<div class="absolute inset-0 bg-black/60"></div>
 		{/if}
+		<div class="absolute inset-0 bg-black/60"></div>
 
 		<div class="absolute inset-0 flex p-6 items-end">
 			<div class="flex-1 space-y-2 min-w-0">
@@ -100,28 +96,7 @@ function rerollOne(index: number): void {
 		</div>
 	</div>
 
-	<div class="space-y-2">
-		<UniverseSelector
-			universes={manifest}
-			selectedId={universe.id} />
-	</div>
-
 	<div class="space-y-5">
-		{#if allInterests.length > 0}
-			<div class="space-y-2">
-				<p class="text-surface-400 text-xs uppercase tracking-wide">Interests</p>
-				<div class="flex flex-wrap gap-2">
-					{#each allInterests as interest (interest)}
-						<a
-							href="/interests/{interest}"
-							class="badge preset-tonal-surface transition-colors hover:preset-filled-primary-500">
-							{interest}
-						</a>
-					{/each}
-				</div>
-			</div>
-		{/if}
-
 		<GenerateBar ongenerate={generate} />
 	</div>
 

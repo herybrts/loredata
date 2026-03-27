@@ -1,0 +1,31 @@
+[
+  {
+    "street": "2001 Bonanza Street",
+    "city": "South Park",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "street": "260 Avenue de los Mexicanos",
+    "city": "South Park",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "street": "2312 Keil Court",
+    "city": "South Park",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "street": "1388 Seventeenth Street",
+    "city": "South Park",
+    "state": "CO",
+    "country": "US"
+  },
+  {
+    "city": "Fairplay",
+    "state": "CO",
+    "country": "US"
+  }
+]

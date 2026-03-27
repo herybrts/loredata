@@ -17,7 +17,8 @@
     "birthYear": 281,
     "address": { "city": "Castle Black" },
     "symbol": "❄️",
-    "color": "#7c2d12"
+    "color": "#7c2d12",
+    "emailDomains": ["nights-watch.org", "westeros-post.net"]
   },
   {
     "id": "daenerys-targaryen",
@@ -37,7 +38,8 @@
     "birthYear": 284,
     "address": { "city": "Dragonstone" },
     "symbol": "🐉",
-    "color": "#475569"
+    "color": "#475569",
+    "emailDomains": ["dragonstone.net", "targaryen-court.org"]
   },
   {
     "id": "tyrion-lannister",
@@ -57,7 +59,8 @@
     "birthYear": 273,
     "address": { "city": "King's Landing" },
     "symbol": "🍷",
-    "color": "#ca8a04"
+    "color": "#ca8a04",
+    "emailDomains": ["lannister-holdings.com", "kings-landing.net"]
   },
   {
     "id": "cersei-lannister",
@@ -77,7 +80,8 @@
     "birthYear": 267,
     "address": { "street": "The Red Keep", "city": "King's Landing" },
     "symbol": "👑",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["kings-landing.net", "lannister-holdings.com"]
   },
   {
     "id": "arya-stark",
@@ -97,7 +101,8 @@
     "birthYear": 289,
     "address": { "city": "Winterfell" },
     "symbol": "⚔️",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["winterfell-mail.net", "faceless-men.org"]
   },
   {
     "id": "ned-stark",
@@ -117,7 +122,8 @@
     "birthYear": 263,
     "address": { "city": "Winterfell" },
     "symbol": "🐺",
-    "color": "#166534"
+    "color": "#166534",
+    "emailDomains": ["winterfell-mail.net", "westeros-post.net"]
   },
   {
     "id": "sansa-stark",
@@ -137,7 +143,8 @@
     "birthYear": 286,
     "address": { "city": "Winterfell" },
     "symbol": "🌹",
-    "color": "#059669"
+    "color": "#059669",
+    "emailDomains": ["winterfell-mail.net", "vale-of-arryn.net"]
   },
   {
     "id": "ygritte",
@@ -156,7 +163,8 @@
     "gender": "female",
     "birthYear": 283,
     "symbol": "🏹",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["free-folk.net"]
   },
   {
     "id": "jaime-lannister",
@@ -176,7 +184,8 @@
     "birthYear": 266,
     "address": { "city": "Casterly Rock" },
     "symbol": "🦁",
-    "color": "#0284c7"
+    "color": "#0284c7",
+    "emailDomains": ["kings-guard.org", "lannister-holdings.com"]
   },
   {
     "id": "bran-stark",
@@ -196,7 +205,8 @@
     "birthYear": 290,
     "address": { "city": "Winterfell" },
     "symbol": "🦅",
-    "color": "#9333ea"
+    "color": "#9333ea",
+    "emailDomains": ["winterfell-mail.net", "old-gods.net"]
   },
   {
     "id": "joffrey-baratheon",
@@ -216,7 +226,8 @@
     "birthYear": 286,
     "address": { "street": "The Red Keep", "city": "King's Landing" },
     "symbol": "💀",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["kings-landing.net", "iron-throne.org"]
   },
   {
     "id": "petyr-baelish",
@@ -236,7 +247,8 @@
     "birthYear": 268,
     "address": { "city": "King's Landing" },
     "symbol": "🗡️",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["kings-landing.net", "vale-commerce.net"]
   },
   {
     "id": "stannis-baratheon",
@@ -256,7 +268,8 @@
     "birthYear": 264,
     "address": { "city": "Dragonstone" },
     "symbol": "⚓",
-    "color": "#166534"
+    "color": "#166534",
+    "emailDomains": ["dragonstone.net", "westeros-post.net"]
   },
   {
     "id": "melisandre",
@@ -275,7 +288,8 @@
     "gender": "female",
     "birthYear": 240,
     "symbol": "🔥",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["lords-of-light.org", "westeros-post.net"]
   },
   {
     "id": "theon-greyjoy",
@@ -295,6 +309,7 @@
     "birthYear": 278,
     "address": { "city": "Pyke" },
     "symbol": "🦑",
-    "color": "#1e3a5f"
+    "color": "#1e3a5f",
+    "emailDomains": ["iron-islands.net", "winterfell-mail.net"]
   }
 ]

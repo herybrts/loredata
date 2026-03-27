@@ -3,13 +3,13 @@ export interface CharacterData {
 	firstName: string;
 	lastName: string;
 	usernames: string[];
+	emailDomains: string[];
 	profession: string;
 	interests: string[];
 	quotes: string[];
 	gender?: 'male' | 'female' | 'other';
 	birthYear?: number;
 	address?: AddressData;
-	emailDomain?: string;
 	symbol?: string;
 	color?: string;
 }
@@ -22,13 +22,6 @@ export interface AddressData {
 	country?: string;
 }
 
-export interface DomainsData {
-	emailDomains: string[];
-	phonePrefixes: string[];
-	phoneEasterEggs?: string[];
-	passwordEasterEggs?: string[];
-}
-
 export interface UniverseData {
 	id: string;
 	name: string;
@@ -36,7 +29,6 @@ export interface UniverseData {
 	description: string;
 	characters: CharacterData[];
 	addresses: AddressData[];
-	domains: DomainsData;
 	tmdbId?: number;
 	mediaType?: 'tv' | 'movie';
 	rating?: number;

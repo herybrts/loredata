@@ -18,7 +18,8 @@
     "gender": "male",
     "address": { "city": "Small Heath", "country": "GB" },
     "symbol": "🗡️",
-    "color": "#064e3b"
+    "color": "#064e3b",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   },
   {
     "id": "arthur-shelby",
@@ -39,7 +40,8 @@
     "gender": "male",
     "address": { "city": "Small Heath", "country": "GB" },
     "symbol": "👊",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   },
   {
     "id": "polly-gray",
@@ -59,7 +61,8 @@
     ],
     "gender": "female",
     "symbol": "🔮",
-    "color": "#16a34a"
+    "color": "#16a34a",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   },
   {
     "id": "alfie-solomons",
@@ -80,7 +83,8 @@
     "gender": "male",
     "address": { "city": "Camden", "country": "GB" },
     "symbol": "📖",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["solomons-bakery.com", "camden-post.net"]
   },
   {
     "id": "michael-gray",
@@ -100,7 +104,8 @@
     ],
     "gender": "male",
     "symbol": "📒",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   },
   {
     "id": "ada-shelby",
@@ -118,7 +123,8 @@
     ],
     "gender": "female",
     "symbol": "🎬",
-    "color": "#059669"
+    "color": "#059669",
+    "emailDomains": ["shelby-company.com", "london-activist.net"]
   },
   {
     "id": "john-shelby",
@@ -136,7 +142,8 @@
     ],
     "gender": "male",
     "symbol": "🐎",
-    "color": "#ea580c"
+    "color": "#ea580c",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   },
   {
     "id": "grace-burgess",
@@ -156,7 +163,8 @@
     ],
     "gender": "female",
     "symbol": "🎵",
-    "color": "#0c4a6e"
+    "color": "#0c4a6e",
+    "emailDomains": ["birmingham-post.net", "british-intelligence.gov.uk"]
   },
   {
     "id": "chester-campbell",
@@ -176,7 +184,8 @@
     ],
     "gender": "male",
     "symbol": "🚔",
-    "color": "#ea580c"
+    "color": "#ea580c",
+    "emailDomains": ["british-intelligence.gov.uk", "birmingham-pd.gov.uk"]
   },
   {
     "id": "luca-changretta",
@@ -196,7 +205,8 @@
     ],
     "gender": "male",
     "symbol": "🤵",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["changretta-family.com", "new-york-mob.net"]
   },
   {
     "id": "lizzie-stark",
@@ -215,6 +225,7 @@
     ],
     "gender": "female",
     "symbol": "🌷",
-    "color": "#064e3b"
+    "color": "#064e3b",
+    "emailDomains": ["shelby-company.com", "birmingham-post.net"]
   }
 ]

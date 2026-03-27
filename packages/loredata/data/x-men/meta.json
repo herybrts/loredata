@@ -1,0 +1,18 @@
+{
+  "id": "x-men",
+  "name": "X-Men",
+  "genre": ["action", "sci-fi", "drama"],
+  "description": "Mutants with extraordinary powers fight for coexistence with humanity while facing threats from those who fear and persecute them.",
+  "tmdbId": 36657,
+  "mediaType": "movie",
+  "year": 2000,
+  "rating": 7,
+  "networks": [
+    "The Donners' Company",
+    "Bad Hat Harry Productions",
+    "20th Century Fox",
+    "Marvel Entertainment Group"
+  ],
+  "posterPath": "/bRDAc4GogyS9ci3ow7UnInOcriN.jpg",
+  "backdropPath": "/3QUVzbcNyfGe3ocWkYAT8emK8Co.jpg"
+}

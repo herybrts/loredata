@@ -75,10 +75,6 @@ function closeJson(): void {
 			<p class="text-surface-950-50 font-mono">{persona.email}</p>
 		</div>
 		<div class="space-y-1">
-			<p class="text-surface-400 text-xs uppercase tracking-wide">Phone</p>
-			<p class="text-surface-950-50 font-mono">{persona.phone}</p>
-		</div>
-		<div class="space-y-1">
 			<p class="text-surface-400 text-xs uppercase tracking-wide">Profession</p>
 			<p class="text-surface-950-50">{persona.profession}</p>
 		</div>

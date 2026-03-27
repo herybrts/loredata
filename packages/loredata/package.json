@@ -62,6 +62,7 @@
     "fetch:tmdb": "node --env-file=.env --import tsx/esm scripts/fetch-tmdb.ts",
     "patch:chars": "node --import tsx/esm scripts/patch.ts chars",
     "patch:meta": "node --import tsx/esm scripts/patch.ts meta",
+    "patch:delete": "node --import tsx/esm scripts/patch.ts delete-key",
     "gen:colors": "node --import tsx/esm scripts/generate-colors.ts",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",

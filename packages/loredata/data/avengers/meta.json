@@ -1,0 +1,13 @@
+{
+  "id": "avengers",
+  "name": "The Avengers",
+  "genre": ["action", "sci-fi", "adventure"],
+  "description": "Earth's mightiest heroes assemble to fight global threats no single hero can face alone.",
+  "tmdbId": 24428,
+  "mediaType": "movie",
+  "year": 2012,
+  "rating": 8,
+  "networks": ["Marvel Studios"],
+  "posterPath": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
+  "backdropPath": "/9BBTo63ANSmhC4e6r62OJFuK2GL.jpg"
+}

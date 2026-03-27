@@ -26,7 +26,8 @@
     ],
     "gender": "male",
     "symbol": "🦯",
-    "color": "#134e4a"
+    "color": "#134e4a",
+    "emailDomains": ["ppth.edu", "diagnostics-ppth.net"]
   },
   {
     "id": "james-wilson",
@@ -53,7 +54,8 @@
     ],
     "gender": "male",
     "symbol": "🎗️",
-    "color": "#166534"
+    "color": "#166534",
+    "emailDomains": ["ppth.edu", "oncology-ppth.net"]
   },
   {
     "id": "lisa-cuddy",
@@ -74,7 +76,8 @@
     ],
     "gender": "female",
     "symbol": "🏥",
-    "color": "#3b1f0a"
+    "color": "#3b1f0a",
+    "emailDomains": ["ppth.edu", "medical-admin.net"]
   },
   {
     "id": "eric-foreman",
@@ -95,7 +98,8 @@
     ],
     "gender": "male",
     "symbol": "🧠",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["ppth.edu", "neuro-ppth.net"]
   },
   {
     "id": "robert-chase",
@@ -116,7 +120,8 @@
     ],
     "gender": "male",
     "symbol": "🏄",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["ppth.edu", "ppth-icu.net"]
   },
   {
     "id": "allison-cameron",
@@ -142,7 +147,8 @@
     ],
     "gender": "female",
     "symbol": "❤️",
-    "color": "#4a1942"
+    "color": "#4a1942",
+    "emailDomains": ["ppth.edu", "er-chicago.net"]
   },
   {
     "id": "chris-taub",
@@ -163,7 +169,8 @@
     ],
     "gender": "male",
     "symbol": "👃",
-    "color": "#dc2626"
+    "color": "#dc2626",
+    "emailDomains": ["ppth.edu"]
   },
   {
     "id": "remy-hadley",
@@ -184,7 +191,8 @@
     ],
     "gender": "female",
     "symbol": "🎲",
-    "color": "#4c1d95"
+    "color": "#4c1d95",
+    "emailDomains": ["ppth.edu", "thirteen-mail.net"]
   },
   {
     "id": "lawrence-kutner",
@@ -205,7 +213,8 @@
     ],
     "gender": "male",
     "symbol": "🏃",
-    "color": "#4a1942"
+    "color": "#4a1942",
+    "emailDomains": ["ppth.edu"]
   },
   {
     "id": "jessica-adams",
@@ -231,7 +240,8 @@
     ],
     "gender": "female",
     "symbol": "⚕️",
-    "color": "#4a1942"
+    "color": "#4a1942",
+    "emailDomains": ["ppth.edu"]
   },
   {
     "id": "chi-park",
@@ -251,6 +261,7 @@
     ],
     "gender": "female",
     "symbol": "👊",
-    "color": "#083344"
+    "color": "#083344",
+    "emailDomains": ["ppth.edu", "neuro-ppth.net"]
   }
 ]

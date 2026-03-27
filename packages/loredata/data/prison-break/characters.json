@@ -1,0 +1,116 @@
+[
+  {
+    "id": "michael-scofield",
+    "firstName": "Michael",
+    "lastName": "Scofield",
+    "usernames": ["tattoo_blueprint", "fox_river_plan", "origami_crane"],
+    "profession": "structural engineer",
+    "interests": ["architecture", "origami", "chess", "tattoo art", "family"],
+    "quotes": [
+      "Preparation will only take you so far. After that you got to take a few leaps of faith.",
+      "The man you're talking about died the moment I stepped inside these walls.",
+      "We're not breaking out of a Jamba Juice, gentlemen.",
+      "If we lose ourselves, we lose everything.",
+      "I don't have a few years. Wish to hell I did."
+    ],
+    "gender": "male",
+    "symbol": "📐",
+    "color": "#1e3a5f",
+    "emailDomains": ["fox-river-pen.gov", "scofield-engineering.com"]
+  },
+  {
+    "id": "lincoln-burrows",
+    "firstName": "Lincoln",
+    "lastName": "Burrows",
+    "usernames": ["the_brute", "not_guilty", "big_linc"],
+    "profession": "mechanic",
+    "interests": ["family", "motorcycles", "freedom"],
+    "quotes": [
+      "I've never given a damn about what people thought of me. Never.",
+      "Lee Harvey Oswald, John Wilkes Booth... Lincoln Burrows. Bitch of it all is - I didn't do it.",
+      "You are the brains and I am the brute.",
+      "In case you hadn't noticed, me and my brother don't quit for no one.",
+      "There's always something."
+    ],
+    "gender": "male",
+    "symbol": "⛓️",
+    "color": "#4a3728",
+    "emailDomains": ["fox-river-pen.gov", "chicago-post.net"]
+  },
+  {
+    "id": "sara-tancredi",
+    "firstName": "Sara",
+    "lastName": "Tancredi",
+    "usernames": ["pill_key", "never_fall_for_inmate", "governor_daughter"],
+    "profession": "doctor",
+    "interests": ["addiction recovery", "justice", "family"],
+    "quotes": [
+      "Letting the State know that you're healthy enough to execute is not why I went to medical school.",
+      "When you first take the job, they tell you never to fall in love with an inmate.",
+      "I'm not a jealous woman. But I'm a careful one. And for some reason, when I'm around you, I'm not...careful.",
+      "I took a man's life.",
+      "Go to hell, dad."
+    ],
+    "gender": "female",
+    "symbol": "🩺",
+    "color": "#166534",
+    "emailDomains": ["fox-river-pen.gov", "chicago-medical.net"]
+  },
+  {
+    "id": "t-bag",
+    "firstName": "Theodore",
+    "lastName": "Bagwell",
+    "usernames": ["pretty_fish", "devil_himself", "bagwell_reads"],
+    "profession": "criminal",
+    "interests": ["Bible study", "survival", "literature", "con artistry"],
+    "quotes": [
+      "Either I'm through that hole with you, or I'm gonna sing like Johnny Cash!",
+      "Remember Pretty, I am serving life plus one. So if I get busted for attempted escape, I'm gonna throw in a homicide no problem, that's like a parking ticket to me.",
+      "Don't be frightened. Teddy's home.",
+      "We are who we are, right?",
+      "SCOFIELD!"
+    ],
+    "gender": "male",
+    "symbol": "🐍",
+    "color": "#7f1d1d",
+    "emailDomains": ["fox-river-pen.gov"]
+  },
+  {
+    "id": "fernando-sucre",
+    "firstName": "Fernando",
+    "lastName": "Sucre",
+    "usernames": ["maricruz_forever", "papi_sucre", "prisneyland_fish"],
+    "profession": "construction worker",
+    "interests": ["family", "construction", "salsa dancing"],
+    "quotes": [
+      "Welcome to Prisneyland, Fish.",
+      "You see these hands? They're digging machines. You want to go to China? I'll get you to China.",
+      "They say people come into your life for a reason. Maybe my reason was to help you get out of Fox River.",
+      "Its okay, Papi. Let me go.",
+      "Give 'em hell."
+    ],
+    "gender": "male",
+    "symbol": "🌹",
+    "color": "#4a1942",
+    "emailDomains": ["chicago-post.net", "fox-river-pen.gov"]
+  },
+  {
+    "id": "alex-mahone",
+    "firstName": "Alex",
+    "lastName": "Mahone",
+    "usernames": ["oscar_shales", "always_behind_prey", "lye_in_garden"],
+    "profession": "FBI agent",
+    "interests": ["investigation", "criminal profiling", "family"],
+    "quotes": [
+      "The problem I find with being on a trail is that by definition, you'll always be behind your prey.",
+      "Tell him he's no longer in it.",
+      "I will get you. I don't have a choice.",
+      "I JUST WANT MY LIFE BACK!",
+      "I just want this over with."
+    ],
+    "gender": "male",
+    "symbol": "🔍",
+    "color": "#1d4ed8",
+    "emailDomains": ["fbi.gov", "fox-river-pen.gov"]
+  }
+]
