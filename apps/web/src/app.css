@@ -1,3 +1,17 @@
 @import "tailwindcss";
 @import "@skeletonlabs/skeleton";
 @import "@skeletonlabs/skeleton/themes/cerberus";
+
+@layer components {
+	.landing-section {
+		@apply card preset-tonal-surface border border-surface-700/20 p-5 space-y-3;
+	}
+
+	.landing-heading {
+		@apply h4 font-semibold text-surface-950-50;
+	}
+
+	.landing-list {
+		@apply list-disc marker:text-surface-400 space-y-2 pl-5 text-surface-950-50;
+	}
+}

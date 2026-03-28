@@ -42,7 +42,7 @@ Works in Node.js, browser, and as a CLI tool.
 ## Install
 
 ```sh
-npm install loredata
+npm install -g loredata
 ```
 
 ## Universes
@@ -92,12 +92,12 @@ No `fs` or `path` — safe for Vite, webpack, and any browser bundler.
 ## CLI
 
 ```sh
-npx loredata person --universe breaking-bad
-npx loredata person --universe breaking-bad --format json
-npx loredata person --interests chemistry,cooking
-npx loredata person --name walter
-npx loredata group --universe friends --size 5
-npx loredata universes
+loredata person --universe breaking-bad
+loredata person --universe breaking-bad --format json
+loredata person --interests chemistry,cooking
+loredata person --name walter
+loredata group --universe friends --size 5
+loredata universes
 ```
 
 ## Features
